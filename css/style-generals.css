@@ -1,3 +1,13 @@
+:root {
+    --color-1: #d8ff00;
+    --color-2: #151515;
+    --color-3: #222222;
+    --color-4: #303030;
+    --color-5: #353535;
+    --color-6: #9b9b9b;
+    --color-7: #edeced;
+}
+
 @font-face {
     font-family: roboto;
     src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
@@ -14,127 +24,162 @@
 }
 
 * {
-    box-sizing: border-box;
     font-family: roboto;
     text-decoration: none;
-    list-style: none;
-    outline: none;
-    border: none;
-    padding: 0;
-    margin: 0;
-    /*
-     *  Scrollbar Firefox
-     *  Nota: son propiedades experimentales
-     */
-    scrollbar-color: #d8ff00 #303030;
+    /* Firefox Scrollbar */
+    scrollbar-color: var(--color-1) var(--color-4);
     scrollbar-width: auto;
 }
 
 ::-webkit-scrollbar {
     width: 10px;
-    background-color: #303030;
+    background-color: var(--color-4);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #d8ff00;
+    background-color: var(--color-1);
     border-radius: 5px;
-    border: 3px solid #303030;
+    border: 3px solid var(--color-4);
 }
 
 ::-webkit-scrollbar-button {
     height: 5px;
 }
 
-
-.color-ed {
-    color: #d8ff00 !important;
-}
-
-.color-ff {
-    color: #edeced !important;
-}
-
-.color-9b {
-    color: #9b9b9b !important;
-}
-
-.color-15 {
-    color: #151515 !important;
-}
-
-.title1 {
+.title-1 {
     font-family: rubik;
     font-weight: 300;
-    font-size: 2.8rem; 
+    font-size: 2.8rem;
 }
 
-.title2 {
+.title-2 {
     font-family: rubik;
     font-weight: 300;
     font-size: 1.4rem;
 }
 
-.title3 {
+.title-3 {
     font-family: rubik;
     font-size: 1.3rem;
     font-weight: 400;
     letter-spacing: 0.2rem;
 }
 
-.bg-15 {
-    background-color: #151515;
-    color: #edeced;
+.bg-color-1 {
+    background-color: var(--color-1);
+    color: var(--color-2);
 }
 
-.bg-22 {
-    background-color: #222222;
-    color: #edeced;
+.bg-color-2 {
+    background-color: var(--color-2);
+    color: var(--color-7);
 }
 
-@media screen and (min-width:1919px) {
-    .bg-15-bigger {
-        background-color: #151515 !important;
-        color: #edeced;
-    }
-    
-    .bg-22-bigger {
-        background-color: #222222 !important;
-        color: #edeced;
+@media screen and (min-width:1920px) {
+    .bg-color-2-xl {
+        background-color: var(--color-2) !important;
+        color: var(--color-7);
     }
 }
 
-.bg-30 {
-    background-color: #303030;
-    color: #d8ff00;
+.bg-color-3 {
+    background-color: var(--color-3);
+    color: var(--color-7);
 }
 
-.bg-35 {
-    background-color: #353535;
-    color: #d8ff00;
+@media screen and (min-width:1920px) {
+    .bg-color-3-xl {
+        background-color: var(--color-3) !important;
+        color: var(--color-7);
+    }
 }
 
-.bg-ed {
-    background-color: #d8ff00;
-    color: #151515;
+.bg-color-4 {
+    background-color: var(--color-4);
+    color: var(--color-1);
 }
 
-.bg-ff {
-    background-color: #edeced;
-    color: #151515;
+.bg-color-5 {
+    background-color: var(--color-5);
+    color: var(--color-1);
 }
 
-.ma-top-1 {
-    margin-top: 1.7rem;
+.bg-color-6 {
+    background-color: var(--color-6);
+    color: var(--color-2);
 }
+
+.bg-color-7 {
+    background-color: var(--color-7);
+    color: var(--color-2);
+}
+
+.text-color-1 {
+    color: var(--color-1);
+}
+
+.text-color-2 {
+    color: var(--color-2);
+}
+
+.text-color-3 {
+    color: var(--color-3);
+}
+
+.text-color-4 {
+    color: var(--color-4);
+}
+
+.text-color-5 {
+    color: var(--color-5);
+}
+
+.text-color-6 {
+    color: var(--color-6);
+}
+
+.text-color-7 {
+    color: var(--color-7);
+}
+
+
+.border-color-1 {
+    border-color: var(--color-1);
+}
+
+.border-color-2 {
+    border-color: var(--color-2);
+}
+
+.border-color-3 {
+    border-color: var(--color-3);
+}
+
+.border-color-4 {
+    border-color: var(--color-4);
+}
+
+.border-color-5 {
+    border-color: var(--color-5);
+}
+
+.border-color-6 {
+    border-color: var(--color-6);
+}
+
+.border-color-7 {
+    border-color: var(--color-7);
+}
+
 
 .link:hover {
-    color: #d8ff00 !important;
+    color: var(--color-1) !important;
 }
 
 .link-2 {
-    color: #d8ff00 !important;
+    color: var(--color-1) !important;
 }
 
 .link-2:hover {
-    color: #9b9b9b !important;
+    color: var(--color-6) !important;
 }

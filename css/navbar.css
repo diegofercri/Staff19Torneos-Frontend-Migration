@@ -2,6 +2,8 @@
     position: fixed;
     top: 0;
     z-index: 100;
+    background-color: var(--color-4);
+    color: var(--color-1);
     width: 300px;
     height: 100vh;
     padding: 5rem 0;
@@ -23,12 +25,12 @@
             width: 300px;
         }
         100% {
-            width: 50px;
+            width: 55px;
         }
     }
 
     .navbarStaff {
-        width: 50px;
+        width: 55px;
         padding: 0;
         overflow: hidden;
         transform: translateX(0);
@@ -201,7 +203,6 @@
 
 .dropdownStaff-toggle {
     cursor: pointer;
-    color: #d8ff00;
 }
 
 .dropdownStaff-arrow{
@@ -209,7 +210,7 @@
     margin-right: 0 !important;
     font-size: 1.5rem !important;
     transform: rotate(0deg);
-    transition: transform .5s ease-in-out;
+    transition: transform .4s ease-in-out;
 }
 
 .rotated {
@@ -221,7 +222,7 @@
     margin-left: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height .6s ease-in-out;
+    transition: max-height .4s ease-in-out;
 }
 
 .dropdownStaff-list--show {
@@ -253,7 +254,7 @@
 }
 
 .dropdownStaff-list a:hover {
-    border-color: #d8ff00;
+    border-color: var(--color-1);
 }
 
 @media screen and (min-width: 1024px) {
@@ -266,14 +267,13 @@
 
 main {
     margin-left: 0;
-    background-color: #151515;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     main {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 50px;
+        margin-left: 55px;
     }
 }
 
