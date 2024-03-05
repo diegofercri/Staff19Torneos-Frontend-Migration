@@ -75,7 +75,7 @@
     color: var(--color-7);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1400px) {
     .bg-color-2-lg {
         background-color: var(--color-2) !important;
         color: var(--color-7);
@@ -87,7 +87,7 @@
     color: var(--color-7);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1400px) {
     .bg-color-3-lg {
         background-color: var(--color-3) !important;
         color: var(--color-7);
