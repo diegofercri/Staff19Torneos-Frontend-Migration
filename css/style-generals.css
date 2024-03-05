@@ -75,8 +75,8 @@
     color: var(--color-7);
 }
 
-@media screen and (min-width:1920px) {
-    .bg-color-2-xl {
+@media screen and (min-width: 768px) {
+    .bg-color-2-lg {
         background-color: var(--color-2) !important;
         color: var(--color-7);
     }
@@ -87,8 +87,8 @@
     color: var(--color-7);
 }
 
-@media screen and (min-width:1920px) {
-    .bg-color-3-xl {
+@media screen and (min-width: 768px) {
+    .bg-color-3-lg {
         background-color: var(--color-3) !important;
         color: var(--color-7);
     }
@@ -173,10 +173,6 @@
 
 
 .link:hover {
-    color: var(--color-1) !important;
-}
-
-.link-2 {
     color: var(--color-1) !important;
 }
 
