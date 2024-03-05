@@ -25,76 +25,24 @@ section {
     border-color: var(--color-1);
 }
 
-
-.list > li {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
+.list-group-item:hover .text-color-7 {
+    color: var(--color-1);
 }
 
-.list > li:last-child {
-    margin-bottom: 0;
+.disabled.list-group-item {
+    background-color: var(--color-4);
 }
 
-.list > li a {
-    display: flex;
-    color: var(--color-6);
-    margin-bottom: .2rem;
-    width: fit-content;
+.disabled.list-group-item * {
+    color: var(--color-6) !important;
 }
 
-.list > li a:last-child {
-    margin-bottom: 0;
-}
-
-.list > li a:first-child {
-    font-family: rubik;
-    font-size: 1.3rem;
-    font-weight: 380;
-    letter-spacing: .2rem;
-    color: var(--color-7);
-    margin-bottom: .8rem;
+.disabled.list-group-item .badge {
+    background: var(--color-3) !important;
 }
 
 
-.cards {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.card {
-    border-radius: .5rem;
-    width: 100%;
-}
-
-.card-y {
-    border-radius: 3rem;
-    width: 3rem;
-    height: 3rem;
-    font-weight: bold;
-    color: var(--color-1) !important;
-}
-
-.card > a {
-    padding: 2rem 3rem;
-    width: 100%;
-}
-
-@media screen and (min-width: 768px){
-    .cards {
-            display: flex;
-            flex-direction: row;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            height: fit-content;
-    }
-    
-    .card {
-        width: fit-content;
-    }
-}
-
+/* ---------------------------------------------------------------------- */
 
 .slide-container {
     position: relative;

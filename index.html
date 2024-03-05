@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <title>Staff 19 Torneos</title>
@@ -12,9 +12,9 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-generals.css">
-    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-generals.css">
+    <link rel="stylesheet" href="/css/navbar.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,10 +28,10 @@
         <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
             <i class="fa fa-close" aria-hidden="true"></i>
         </div>
-        <img src="img/LogoStaff.svg" alt="Staff 19 torneos logo" id="navbarStaff-logo" class="navbarStaff-logo">
+        <img src="/assets/logo.svg" alt="Staff 19 torneos logo" id="navbarStaff-logo" class="navbarStaff-logo">
         <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled">
             <li class="d-flex">
-                <a href="#start" class="color-ed nav-link">
+                <a href="/index.html#start" class="color-ed nav-link">
                     <div class="d-flex align-items-center">
                         <i class="fa fa-home" aria-hidden="true"></i>
                         Inicio
@@ -39,7 +39,7 @@
                 </a>
             </li>
             <li class="d-flex">
-                <a href="#contact" class="color-ed nav-link">
+                <a href="/index.html#contact" class="color-ed nav-link">
                     <div class="d-flex align-items-center">
                         <i class="fa fa-address-book" aria-hidden="true"></i>
                         Contacto
@@ -47,7 +47,7 @@
                 </a>
             </li>
             <li class="d-flex">
-                <a href="pages/tickets/tickets.html" class="color-ed nav-link">
+                <a href="/pages/tickets/tickets.html" class="color-ed nav-link">
                     <div class="d-flex align-items-center">
                         <i class="fa fa-ticket" aria-hidden="true"></i>
                         Entradas
@@ -65,15 +65,15 @@
                 <div id="dropdownStaff-list0" class="dropdownStaff-list">
                     <ul class="list-unstyled">
                         <li class="d-flex text-end">
-                            <a href="pages/events/planned/planned-events.html"
+                            <a href="/pages/events/planned/planned-events.html"
                                 class="color-ed dropdownStaff__link nav-link">Planificados</a>
                         </li>
                         <li class="d-flex text-end">
-                            <a href="pages/events/in-progress/in-progress-events.html"
+                            <a href="/pages/events/in-progress/in-progress-events.html"
                                 class="color-ed dropdownStaff__link nav-link">En Progreso</a>
                         </li>
                         <li class="d-flex text-end">
-                            <a href="pages/events/ended/ended-events.html"
+                            <a href="/pages/events/ended/ended-events.html"
                                 class="color-ed dropdownStaff__link nav-link">Terminados</a>
                         </li>
                     </ul>
@@ -90,11 +90,11 @@
                 <div id="dropdownStaff-list1" class="dropdownStaff-list">
                     <ul class="list-unstyled">
                         <li class="dropdownStaff__item d-flex text-end">
-                            <a href="pages/registrations/players.html"
+                            <a href="/pages/registrations/players.html"
                                 class="color-ed dropdownStaff__link nav-link">Jugadores</a>
                         </li>
                         <li class="dropdownStaff__item d-flex text-end">
-                            <a href="pages/registrations/teams.html"
+                            <a href="/pages/registrations/teams.html"
                                 class="color-ed dropdownStaff__link nav-link">Equipos</a>
                         </li>
                     </ul>
@@ -116,25 +116,25 @@
                         <a href="https://www.instagram.com/staff19torneos/" target="_blank"
                             class="text-decoration-none text-color-1">
                             <div class="rrss-item d-flex align-items-center justify-content-center">
-                                <i class="fa fa-instagram rrss-icon fs-2" aria-hidden="true"></i>
+                                <i class="fa fa-instagram rrss-icon fs-3" aria-hidden="true"></i>
                             </div>
                         </a>
                         <a href="https://www.twitch.tv/staff19torneos" target="_blank"
                             class="text-decoration-none text-color-1">
                             <div class="rrss-item d-flex align-items-center justify-content-center">
-                                <i class="fa fa-twitch rrss-icon fs-2" aria-hidden="true"></i>
+                                <i class="fa fa-twitch rrss-icon fs-3" aria-hidden="true"></i>
                             </div>
                         </a>
                         <a href="https://www.youtube.com/@Staff19torneos/featured" target="_blank"
                             class="text-decoration-none text-color-1">
                             <div class="rrss-item d-flex align-items-center justify-content-center">
-                                <i class="fa fa-youtube-play rrss-icon fs-2" aria-hidden="true"></i>
+                                <i class="fa fa-youtube-play rrss-icon fs-3" aria-hidden="true"></i>
                             </div>
                         </a>
                         <a href="https://twitter.com/staff19torneos" target="_blank"
                             class="text-decoration-none text-color-1">
                             <div class="rrss-item d-flex align-items-center justify-content-center">
-                                <i class="fa fa-twitter rrss-icon fs-2" aria-hidden="true"></i>
+                                <i class="fa fa-twitter rrss-icon fs-3" aria-hidden="true"></i>
                             </div>
                         </a>
                     </div>
@@ -144,150 +144,155 @@
                 <div>
                     <h1 class="title-1 text-color-1 mb-3">Próximos Eventos</h1>
                 </div>
-                <!--
                 <div class="list-group rounded-0 gap-3">
                     <a href="#"
-                        class="list-group-item flex-column align-items-start rounded-2 bg-color-3 border-1 border-color-5 p-3"
+                        class="list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-5 p-3"
                         aria-current="true">
                         <div class="d-flex w-100 align-items-start justify-content-between gap-3">
-                            <h5 class="mb-1 title-3">Maratón IVEI-Clínica Vascular Marbella</h5>
+                            <h5 class="mb-1 title-3 text-color-7">Maratón IVEI-Clínica Vascular Marbella</h5>
                             <div class="d-flex gap-1 flex-wrap justify-content-end">
-                                <span class="badge bg-primary fw-bold font-monospace">FUTSAL</span>
-                                <span class="badge bg-color-1 fw-bold font-monospace">NEW</span>
+                                <span class="badge bg-primary fw-bold font-monospace rounded-3 px-2">FUTSAL</span>
+                                <span class="badge bg-color-1 fw-bold font-monospace rounded-3 px-2">NEW</span>
                             </div>
                         </div>
                         <p class="mb-1 text-color-6">Cabañas de la Sagra</p>
                         <small class="text-color-6">26 / FEB / 2024</small>
                     </a>
                     <a href="#"
-                        class="list-group-item flex-column align-items-start rounded-2 bg-color-3 border-1 border-color-5 p-3"
+                        class="list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-5 p-3"
                         aria-current="true">
                         <div class="d-flex w-100 align-items-start justify-content-between gap-3">
-                            <h5 class="mb-1 title-3">Maratón IVEI-Clínica Vascular Marbella</h5>
+                            <h5 class="mb-1 title-3 text-color-7">Maratón IVEI-Clínica Vascular Marbella</h5>
                             <div class="d-flex gap-1 flex-wrap justify-content-end">
-                                <span class="badge bg-success fw-bold font-monospace">FUT-7</span>
-                                <span class="badge bg-color-1 fw-bold font-monospace">NEW</span>
+                                <span class="badge bg-success fw-bold font-monospace rounded-3 px-2">FUT-7</span>
+                                <span class="badge bg-color-1 fw-bold font-monospace rounded-3 px-2">NEW</span>
                             </div>
                         </div>
                         <p class="mb-1 text-color-6">Cabañas de la Sagra</p>
                         <small class="text-color-6">26 / FEB / 2024</small>
                     </a>
                     <a href="#"
-                        class="list-group-item flex-column align-items-start rounded-2 bg-color-3 border-1 border-color-5 p-3"
+                        class="list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-5 p-3"
                         aria-current="true">
                         <div class="d-flex w-100 align-items-start justify-content-between gap-3">
-                            <h5 class="mb-1 title-3">Maratón IVEI-Clínica Vascular Marbella</h5>
+                            <h5 class="mb-1 title-3 text-color-7">Maratón IVEI-Clínica Vascular Marbella</h5>
                             <div class="d-flex gap-1 flex-wrap justify-content-end">
-                                <span class="badge bg-success fw-bold font-monospace">FUT-11</span>
+                                <span class="badge bg-success fw-bold font-monospace rounded-3 px-2">FUT-11</span>
                             </div>
                         </div>
                         <p class="mb-1 text-color-6">Cabañas de la Sagra</p>
                         <small class="text-color-6">26 / FEB / 2024</small>
                     </a>
                 </div>
-                -->
-                <a>Tenemos grandes ideas para esta temporada, aunque de momento tendréis que esperar.</a>
-        </section>
-        <section class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
-            <div>
-                <h1 class="title-1 text-color-1 mb-3">Sobre Nosotros</h1>
-            </div>
-            <div>
-                <p>Nuestra historia comienza en 2019, eramos un grupo de amigos decididos a impulsar el deporte en nuestra
-                    localidad natal, Cabañas de la Sagra, a través de eventos deportivos enfocados en el fútbol sala.
-                </p>
-                <p>En 2022 decidimos profesionalizar y promocionar nuestros eventos para llevarlos un paso
-                    más allá. Lo que dió nacimiento a nuestra marca Staff 19 Torneos, una marca siempre dedicada al fomento del
-                    deporte y la innovación en este mismo.
-                </p>
-                <p>En la actualidad, en Staff 19 Torneos gestionamos y desarrollamos una diversa variedad de
-                    eventos deportivos en modalidades como Fútbol 11, Fútbol 7 y Fútbol Sala. Siempre buscando implementar nuevos deportes y
-                    formatos para seguir ofreciendo experiencias únicas e innovadoras.
-                </p>
-            </div>
-        </section>
-        <section class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
-            <div>
-                <h1 class="title-1 text-color-1 mb-3">Lo que hacemos</h1>
-            </div>
-            <div class="d-flex flex-wrap gap-4 align-items-center justify-content-center">
-                <div class="card bg-color-2 bg-color-3-lg">
-                    <div class="card-body d-flex align-items-center justify-content-center p-5">
-                        <h4 class="card-title m-0 text-color-1">Fútbol Sala</h4>
+            </section>
+            <section class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-3">Sobre Nosotros</h1>
+                </div>
+                <div>
+                    <p>Nuestra historia comienza en 2019, eramos un grupo de amigos decididos a impulsar el deporte en
+                        nuestra
+                        localidad natal, Cabañas de la Sagra, a través de eventos deportivos enfocados en el fútbol
+                        sala.
+                    </p>
+                    <p>En 2022 decidimos profesionalizar y promocionar nuestros eventos para llevarlos un paso
+                        más allá. Lo que dió nacimiento a nuestra marca Staff 19 Torneos, una marca siempre dedicada al
+                        fomento del
+                        deporte y la innovación en este mismo.
+                    </p>
+                    <p>En la actualidad, en Staff 19 Torneos gestionamos y desarrollamos una diversa variedad de
+                        eventos deportivos en modalidades como Fútbol 11, Fútbol 7 y Fútbol Sala. Siempre buscando
+                        implementar nuevos deportes y
+                        formatos para seguir ofreciendo experiencias únicas e innovadoras.
+                    </p>
+                </div>
+            </section>
+            <section class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-3">Lo que hacemos</h1>
+                </div>
+                <div class="d-flex flex-wrap gap-4 align-items-center justify-content-center">
+                    <div class="card bg-color-2 bg-color-3-lg">
+                        <div class="card-body d-flex align-items-center justify-content-center p-5">
+                            <h4 class="card-title m-0 text-color-1 title-3">Fútbol Sala</h4>
+                        </div>
+                    </div>
+                    <div class="card bg-color-2 bg-color-3-lg">
+                        <div class="card-body d-flex align-items-center justify-content-center p-5">
+                            <h4 class="card-title m-0 text-color-1 title-3">Fútbol 7</h4>
+                        </div>
+                    </div>
+                    <div class="card bg-color-2 bg-color-3-lg">
+                        <div class="card-body d-flex align-items-center justify-content-center p-5">
+                            <h4 class="card-title m-0 text-color-1 title-3">Fútbol 11</h4>
+                        </div>
+                    </div>
+                    <div class="card bg-color-2 bg-color-3-lg rounded-5 py-3 w-25">
+                        <div class="card-body d-flex align-items-center justify-content-center m-0 p-0">
+                            <h4 class="card-title m-0 p-0 text-color-1 title-3">Y</h4>
+                        </div>
+                    </div>
+                    <div class="card bg-color-2 bg-color-3-lg">
+                        <div class="card-body d-flex align-items-center justify-content-center p-5">
+                            <h4 class="card-title m-0 text-color-1 title-3">Otros Deportes</h4>
+                        </div>
                     </div>
                 </div>
-                <div class="card bg-color-2 bg-color-3-lg">
-                    <div class="card-body d-flex align-items-center justify-content-center p-5">
-                        <h4 class="card-title m-0 text-color-1">Fútbol 7</h4>
-                    </div>
+            </section>
+            <section id="contact" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-3">Contacto</h1>
                 </div>
-                <div class="card bg-color-2 bg-color-3-lg">
-                    <div class="card-body d-flex align-items-center justify-content-center p-5">
-                        <h4 class="card-title m-0 text-color-1">Fútbol 11</h4>
-                    </div>
-                </div>
-                <div class="card bg-color-2 bg-color-3-lg rounded-5 py-3 w-25">
-                    <div class="card-body d-flex align-items-center justify-content-center m-0 p-0">
-                        <h4 class="card-title m-0 p-0 text-color-1">Y</h4>
-                    </div>
-                </div>
-                <div class="card bg-color-2 bg-color-3-lg">
-                    <div class="card-body d-flex align-items-center justify-content-center p-5">
-                        <h4 class="card-title m-0 text-color-1">Otros Deportes</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
-            <div>
-                <h1 class="title-1 text-color-1">Contacto</h1>
-            </div>
-            <div class="d-flex h-75 align-items-end">
-                <ul class="list-unstyled">
-                    <li class="mb-4">
-                        <ul class="list-unstyled">
-                            <a class="fs-5 text-decoration-none text-color-7">Whatsapp:</a>
+                <div class="d-flex h-75 align-items-end">
+                    <ul class="list-unstyled">
+                        <li class="mb-4">
                             <ul class="list-unstyled">
-                                <li>
-                                    <a href="https://wa.link/p33vqo" class="text-decoration-none text-color-6 link">Adrián - 717147168</a>
-                                </li>
-                                <li>
-                                    <a href="https://wa.link/wxalti" class="text-decoration-none text-color-6 link">Diego -- 646814218</a>
-                                </li>
+                                <a class="fs-5 text-decoration-none text-color-7 title-3">Whatsapp:</a>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="https://wa.link/p33vqo"
+                                            class="text-decoration-none text-color-6 link">Adrián - 717147168</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://wa.link/wxalti"
+                                            class="text-decoration-none text-color-6 link">Diego -- 646814218</a>
+                                    </li>
+                                </ul>
                             </ul>
-                        </ul>
-                    </li>
-                    <li class="mb-4">
-                        <ul class="list-unstyled">
-                            <a class="fs-5 text-decoration-none text-color-7">Instagram:</a>
+                        </li>
+                        <li class="mb-4">
                             <ul class="list-unstyled">
-                                <li>
-                                    <a href="https://www.instagram.com/staff19torneos/" class="text-decoration-none text-color-6 link">@staff19torneos</a>
-                                </li>
+                                <a class="fs-5 text-decoration-none text-color-7 title-3">Instagram:</a>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="https://www.instagram.com/staff19torneos/"
+                                            class="text-decoration-none text-color-6 link">@staff19torneos</a>
+                                    </li>
+                                </ul>
                             </ul>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="list-unstyled">
-                            <a class="fs-5 text-decoration-none text-color-7">e-Mail:</a>
+                        </li>
+                        <li>
                             <ul class="list-unstyled">
-                                <li>
-                                    <a href="mailto:staff19torneos@gmail.com" class="text-decoration-none text-color-6 link">staff19torneos@gmail.com</a>
-                                </li>
+                                <a class="fs-5 text-decoration-none text-color-7 title-3">e-Mail:</a>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="mailto:staff19torneos@gmail.com"
+                                            class="text-decoration-none text-color-6 link">staff19torneos@gmail.com</a>
+                                    </li>
+                                </ul>
                             </ul>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <footer class="d-flex flex-column align-items-center justify-content-center bg-color-1">
-            <div>
-                <a>&copy; <a id="year"></a> Staff19 Torneos. Todos los derechos reservados.</a>
-            </div>
-            <div>
-                <a>Designed and developed by @diego_fercri</a>
-            </div>
-        </footer>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <footer class="col-xxl-12 d-flex flex-column align-items-center justify-content-center bg-color-1">
+                <div>
+                    <a>&copy; <a id="year"></a> Staff19 Torneos. Todos los derechos reservados.</a>
+                </div>
+                <div>
+                    <a>Designed and developed by @diego_fercri</a>
+                </div>
+            </footer>
         </div>
     </main>
 
@@ -302,11 +307,11 @@
 
     <!-- Custom JavaScript -->
 
-    <script src="js/height.js"></script>
+    <script src="/js/height.js"></script>
 
-    <script src="js/navbar.js"></script>
+    <script src="/js/navbar.js"></script>
 
-    <script src="js/year.js"></script>
+    <script src="/js/year.js"></script>
 
 </body>
 
