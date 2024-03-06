@@ -41,48 +41,16 @@ section {
     background: var(--color-3) !important;
 }
 
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 60px;
+    max-height: fit-content;
+    font-size: .8rem;
+    padding: 10px;
+}
 
 /* ---------------------------------------------------------------------- */
-
-.slide-container {
-    position: relative;
-    width: 380px;
-    height: 500px;
-}
-
-.position {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-.link-list {
-    margin: 0 auto;
-    width: 100%;
-    gap: 1.5rem;
-}
-
-.link-list__item {
-    height: 4.5rem;
-    width: 100%;
-    font-size: 1.3rem;
-    color: var(--color-1);
-    border: 2px solid var(--color-1);
-    border-radius: 10px;
-}
-
-.link-list__item:hover {
-    background-color: var(--color-1);
-    border-color: var(--color-2);
-    color: var(--color-2);
-}
-
-.link-list__item div:nth-child(2) {
-    font-size: .8rem !important;
-}
-
 
 .cards-partners {
     display: flex;
@@ -181,19 +149,4 @@ section {
 
 .map-button:hover #waze-2 {
     display: none;
-}
-
-
-footer {
-    position: relative;
-    width: 100%;
-    height: 60px;
-    font-size: .8rem;
-}
-
-.privacy {
-    position: absolute;
-    right: 1rem;
-    bottom: 0.2rem;
-    font-size: 0.6rem;
 }
