@@ -18,10 +18,6 @@
     src: url(../fonts/Rubik-VariableFont_wght.ttf);
 }
 
-@font-face {
-    font-family: poppins;
-    src: url(../fonts/Poppins-Regular.ttf);
-}
 
 * {
     font-family: roboto;
