@@ -48,6 +48,7 @@ footer {
     max-height: fit-content;
     font-size: .8rem;
     padding: 10px;
+    text-align: center;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -94,59 +95,9 @@ footer {
     }
 }
 
-.map {
-    border-radius: 10px;
-    height: 500px;
-}
-
-.map-buttons {
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-.map-button {
-    width: 100%;
-    font-size: 1.2rem;
-    color: var(--color-1);
-    padding: 1rem;
-    border: 2px solid var(--color-1);
-    border-radius: 10px;
-}
-
-@media screen and (min-width: 768px) {
-    .map-button {
-        width: 130px;
-        min-width: fit-content;
-    }
-
-    .map-button div {
-        justify-content: center;
-    }
-}
 
 .map-button:hover {
-    border-color: var(--color-2);
-    background: var(--color-1);
+    background-color: var(--color-1);
     color: var(--color-2);
-}
-
-.map-icon {
-    height: 1.5rem;
-    font-size: 1.5rem !important;
-}
-
-#waze {
-    display: none;
-}
-
-#waze-2 {
-    display: block;
-}
-
-.map-button:hover #waze {
-    display: block;
-}
-
-.map-button:hover #waze-2 {
-    display: none;
+    border-color: var(--color-2);
 }

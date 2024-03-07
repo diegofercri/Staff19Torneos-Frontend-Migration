@@ -1,11 +1,11 @@
 :root {
-    --color-1: #d8ff00;
-    --color-2: #151515;
-    --color-3: #222222;
-    --color-4: #303030;
-    --color-5: #353535;
-    --color-6: #9b9b9b;
-    --color-7: #edeced;
+    --color-1: #d8ff00ff;
+    --color-2: #151515ff;
+    --color-3: #222222ff;
+    --color-4: #303030ff;
+    --color-5: #353535ff;
+    --color-6: #9b9b9bff;
+    --color-7: #edecedff;
 }
 
 @font-face {
@@ -25,7 +25,6 @@
 
 * {
     font-family: roboto;
-    text-decoration: none;
     /* Firefox Scrollbar */
     scrollbar-color: var(--color-1) var(--color-4);
     scrollbar-width: auto;
