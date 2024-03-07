@@ -3,9 +3,11 @@ section {
     max-height: fit-content;
 }
 
+
 .logo {
     height: calc(var(--vh)*.25);
 }
+
 
 .cartel {
     max-height: calc(var(--vh)*.7);
@@ -13,6 +15,7 @@ section {
     max-width: 500px;
     border-radius: 10px;
 }
+
 
 .rrss-item {
     height: 3.8rem;
@@ -24,6 +27,7 @@ section {
 .rrss-item:hover {
     border-color: var(--color-1);
 }
+
 
 .list-group-item:hover .text-color-7 {
     color: var(--color-1);
@@ -41,49 +45,31 @@ section {
     background: var(--color-3) !important;
 }
 
-footer {
-    position: relative;
-    width: 100%;
-    min-height: 60px;
-    max-height: fit-content;
-    font-size: .8rem;
-    padding: 10px;
-    text-align: center;
+
+.buttonStaff {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border-color: var(--color-1);
 }
 
-/* ---------------------------------------------------------------------- */
-
-.cards-partners {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    width: 100%;
+.buttonStaff:hover {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border-color: var(--color-2);
 }
 
-@media screen and (min-width: 768px){
-    .cards-partners {
-            display: flex;
-            flex-direction: row;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-    }
+.buttonStaff-2 {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border-color: var(--color-2);
 }
 
-.card-partner {
-    border-radius: 10px;
+.buttonStaff-2:hover {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border-color: var(--color-1);
 }
 
-@media screen and (min-width: 768px) {
-    .card-partner {
-        width: 200px;
-        height: 150px;
-    }
-}
-
-.card-partner img {
-    max-width: 100%;
-    border-radius: 10px;
-}
 
 #map-marker {
     display: none;
@@ -96,8 +82,12 @@ footer {
 }
 
 
-.map-button:hover {
-    background-color: var(--color-1);
-    color: var(--color-2);
-    border-color: var(--color-2);
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 60px;
+    max-height: fit-content;
+    font-size: .8rem;
+    padding: 10px;
+    text-align: center;
 }

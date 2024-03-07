@@ -1,243 +1,355 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/style-generals.css">
-    <link rel="stylesheet" href="../../css/navbar.css">
-    <link rel="stylesheet" href="../../css/ticket-slider.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>[rellena]</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-generals.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body id="[rellena:YYYY-MES-DD !!Importante para las imágenes!!]" class="bg-22">
+<body class="bg-color-2">
+    <nav id="navbarStaff" class="navbarStaff">
+        <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <img src="/assets/logo.svg" alt="Staff 19 torneos logo" id="navbarStaff-logo" class="navbarStaff-logo">
+        <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled">
+            <li class="d-flex">
+                <a href="/index.html#start" class="color-ed nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        Inicio
+                    </div>
+                </a>
+            </li>
+            <li class="d-flex">
+                <a href="#contact" class="color-ed nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                        Contacto
+                    </div>
+                </a>
+            </li>
+            <li class="d-flex">
+                <a href="/pages/tickets/tickets.html" class="color-ed nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-ticket" aria-hidden="true"></i>
+                        Entradas
+                    </div>
+                </a>
+            </li>
+            <li class="dropdownStaff nav-link">
+                <a id="dropdownStaff-toggle0" class="dropdownStaff-toggle d-flex nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                        Eventos
+                    </div>
+                    <i class="fa fa-angle-down dropdownStaff-arrow" aria-hidden="true"></i>
+                </a>
+                <div id="dropdownStaff-list0" class="dropdownStaff-list">
+                    <ul class="list-unstyled">
+                        <li class="d-flex text-end">
+                            <a href="/pages/events/planned/planned-events.html"
+                                class="color-ed dropdownStaff__link nav-link">Planificados</a>
+                        </li>
+                        <li class="d-flex text-end">
+                            <a href="/pages/events/in-progress/in-progress-events.html"
+                                class="color-ed dropdownStaff__link nav-link">En Progreso</a>
+                        </li>
+                        <li class="d-flex text-end">
+                            <a href="/pages/events/ended/ended-events.html"
+                                class="color-ed dropdownStaff__link nav-link">Terminados</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdownStaff nav-link">
+                <a id="dropdownStaff-toggle1" class="dropdownStaff-toggle d-flex nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        Inscripciones
+                    </div>
+                    <i class="fa fa-angle-down dropdownStaff-arrow" aria-hidden="true"></i>
+                </a>
+                <div id="dropdownStaff-list1" class="dropdownStaff-list">
+                    <ul class="list-unstyled">
+                        <li class="dropdownStaff__item d-flex text-end">
+                            <a href="/pages/registrations/players.html"
+                                class="color-ed dropdownStaff__link nav-link">Jugadores</a>
+                        </li>
+                        <li class="dropdownStaff__item d-flex text-end">
+                            <a href="/pages/registrations/teams.html"
+                                class="color-ed dropdownStaff__link nav-link">Equipos</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
 
     <main>
-        <section class="bg-15 flex col">
-            <div>
-                <h1 class="title1 color-ed">Localización</h1>
-            </div>
-            
-        </section>
-        <section class="bg-22 flex col">
-            <div>
-                <h1 class="title1 color-ed">Entradas</h1>
-            </div>
-            <div class="content flex align-items-center justify-content-center">
-                <div class="ticket-slider">
-                    <div class="ticket-slides flex">
-                        <div id="slides1" class="ticket-slide flex col align-items-center justify-content-between">
-                            <div class="flex col gap-1">
-                                <h3 class="ticket-title2">Básica</h3>
-                                <h1 class="ticket-title1">5€</h1>
-                                <ul class="flex col gap-0">
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Acceso durante 1 día</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Entrada para el graderio</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Pulsera identificativa</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Consumición</a>
-                                    </li>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Bocadillo</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <a href="" class="ticket-button flex justify-content-evenly align-items-center gap-0">
-                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>COMPRAR
-                            </a>
-                        </div>
-                        <div id="slides2" class="ticket-slide flex col align-items-center justify-content-between">
-                            <div class="flex col gap-1">
-                                <h3 class="ticket-title2">Doble</h3>
-                                <h1 class="ticket-title1">8€</h1>
-                                <ul class="flex col gap-0">
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Acceso durante 2 días</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Entrada para el graderio</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Pulsera identificativa</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Consumición</a>
-                                    </li>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Bocadillo</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <a href="" class="ticket-button flex justify-content-evenly align-items-center gap-0">
-                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>COMPRAR
-                            </a>
-                        </div>
-                        <div id="slides3" class="ticket-slide flex col align-items-center justify-content-between">
-                            <div class="flex col gap-1">
-                                <h3 class="ticket-title2">Triple</h3>
-                                <h1 class="ticket-title1">10€</h1>
-                                <ul class="flex col gap-0">
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Acceso durante 3 días</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Entrada para el graderio</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Pulsera identificativa</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Consumición</a>
-                                    </li>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-close ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Bocadillo</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <a href="" class="ticket-button flex justify-content-evenly align-items-center gap-0">
-                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>COMPRAR
-                            </a>
-                        </div>
-                        <div id="slides4" class="ticket-slide flex col align-items-center justify-content-between">
-                            <div class="flex col gap-1">
-                                <h3 class="ticket-title2">Triple + Comida</h3>
-                                <h1 class="ticket-title1">20€</h1>
-                                <ul class="flex col gap-0">
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Acceso durante 3 días</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Entrada para el graderio</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>Pulsera identificativa</a>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>3 consumiciones</a>
-                                    </li>
-                                    </li>
-                                    <li class="flex align-items-center gap-0">
-                                        <i class="fa fa-check ticket-check-list__icon" aria-hidden="true"></i>
-                                        <a>3 bocadillos</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <a href="" class="ticket-button flex justify-content-evenly align-items-center gap-0">
-                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>COMPRAR
-                            </a>
-                        </div>
+        <div class="d-flex row row-cols-1 row-cols-xxl-2 w-100 m-0">
+            <section class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
+                <div class="d-flex flex-column h-100 align-items-center justify-content-evenly">
+                    <div>
+                        <h1 class="title-1 text-center text-color-1">[rellena:nombre del torneo]</h1>
+                        <h2 class="title-2 text-center ma-top-1">[rellena:Localidad, Provincia]</h2>
+                        <h2 class="title-2 text-center ma-top-1">[rellena:DD / MES / YY]</h2>
                     </div>
-                    <div class="ticket-slider-nav flex align-items-center justify-content-around">
-                        <a class="ticket-slider-navlink" href="#slides1">
-                            <div></div>
+                </div>
+            </section>
+            <section class="bg-color-2 col d-flex flex-column px-4 px-md-5 py-5">
+                <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                    <div class="w-75 h-75 d-flex align-items-center justify-content-center">
+                        <img src="img/poster/poster.png" alt="cartel" class="w-auto h-100 rounded-2">
+                    </div>
+                </div>
+            </section>
+            <section class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Descripción</h1>
+                </div>
+                <div>
+                    <p>[rellena]</p>
+                    <p>[rellena]</p>
+                    <p>[rellena]</p>
+                    <p>[rellena]</p>
+                </div>
+            </section>
+            <section class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Información</h1>
+                </div>
+                <div>
+                    <ul class="list-unstyled d-flex flex-column gap-2">
+                        <li>
+                            <a>Fecha y hora:</a>
+                            <a>[rellena:D Mes YYYY - hh:mm AM]</a>
+                        </li>
+                        <li>
+                            <a>Categorías:</a>
+                            <a>[rellena:Deporte: Categoría - Categoría]</a>
+                        </li>
+                        <li>
+                            <a>Max. equipos y jugadores:</a>
+                            <a>[rellena:x] Equipos - [rellena:x] Jugadores (por equipo)</a>
+                        </li>
+                        <li>
+                            <a>Normativa y árbitros:</a>
+                            <a>Normativa oficial aplicada por árbitros federados</a>
+                        </li>
+                        <li>
+                            <a>Inscripción:</a>
+                            <a>A través de nuestra web - [rellena:x]€ por equipo</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Premios</h1>
+                </div>
+                <div>
+                    <ul class="list-unstyled d-flex flex-column gap-2">
+                        <li>
+                            <a>1er Premio:</a>
+                            <a>Trofeo + [rellena:premio]</a>
+                        </li>
+                        <li>
+                            <a>2do Premio:</a>
+                            <a>Trofeo + [rellena:premio]</a>
+                        </li>
+                        <li>
+                            <a>3er Premio:</a>
+                            <a>Trofeo + [rellena:premio]</a>
+                        </li>
+                        <li>
+                            <a>Jugador MVP:</a>
+                            <a>[rellena:nombre]</a>
+                        </li>
+                        <li>
+                            <a>Portero MVP:</a>
+                            <a>[rellena:nombre]</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="bg-color-2 bg-color-2-lg col d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Localización</h1>
+                </div>
+                <div>
+                    <div class="title-3 text-color-1 d-flex gap-2">
+                        <i id="map-marker" class="fa fa-map-marker" aria-hidden="true"></i>
+                        <h2 class="title-3 text-color-1">[rellena:nombre del centro deportivo]</h2>
+                    </div>
+                    <div>
+                        <p>Os dejamos varios links para distintas Apps GPS con la ubicación exacta del pabellón
+                            dónde se llevará a cabo todo el evento.</p>
+                    </div>
+                    <div class="d-flex flex-wrap mt-5 gap-2">
+                        <a id="waze" class="btn d-flex justify-content-center align-items-center border-2 buttonStaff"
+                            href="[rellena]" target="_blank" role="button">
+                            <div class="d-flex gap-3 p-2 fs-5">
+                                <img id="waze-img" src="../../assets/waze-icon.svg" alt="Waze img" style="width: 17px;">
+                                Waze
+                            </div>
                         </a>
-                        <a class="ticket-slider-navlink" href="#slides2">
-                            <div></div>
+                        <a id="googleMaps"
+                            class="btn d-flex justify-content-center align-items-center border-2 buttonStaff"
+                            href="[rellena]" target="_blank" role="button">
+                            <div class="d-flex align-items-center gap-3 p-2 fs-5">
+                                <i class="fa fa-google map-iconStaff" aria-hidden="true"></i>Google Maps
+                            </div>
                         </a>
-                        <a class="ticket-slider-navlink" href="#slides3">
-                            <div></div>
-                        </a>
-                        <a class="ticket-slider-navlink" href="#slides4">
-                            <div></div>
+                        <a id="appleMaps"
+                            class="btn d-flex justify-content-center align-items-center  border-2 buttonStaff"
+                            href="[rellena]" target="_blank" role="button">
+                            <div class="d-flex align-items-center gap-3 p-2 fs-5">
+                                <i class="fa fa-apple map-iconStaff" aria-hidden="true"></i>Mapas
+                            </div>
                         </a>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="bg-15 bg-22-bigger flex col">
-            <div>
-                <h1 class="title1 color-ed">Inscripciones</h1>
-            </div>
-            <div class="content flex align-items-center">
-                <div class="link-list flex col">
-                    <a href="[rellena]" target="_blank">
-                        <div class="link-list__item flex col align-items-center justify-content-center">
-                            <div>Inscripciones de Equipos</div>
+            </section>
+            <section class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Enlaces</h1>
+                </div>
+                <div>
+                    <div class="list-group gap-2">
+                        <a href="[rellena]"
+                            class="list-group-item list-group-item-action border-2 rounded-2 buttonStaff-2">Todas las
+                            entradas</a>
+                        <a href="[rellena]"
+                            class="list-group-item list-group-item-action border-2 rounded-2 buttonStaff-2">Inscripciones
+                            de equipos</a>
+                        <a href="[rellena]"
+                            class="list-group-item list-group-item-action border-2 rounded-2 buttonStaff-2">Inscripciones
+                            de jugadores</a>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Contacto</h1>
+                </div>
+                <div class="d-flex h-100 align-items-end">
+                    <ul class="list-unstyled">
+                        <li class="mb-4">
+                            <ul class="list-unstyled">
+                                <a class="fs-5 text-decoration-none text-color-7 title-3">Whatsapp:</a>
+                                <ul class="list-unstyled mt-2">
+                                    <li>
+                                        <a href="https://wa.link/p33vqo"
+                                            class="text-decoration-none text-color-6 link"><i class="fa fa-whatsapp"
+                                                aria-hidden="true"></i> Adrián</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://wa.link/wxalti"
+                                            class="text-decoration-none text-color-6 link"><i class="fa fa-whatsapp"
+                                                aria-hidden="true"></i> Diego</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li class="mb-4">
+                            <ul class="list-unstyled">
+                                <a class="fs-5 text-decoration-none text-color-7 title-3">Instagram:</a>
+                                <ul class="list-unstyled mt-2">
+                                    <li>
+                                        <a href="https://www.instagram.com/staff19torneos/"
+                                            class="text-decoration-none text-color-6 link"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i> staff19torneos</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled">
+                                <a class="fs-5 text-decoration-none text-color-7 title-3">e-Mail:</a>
+                                <ul class="list-unstyled mt-2">
+                                    <li>
+                                        <a href="mailto:staff19torneos@gmail.com"
+                                            class="text-decoration-none text-color-6 link"><i class="fa fa-envelope-o"
+                                                aria-hidden="true"></i> staff19torneos@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="col-lg-12 col-xxl-12 bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Partners</h1>
+                </div>
+                <div class="d-flex h-100 justify-content-center align-items-center">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/1.jpg" alt="[rellena]" class="h-auto w-100 rounded-1">
                         </div>
-                    </a>
-                    <a href="[rellena]" target="_blank">
-                        <div class="link-list__item flex col align-items-center justify-content-center">
-                            <div>Inscripciones de Jugadores</div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/2.jpg" alt="[rellena]" class="h-auto w-100 rounded-1">
                         </div>
-                    </a>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/3.jpg" alt="[rellena]" class="h-auto w-100 rounded-1">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/4.jpg" alt="[rellena]" class="h-auto w-100 rounded-1">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/5.jpg" alt="[rellena]" class="h-auto w-100 rounded-1">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/6.jpg" alt="[rellena]" class="h-auto w-100 rounded-1">
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="bg-22 bg-15-bigger flex col section-100">
-            <div class="container">
-                <h1 class="title1 color-ed">Colaboradores</h1>
-            </div>
-            <div class="container content cards-partners align-items-center justify-content-center">
-                <div class="card-partner flex">
-                    <img src="img/partners/1.jpg" alt="[rellena]">
+            </section>
+            <footer class="col-xxl-12 d-flex flex-column align-items-center justify-content-center bg-color-5">
+                <div>
+                    <a>&copy; <a id="year"></a> Staff19 Torneos. Todos los derechos reservados.</a>
                 </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/2.jpg" alt="[rellena]">
+                <div>
+                    <a>Designed and developed by @diego_fercri</a>
                 </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/3.jpg" alt="[rellena]">
-                </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/4.jpg" alt="[rellena]">
-                </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/5.jpg" alt="[rellena]">
-                </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/6.jpg" alt="[rellena]">
-                </div>
-            </div>
-        </section>
-        <footer class="flex col align-items-center justify-content-center bg-ed">
-            <div>
-                <a>&copy; <a id="year"></a> Staff19 Torneos. Todos los derechos reservados.</a>
-            </div>
-            <div>
-                <a>Designed and developed by @diego_fercri</a>
-            </div>
-            <div>
-                <a href="../../documents/Política de privacidad.pdf" target="_blank" class="privacy text-align-center color-15">Política de privacidad</a>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </main>
-    
-    <script src="../../js/height.js"></script>
 
-    <script src="../../js/navbar.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
 
-    <script src="../../js/year.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 
-    <script src="../../js/slide.js"></script>
+    <!-- Custom JavaScript -->
+
+    <script src="/js/height.js"></script>
+
+    <script src="/js/navbar.js"></script>
+
+    <script src="/js/year.js"></script>
 
 </body>
 
