@@ -1,0 +1,1 @@
+1. Para las imagenes de los poster el tamño debe ser de 500px de ancho y 650px de alto.
