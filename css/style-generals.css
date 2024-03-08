@@ -177,10 +177,11 @@
 }
 
 
-.link:hover {
+.link {
+    text-decoration: none;
     color: var(--color-1) !important;
 }
 
-.link-2:hover {
+.link:hover {
     color: var(--color-6) !important;
 }
