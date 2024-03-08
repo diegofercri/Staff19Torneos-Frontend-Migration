@@ -1,286 +1,282 @@
 .navbarStaff {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    background-color: var(--color-4);
-    color: var(--color-1);
-    width: 300px;
-    height: 100vh;
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: column;
-    transform: translateX(-300px);
-    transition: all .5s;
-    /* Firefox Scrollbar */
-    scrollbar-width: none;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-4);
+  color: var(--color-1);
+  width: 300px;
+  height: 100vh;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-300px);
+  transition: all 0.5s;
+  /* Firefox Scrollbar */
+  scrollbar-width: none;
 }
 
 .navbarStaff::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    @keyframes navbarStaffLoad {
-        0% {
-            width: 300px;
-        }
-        100% {
-            width: 55px;
-        }
+  @keyframes navbarStaffLoad {
+    0% {
+      width: 300px;
     }
+    100% {
+      width: 55px;
+    }
+  }
 
-    .navbarStaff {
-        width: 55px;
-        padding: 0;
-        overflow: hidden;
-        transform: translateX(0);
-        display: flex;
-        justify-content: space-evenly;
-        animation: navbarStaffLoad .5s ease-in-out;
-    }
+  .navbarStaff {
+    width: 55px;
+    padding: 0;
+    overflow: hidden;
+    transform: translateX(0);
+    display: flex;
+    justify-content: space-evenly;
+    animation: navbarStaffLoad 0.5s ease-in-out;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .navbarStaff {
-        width: 300px;
-        justify-content: center;
-        gap: 13vh;
-        transform: translateX(0);
-    }
+  .navbarStaff {
+    width: 300px;
+    justify-content: center;
+    gap: 13vh;
+    transform: translateX(0);
+  }
 }
 
 .navbarStaff--show {
-    transform: translateX(0px);
-    overflow: scroll;
+  transform: translateX(0px);
+  overflow: scroll;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .navbarStaff--show {
-        width: 300px;
-        transition: all .5s;
-    }
+  .navbarStaff--show {
+    width: 300px;
+    transition: all 0.5s;
+  }
 }
 
 .navbarStaff-logo {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 1024px) and (min-height: 768px) {
-    @keyframes imgLoad {
-        0% {
-            opacity: 0;
-            height: 0;
-            transform: scale(0);
-            transform: translate(-50%, 0);
-        }
-        100% {
-            opacity: 1;
-            height: 15vh;
-            transform: scale(1);
-            transform: translate(-50%, 0);
-        }
+  @keyframes imgLoad {
+    0% {
+      opacity: 0;
+      height: 0;
+      transform: scale(0);
+      transform: translate(-50%, 0);
     }
+    100% {
+      opacity: 1;
+      height: 15vh;
+      transform: scale(1);
+      transform: translate(-50%, 0);
+    }
+  }
 
-    .navbarStaff-logo {
-        display: flex;
-        position: absolute;
-        top: 8vh;
-        left: 50%;
-        height: 15vh;
-        max-width: 70%;
-        transform: translate(-50%, 0);
-        transition: all .7s;
-        animation: imgLoad 1s ease-in-out;
-    }
+  .navbarStaff-logo {
+    display: flex;
+    position: absolute;
+    top: 8vh;
+    left: 50%;
+    height: 15vh;
+    max-width: 70%;
+    transform: translate(-50%, 0);
+    transition: all 0.7s;
+    animation: imgLoad 1s ease-in-out;
+  }
 
-    .navbarStaff-logo--hidden > img {
-        opacity: 0;
-        height: 0;
-        transform: scale(0);
-        transition: all .7s;
-    }
+  .navbarStaff-logo--hidden > img {
+    opacity: 0;
+    height: 0;
+    transform: scale(0);
+    transition: all 0.7s;
+  }
 }
 
-
 .toggle-menu {
-    position: absolute;
-    top: 0;
-    left: 300px;
-    font-size: 1.5rem;
-    z-index: 100;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 300px;
+  font-size: 1.5rem;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
 }
 
 .toggle-menu:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .toggle-menu__open {
-    display: flex;
-    margin: 1rem;
-    height: 3rem;
-    width: 3rem;
-    border-radius: 5rem;
-    background-color: #35353590;
+  display: flex;
+  margin: 1rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 5rem;
+  background-color: #35353590;
 }
 
 .toggle-menu__close {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .toggle-menu__open {
-        opacity: 0;
-        margin: 0;
-        left: 0;
-        height: 100vh;
-        border-radius: 0;
-    }
+  .toggle-menu__open {
+    opacity: 0;
+    margin: 0;
+    left: 0;
+    height: 100vh;
+    border-radius: 0;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .toggle-menu {
-        display: none;
-    }
+  .toggle-menu {
+    display: none;
+  }
 }
 
 .navbarStaff--show .toggle-menu {
-    transform: translateX(-65px);
-    top: 0;
+  transform: translateX(-65px);
+  top: 0;
 }
 
 .navbarStaff--show .toggle-menu__open {
-    display: none;
+  display: none;
 }
 
 .navbarStaff--show .toggle-menu__close {
-    display: flex;
-    margin-top: 1rem;
-    height: 3rem;
-    width: 3rem;
-    border-radius: 5rem;
+  display: flex;
+  margin-top: 1rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 5rem;
 }
 
-
 .main-menu {
-    gap: 1rem;
-    transition: all 0.5s;
+  gap: 1rem;
+  transition: all 0.5s;
 }
 
 .main-menu > li {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .main-menu > li > a {
-    width: 100%;
-    padding: 1rem 1.5rem;
+  width: 100%;
+  padding: 1rem 1.5rem;
 }
 
 .main-menu i {
-    margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .main-menu a > div {
-        transform: translateX(-7px);
-        transition: transform 0.5s;
-    }
+  .main-menu a > div {
+    transform: translateX(-7px);
+    transition: transform 0.5s;
+  }
 
-    .navbarStaff--show .main-menu a > div {
-        transform: translateX(0);
-        transition: transform 0.5s;
-    }
+  .navbarStaff--show .main-menu a > div {
+    transform: translateX(0);
+    transition: transform 0.5s;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .main-menu > li > a {
-        width: 100%;
-        padding: 1rem 2rem;
-    }
+  .main-menu > li > a {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
 }
-
 
 .dropdownStaff-toggle {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.dropdownStaff-arrow{
-    margin-left: auto;
-    margin-right: 0 !important;
-    font-size: 1.5rem !important;
-    transform: rotate(0deg);
-    transition: transform .4s ease-in-out;
+.dropdownStaff-arrow {
+  margin-left: auto;
+  margin-right: 0 !important;
+  font-size: 1.5rem !important;
+  transform: rotate(0deg);
+  transition: transform 0.4s ease-in-out;
 }
 
 .rotated {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .dropdownStaff-list {
-    width: 100%;
-    margin-left: auto;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height .4s ease-in-out;
+  width: 100%;
+  margin-left: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out;
 }
 
 .dropdownStaff-list--show {
-    max-height: 180px;
+  max-height: 180px;
 }
 
 .dropdownStaff-list--show-1 {
-    max-height: 160px;
+  max-height: 160px;
 }
 
 .dropdownStaff-list li:first-child {
-    margin-top: .4rem;
+  margin-top: 0.4rem;
 }
 
 .dropdownStaff-list li {
-    margin-top: .8rem;
+  margin-top: 0.8rem;
 }
 
 .dropdownStaff-list li:last-child {
-    margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 .dropdownStaff-list a {
-    font-size: 1.05rem;
-    width: 100%;
-    padding: 0.5rem 1rem;
-    border-right: 3px solid #454545;
-    margin: 0 1.95rem;
+  font-size: 1.05rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-right: 3px solid #454545;
+  margin: 0 1.95rem;
 }
 
 .dropdownStaff-list a:hover {
-    border-color: var(--color-1);
+  border-color: var(--color-1);
 }
 
 @media screen and (min-width: 1024px) {
-    .dropdownStaff-list a {
-        padding: 0.8rem 2rem;
-        margin: 0 2.45rem;
-    }
+  .dropdownStaff-list a {
+    padding: 0.8rem 2rem;
+    margin: 0 2.45rem;
+  }
 }
 
-
 main {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 55px;
-    }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 55px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 300px;
-    }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+  }
 }
