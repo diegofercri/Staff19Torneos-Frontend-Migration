@@ -1,162 +1,335 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../css/style.css">
-    <link rel="stylesheet" href="../../../css/style-generals.css">
-    <link rel="stylesheet" href="../../../css/navbar.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Liga Express IVEI-Clinica Vascular Marbella</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-generals.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body id="2023-JUN-LIGA" class="bg-22">
+<body class="bg-color-2">
+    <nav id="navbarStaff" class="navbarStaff">
+        <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <img src="/assets/logo.svg" alt="Staff 19 torneos logo" id="navbarStaff-logo" class="navbarStaff-logo">
+        <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled">
+            <li class="d-flex">
+                <a href="/index.html#start" class="color-ed nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        Inicio
+                    </div>
+                </a>
+            </li>
+            <li class="d-flex">
+                <a href="#contact" class="color-ed nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                        Contacto
+                    </div>
+                </a>
+            </li>
+            <li class="d-flex">
+                <a href="/pages/tickets/tickets.html" class="color-ed nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-ticket" aria-hidden="true"></i>
+                        Entradas
+                    </div>
+                </a>
+            </li>
+            <li class="dropdownStaff nav-link">
+                <a id="dropdownStaff-toggle0" class="dropdownStaff-toggle d-flex nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                        Eventos
+                    </div>
+                    <i class="fa fa-angle-down dropdownStaff-arrow" aria-hidden="true"></i>
+                </a>
+                <div id="dropdownStaff-list0" class="dropdownStaff-list">
+                    <ul class="list-unstyled">
+                        <li class="d-flex text-end">
+                            <a href="/pages/events/planned/planned-events.html"
+                                class="color-ed dropdownStaff__link nav-link">Planificados</a>
+                        </li>
+                        <li class="d-flex text-end">
+                            <a href="/pages/events/in-progress/in-progress-events.html"
+                                class="color-ed dropdownStaff__link nav-link">En Progreso</a>
+                        </li>
+                        <li class="d-flex text-end">
+                            <a href="/pages/events/ended/ended-events.html"
+                                class="color-ed dropdownStaff__link nav-link">Terminados</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdownStaff nav-link">
+                <a id="dropdownStaff-toggle1" class="dropdownStaff-toggle d-flex nav-link">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        Inscripciones
+                    </div>
+                    <i class="fa fa-angle-down dropdownStaff-arrow" aria-hidden="true"></i>
+                </a>
+                <div id="dropdownStaff-list1" class="dropdownStaff-list">
+                    <ul class="list-unstyled">
+                        <li class="dropdownStaff__item d-flex text-end">
+                            <a href="/pages/registrations/players.html"
+                                class="color-ed dropdownStaff__link nav-link">Jugadores</a>
+                        </li>
+                        <li class="dropdownStaff__item d-flex text-end">
+                            <a href="/pages/registrations/teams.html"
+                                class="color-ed dropdownStaff__link nav-link">Equipos</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
     <main>
-        <section id="start-events-left" class="bg-15 flex justify-content-center">
-            <div class="flex col align-items-center justify-content-evenly">
+        <div class="d-flex row row-cols-1 row-cols-xxl-2 w-100 m-0">
+            <section class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
+                <div class="d-flex flex-column h-100 align-items-center justify-content-evenly">
+                    <div>
+                        <h1 class="title-1 text-center text-color-1">Liga Express IVEI-Clinica Vascular Marbella</h1>
+                        <h2 class="title-2 text-center ma-top-1">Cabañas de la Sagra, Toledo</h2>
+                        <h2 class="title-2 text-center ma-top-1">JUN / 23</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-color-2 col d-flex flex-column px-4 px-md-5 py-5">
+                <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+                    <div class="w-75 h-75 d-flex align-items-center justify-content-center">
+                        <img src="img/poster/poster.jpg" alt="cartel" class="w-auto h-100 rounded-2">
+                    </div>
+                </div>
+            </section>
+            <section class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                 <div>
-                    <h1 class="title1 text-align-center color-ed">Liga Express IVEI-Clinica Vascular Marbella</h1>
-                    <h2 class="title2 text-align-center ma-top-1">Cabañas de la Sagra, Toledo</h2>
-                    <h2 class="title2 text-align-center ma-top-1">JUN / 23</h2>
+                    <h1 class="title-1 text-color-1 mb-4">Descripción</h1>
                 </div>
-            </div>
-        </section>
-        <section id="start-events-right" class="bg-15 flex justify-content-center">
-            <div class=" flex col align-items-center justify-content-evenly">
-                <img src="img/poster/poster.jpg" alt="cartel" class="cartel">
-            </div>
-        </section>
-        <section class="bg-22 flex col">
-            <div>
-                <h1 class="title1 color-ed">Descripción</h1>
-            </div>
-            <div class="container content paragraph">
-                <p>Nuestro primer torneo con formato liga, celebrado el durante todo el mes de Junio de 2023 en colaboración con
-                    <a href="https://www.clinicavascularmarbella.com/" target="_blank" class="link-2">IVEI-Clínica Vascular Marbella</a>
-                    y el <a href="https://cabanasdelasagra.sedelectronica.es" target="_blank" class="link-2">Excmo. Ayuntamiento de Cabañas de la Sagra</a>.</p>
-                <p>En este evento decidimos apostar por un nuevo formato, una liga express de fútbol sala para categorías para la categoría absoluta.</p>
-                <p>En esta liga repartimos cerca de 500€ en premios, además de entregar premios al mejor jugador y al mejor portero.</p>
-            </div>
-        </section>
-        <section class="bg-15 bg-22-bigger flex col">
-            <div>
-                <h1 class="title1 color-ed">Información</h1>
-            </div>
-            <div class=" content">
-                <ul class="list">
-                    <li>
-                        <a>Categoría:</a>
-                        <a>Fútbol Sala: Absoluta</a>
-                    </li>
-                    <li>
-                        <a>Formato:</a>
-                        <a>Liga</a>
-                    </li>
-                    <li>
-                        <a>Equipos:</a>
-                        <a>Total de 5 equipos participantes</a>
-                    </li>
-                    <li>
-                        <a>Jugadores:</a>
-                        <a>Total de 53 jugadores inscritos</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="bg-22 bg-15-bigger flex col">
-            <div>
-                <h1 class="title1 color-ed">Resultados</h1>
-            </div>
-            <div class="content">
-                <ul class="list">
-                    <li>
-                        <a>Ganador:</a>
-                        <a>Jindama</a>
-                        <a>Trofeo + Jamón + Queso + Vino</a>
-                    </li>
-                    <li>
-                        <a>2do Premio:</a>
-                        <a>Betoteam</a>
-                        <a>Trofeo + Paletilla + Vino</a>
-                    </li>
-                    <li>
-                        <a>3er Premio:</a>
-                        <a>José y 4 más</a>
-                        <a>Trofeo + Queso + Vino</a>
-                    </li>
-                    <li>
-                        <a>Jugador MVP:</a>
-                        <a>Angelo</a>
-                    </li>
-                    <li>
-                        <a>Portero MVP:</a>
-                        <a>Alex Paniagua</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="bg-15 flex col">
-            <div>
-                <h1 class="title1 color-ed">Imágenes</h1>
-            </div>
-            <div class="content flex justify-content-center">
-                <div class="slide-container">
-                    <div class="slide position"></div>
+                <div>
+                    <p>Nuestro primer torneo con formato liga, celebrado el durante todo el mes de Junio de 2023 en colaboración con
+                        <a href="https://www.clinicavascularmarbella.com" target="_blank" class="text-decoration-none text-color-1 link-2">IVEI-Clínica Vascular Marbella</a>
+                        y el <a href="https://cabanasdelasagra.sedelectronica.es" target="_blank" class="text-decoration-none text-color-1  link-2">Excmo. Ayuntamiento de Cabañas de la Sagra</a>.</p>
+                    <p>En este evento decidimos apostar por un nuevo formato, una liga express de fútbol sala para categorías para la categoría absoluta.</p>
+                    <p>En esta liga repartimos cerca de 500€ en premios, además de entregar premios al mejor jugador y al mejor portero.</p>
                 </div>
-            </div>
-        </section>
-        <section class="bg-22 flex col section-100">
-            <div class="container">
-                <h1 class="title1 color-ed">Colaboradores</h1>
-            </div>
-            <div class="container content cards-partners align-items-center justify-content-center">
-                <div class="card-partner flex">
-                    <img src="img/partners/1.jpg" alt="IVEI-Clinica Vascular Marbella">
+            </section>
+            <section class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Información</h1>
                 </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/2.jpg" alt="Bar Squem">
+                <div>
+                    <dl class="row">
+                        <dt class="col-sm-3 m-0 mb-3 fw-normal">Deporte:</dt>
+                        <dd class="col-sm-9 m-0 mb-3">Fútbol Sala</dd>
+                        <dt class="col-sm-3 m-0 my-3 fw-normal text-color-6">Categoría:</dt>
+                        <dd class="col-sm-9 m-0 my-3 text-color-6">Absoluta</dd>
+                        <dt class="col-sm-3 m-0 my-3 fw-normal">Formato:</dt>
+                        <dd class="col-sm-9 m-0 my-3">Liga</dd>
+                        <dt class="col-sm-3 m-0 my-3 fw-normal text-color-6">Equipos:</dt>
+                        <dd class="col-sm-9 m-0 my-3 text-color-6">Total de 5 equipos participantes</dd>
+                        <dt class="col-sm-3 m-0 my-3 fw-normal">Jugadores:</dt>
+                        <dd class="col-sm-9 m-0 my-3">Total de 53 jugadores inscritos</dd>
+                    </dl>
                 </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/3.jpg" alt="El Cafetin">
+            </section>
+            <section class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Resultados</h1>
                 </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/4.jpg" alt="Bahia">
+                <div>
+                    <dl class="row">
+                        <dt class="col-sm-3 m-0 mb-3 fw-normal">Ganador:</dt>
+                        <dd class="col-sm-4 m-0 mb-3">Jindama</dd>
+                        <dd class="col-sm-5 m-0 mb-3">Trofeo + Jamón + Queso + Vino</dd>
+                        <dt class="col-sm-3 m-0 my-3 fw-normal text-color-6">2do Premio:</dt>
+                        <dd class="col-sm-4 m-0 my-3 text-color-6">Betoteam</dd>
+                        <dd class="col-sm-5 m-0 my-3 text-color-6">Trofeo + Paletilla + Vino</dd>
+                        <dt class="col-sm-3 m-0 my-3 fw-normal">3er Premio:</dt>
+                        <dd class="col-sm-4 m-0 my-3">José y 4 más</dd>
+                        <dd class="col-sm-5 m-0 my-3">Trofeo + Queso + Vino</dd>
+                        <dt class="col-sm-3 m-0 my-3 fw-normal text-color-6">Jugador MVP:</dt>
+                        <dd class="col-sm-4 m-0 my-3 text-color-6">Angelo</dd>
+                        <dd class="col-sm-5 m-0 my-3 text-color-6">Trofeo</dd>
+                        <dt class="col-sm-3 m-0 mt-3 fw-normal">Portero MVP:</dt>
+                        <dd class="col-sm-4 m-0 my-3">Alex Paniagua</dd>
+                        <dd class="col-sm-5 m-0 my-3">Trofeo</dd>
+                    </dl>
                 </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/8.jpg" alt="Ayuntamiento de Cabañas de la Sagra">
+            </section>
+            <section class="bg-color-2 bg-color-2-lg col d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Fotografías</h1>
                 </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/5.jpg" alt="Motor76">
+                <div class="d-flex justify-content-center p-3">
+                    <div id="carouselId" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-interval="2100" data-ride="carousel">
+                        <ol class="carousel-indicators list-unstyled">
+                            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                                aria-label="first slide"></li>
+                            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                            <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                            <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
+                            <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fifth slide"></li>
+                        </ol>
+                        <div class="carousel-inner rounded-2" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="img/slider/1.jpg" class="w-100 d-block" alt="First slide" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider/2.jpg" class="w-100 d-block" alt="Second slide" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider/3.jpg" class="w-100 d-block" alt="Third slide" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider/4.jpg" class="w-100 d-block" alt="Fourth slide" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider/5.jpg" class="w-100 d-block" alt="Fifth slide" />
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/6.jpg" alt="Villa Molero">
+            </section>
+            <section id="contact" class="col-lg-12 col-xxl-12 bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Contacto</h1>
                 </div>
-                <div class="card-partner flex">
-                    <img src="img/partners/7.jpg" alt="Ferretería Javier del Cerro">
+                <div class="d-flex h-100 align-items-end">
+                    <ul class="list-unstyled">
+                        <li class="mb-4">
+                            <ul class="list-unstyled">
+                                <a class="fs-5 text-decoration-none text-color-7 title-3">Whatsapp:</a>
+                                <ul class="list-unstyled mt-2">
+                                    <li>
+                                        <a href="https://wa.link/p33vqo"
+                                            class="text-decoration-none text-color-6 link"><i class="fa fa-whatsapp"
+                                                aria-hidden="true"></i> Adrián</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://wa.link/wxalti"
+                                            class="text-decoration-none text-color-6 link"><i class="fa fa-whatsapp"
+                                                aria-hidden="true"></i> Diego</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li class="mb-4">
+                            <ul class="list-unstyled">
+                                <a class="fs-5 text-decoration-none text-color-7 title-3">Instagram:</a>
+                                <ul class="list-unstyled mt-2">
+                                    <li>
+                                        <a href="https://www.instagram.com/staff19torneos/"
+                                            class="text-decoration-none text-color-6 link"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i> staff19torneos</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled">
+                                <a class="fs-5 text-decoration-none text-color-7 title-3">e-Mail:</a>
+                                <ul class="list-unstyled mt-2">
+                                    <li>
+                                        <a href="mailto:staff19torneos@gmail.com"
+                                            class="text-decoration-none text-color-6 link"><i class="fa fa-envelope-o"
+                                                aria-hidden="true"></i> staff19torneos@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </section>
-        <footer class="flex col align-items-center justify-content-center bg-ed">
-            <div>
-                <a>&copy; <a id="year"></a> Staff19 Torneos. Todos los derechos reservados.</a>
-            </div>
-            <div>
-                <a>Designed and developed by @diego_fercri</a>
-            </div>
-            <div>
-                <a href="../../../documents/Política de privacidad.pdf" target="_blank" class="privacy text-align-center color-15">Política de privacidad</a>
-            </div>
-        </footer>
+            </section>
+            <section class="col-lg-12 col-xxl-12 bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                <div>
+                    <h1 class="title-1 text-color-1 mb-4">Partners</h1>
+                </div>
+                <div class="d-flex h-100 justify-content-center align-items-center">
+                    <div class="row g-3 d-flex justify-content-center align-items-center">
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/1.jpg" alt="IVEI-Clinica Vascular Marbella" class="h-auto w-100 rounded-1">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/2.jpg" alt="Bar Squem" class="h-auto w-100 rounded-1">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/3.jpg" alt="El Cafetin" class="h-auto w-100 rounded-1">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/4.jpg" alt="Bahia" class="h-auto w-100 rounded-1">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/5.jpg" alt="Ferretería Javier del Cerro" class="h-auto w-100 rounded-1">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/7.jpg" alt="Motor76" class="h-auto w-100 rounded-1">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
+                            <img src="img/partners/8.jpg" alt="Ayuntamiento de Cabañas de la Sagra" class="h-auto w-100 rounded-1">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="col-xxl-12 d-flex flex-column align-items-center justify-content-center bg-color-5">
+                <div>
+                    <a>&copy; <a id="year"></a> Staff19 Torneos. Todos los derechos reservados.</a>
+                </div>
+                <div>
+                    <a>Designed and developed by @diego_fercri</a>
+                </div>
+            </footer>
+        </div>
     </main>
-    
-    <script src="../../../js/height.js"></script>
 
-    <script src="../../../js/navbar.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
 
-    <script src="../../../js/year.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 
-    <script src="../../../js/slide.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Custom JavaScript -->
+    <script src="/js/height.js"></script>
+
+    <script src="/js/navbar.js"></script>
+
+    <script src="/js/year.js"></script>
 
 </body>
 
