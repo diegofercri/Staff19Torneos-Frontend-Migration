@@ -1,16 +1,17 @@
 const navbarStaff = document.getElementById('navbarStaff');
 const toggleMenuOpen = document.getElementById('toggle-menu__open');
-const toggleMenuClose = document.getElementById('toggle-menu__close');
 const mainMenu = document.getElementById('main-menu');
-
 toggleMenuOpen.addEventListener('click', e => {
     navbarStaff.classList.toggle('navbarStaff--show');
     mainMenu.classList.toggle('main-menu--show');
 });
 
-toggleMenuClose.addEventListener('click', e => {
+const elements = document.querySelectorAll('.toggle-menu__close');
+elements.forEach(element => {
+  element.addEventListener('click', () => {
     navbarStaff.classList.toggle('navbarStaff--show');
     mainMenu.classList.toggle('main-menu--show');
+  });
 });
 
 
@@ -18,7 +19,6 @@ const dropdownStaffList0 = document.getElementById('dropdownStaff-list0');
 const dropdownStaffToggle0 = document.getElementById('dropdownStaff-toggle0');
 const dropdownStaffList1 = document.getElementById('dropdownStaff-list1');
 const dropdownStaffToggle1 = document.getElementById('dropdownStaff-toggle1');
-
 dropdownStaffToggle0.addEventListener('click', e => {
     dropdownStaffList0.classList.toggle('dropdownStaff-list--show');
     if (dropdownStaffList1.classList.contains('dropdownStaff-list--show-1')) {
