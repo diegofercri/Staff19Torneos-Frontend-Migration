@@ -1,9 +1,6 @@
 const navbarStaff = document.getElementById('navbarStaff');
 const toggleMenuOpen = document.getElementById('toggle-menu__open');
 const toggleMenuClose = document.getElementById('toggle-menu__close');
-const toggleMenuClose1 = document.getElementById('toggle-menu__close-1');
-const toggleMenuClose2 = document.getElementById('toggle-menu__close-2');
-const toggleMenuClose3 = document.getElementById('toggle-menu__close-3');
 const mainMenu = document.getElementById('main-menu');
 
 toggleMenuOpen.addEventListener('click', e => {
@@ -12,21 +9,6 @@ toggleMenuOpen.addEventListener('click', e => {
 });
 
 toggleMenuClose.addEventListener('click', e => {
-    navbarStaff.classList.toggle('navbarStaff--show');
-    mainMenu.classList.toggle('main-menu--show');
-});
-
-toggleMenuClose1.addEventListener('click', e => {
-    navbarStaff.classList.toggle('navbarStaff--show');
-    mainMenu.classList.toggle('main-menu--show');
-});
-
-toggleMenuClose2.addEventListener('click', e => {
-    navbarStaff.classList.toggle('navbarStaff--show');
-    mainMenu.classList.toggle('main-menu--show');
-});
-
-toggleMenuClose3.addEventListener('click', e => {
     navbarStaff.classList.toggle('navbarStaff--show');
     mainMenu.classList.toggle('main-menu--show');
 });
