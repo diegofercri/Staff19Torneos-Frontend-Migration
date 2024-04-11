@@ -1,14 +1,14 @@
 section {
-  min-height: calc(var(--vh));
+  min-height: 100vh;
   max-height: fit-content;
 }
 
 .logo {
-  height: calc(var(--vh) * 0.25);
+  height: calc(100vh * 0.25);
 }
 
 .cartel {
-  max-height: calc(var(--vh) * 0.7);
+  max-height: calc(100vh * 0.7);
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
