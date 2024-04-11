@@ -20,10 +20,9 @@
 }
 
 * {
-  font-family: roboto;
-  /* Firefox Scrollbar */
+  scrollbar-width: thin;
   scrollbar-color: var(--color-1) var(--color-4);
-  scrollbar-width: auto;
+  font-family: roboto;
 }
 
 ::-webkit-scrollbar {
