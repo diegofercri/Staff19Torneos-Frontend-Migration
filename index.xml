@@ -4,9 +4,10 @@
 ]>
 <?xml-stylesheet href="style.xsl" type="text/xsl"?>
 <index>
+    <route>./</route>
     <logo url="./assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
-        <item url="./index.xml#start" icon="fa-home">Inicio</item>
+        <item url="#start" icon="fa-home">Inicio</item>
         <item url="#contact" icon="fa-address-book">Contacto</item>
         <item url="./pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
         <dropdown name="Eventos" id="0" icon="fa-trophy">

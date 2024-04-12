@@ -2,14 +2,14 @@
 <!DOCTYPE index [
     <!ENTITY copy "entity-value">
 ]>
-<?xml-stylesheet href="style-tickets.xsl" type="text/xsl"?>
+<?xml-stylesheet href="style-registrations.xsl" type="text/xsl"?>
 <index>
     <route>../../</route>
     <logo url="../../assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
         <item url="../../index.xml#start" icon="fa-home">Inicio</item>
         <item url="#contact" icon="fa-address-book">Contacto</item>
-        <item url="#start" icon="fa-ticket">Entradas</item>
+        <item url="../../pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
         <dropdown name="Eventos" id="0" icon="fa-trophy">
             <item url="../../pages/events/planned/planned-events.xml">Planificados</item>
             <item url="../../pages/events/planned/in-progress-events.xml">En Progreso</item>
@@ -21,12 +21,12 @@
         </dropdown>
     </nav>
     <start id="start">
-        <title>Entradas</title>
-        <subtitle>Venta Online</subtitle>
+        <title>Inscripciones</title>
+        <subtitle>Para Jugadores</subtitle>
     </start>
-    <now id="now" title="A la Venta">
+    <now id="now" title="Abiertas">
         <no-event boolean="true">
-            <text>No hay entradas a la venta.</text>
+            <text>No hay inscripciones abiertas.</text>
         </no-event>
         <event url="#">
             <title>Staff Cup</title>
@@ -38,9 +38,9 @@
             </tags>
         </event>
     </now>
-    <soon id="soon" title="A la Venta Próximamente">
+    <soon id="soon" title="Abren Pronto">
         <no-event boolean="true">
-            <text>No hay ventas previstas.</text>
+            <text>No hay inscripciones previstas.</text>
         </no-event>
         <event>
             <title>Staff Cup</title>
@@ -52,9 +52,9 @@
             </tags>
         </event>
     </soon>
-    <closed id="closed" title="Venta Cerrada">
+    <closed id="closed" title="Cerradas">
         <no-event boolean="true">
-            <text>No hay ventas cerradas.</text>
+            <text>No hay inscripciones cerradas.</text>
         </no-event>
         <event>
             <title>Staff Cup</title>
