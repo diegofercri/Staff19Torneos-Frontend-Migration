@@ -4,7 +4,7 @@
 ]>
 <?xml-stylesheet href="../style-events.xsl" type="text/xsl"?>
 <index>
-    <title>Eventos En Progreso - Staff 19 Torneos</title>
+    <title>Eventos Terminados - Staff 19 Torneos</title>
     <route>../../../</route>
     <logo url="../../../assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
@@ -13,8 +13,8 @@
         <item url="../../../pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
         <dropdown name="Eventos" id="0" icon="fa-trophy">
             <item url="../../../pages/events/planned/planned-events.xml">Planificados</item>
-            <item url="#start">En Progreso</item>
-            <item url="../../../pages/events/ended/ended-events.xml">Terminados</item>
+            <item url="../../../pages/events/in-progress/in-progress-events.xml">En Progreso</item>
+            <item url="#start">Terminados</item>
         </dropdown>
         <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
             <item url="../../../pages/registrations/players.xml">Jugadores</item>
@@ -23,18 +23,38 @@
     </nav>
     <start id="start">
         <title>Eventos</title>
-        <subtitle>En Progreso</subtitle>
+        <subtitle>Terminados</subtitle>
     </start>
-    <now id="now">
-        <no-event boolean="true">
-            <text>No hay eventos en progreso, aunque tenemos unos eventazos en mente.</text>
-        </no-event>
-        <event url="#">
-            <title>Staff Cup</title>
+    <now id="now" title="2023">
+        <event url="2023-SEP-16/event.html">
+            <title>Torneo Fut-7 en honor a la Virgen del Rosario</title>
             <location>Cabañas de la Sagra</location>
-            <date>15 / JUN / 2024</date>
+            <date>16 / SEP</date>
             <tags>
-                <tag>new</tag>
+                <tag>fut-7</tag>
+            </tags>
+        </event>
+        <event url="2023-AGO-05/event.html">
+            <title>Maratón IVEI-Clínica Vascular Marbella</title>
+            <location>Cabañas de la Sagra</location>
+            <date>05 / AGO</date>
+            <tags>
+                <tag>futsal</tag>
+            </tags>
+        </event>
+        <event url="2023-JUN-17/event.html">
+            <title>Maratón IVEI-Clínica Vascular Marbella</title>
+            <location>Cabañas de la Sagra</location>
+            <date>17 / JUN</date>
+            <tags>
+                <tag>futsal</tag>
+            </tags>
+        </event>
+        <event url="2023-JUN-17/event.html">
+            <title>Liga Express IVEI-Clínica Vascular Marbella</title>
+            <location>Cabañas de la Sagra</location>
+            <date>JUN 2023</date>
+            <tags>
                 <tag>futsal</tag>
             </tags>
         </event>
