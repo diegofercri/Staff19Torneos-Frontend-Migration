@@ -157,11 +157,10 @@
                                 <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/sports/@title"/></h1>
                             </div>
                             <div>
-                                
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <xsl:for-each select="index/sports/sport">
                                         <div class="col-12 col-sm-6 mt-4">
-                                            <div class="card p-4 bg-color-5 rounded-2 d-flex align-items-center justify-content-center title-3">
+                                            <div class="card p-4 bg-color-5 rounded-2 border-0 d-flex align-items-center justify-content-center title-3">
                                                 <xsl:value-of select="."/>
                                             </div>
                                         </div>
