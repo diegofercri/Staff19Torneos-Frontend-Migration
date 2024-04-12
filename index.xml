@@ -4,6 +4,7 @@
 ]>
 <?xml-stylesheet href="style.xsl" type="text/xsl"?>
 <index>
+    <logo url="./assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
         <item url="./index.xml#start" icon="fa-home">Inicio</item>
         <item url="#contact" icon="fa-address-book">Contacto</item>
