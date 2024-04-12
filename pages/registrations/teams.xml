@@ -4,6 +4,7 @@
 ]>
 <?xml-stylesheet href="style-registrations.xsl" type="text/xsl"?>
 <index>
+    <title>Inscripciones Equipos - Staff 19 Torneos</title>
     <route>../../</route>
     <logo url="../../assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>

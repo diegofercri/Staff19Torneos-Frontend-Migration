@@ -4,6 +4,7 @@
 ]>
 <?xml-stylesheet href="style-tickets.xsl" type="text/xsl"?>
 <index>
+    <title>Entradas - Staff 19 Torneos</title>
     <route>../../</route>
     <logo url="../../assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>

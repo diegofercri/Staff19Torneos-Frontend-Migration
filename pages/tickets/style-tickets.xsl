@@ -20,7 +20,7 @@
         <html lang="es">
             
             <head>
-                <title>Staff 19 Torneos</title>
+                <title><xsl:value-of select="index/title"/></title>
                 <!-- Required meta tags -->
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />

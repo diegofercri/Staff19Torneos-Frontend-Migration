@@ -20,7 +20,7 @@
         <html lang="es">
             
             <head>
-                <title>Staff 19 Torneos</title>
+                <title><xsl:value-of select="index/title"/></title>
                 <!-- Required meta tags -->
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -30,9 +30,9 @@
                       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
                 
                 <!-- Custom CSS -->
-                <link rel="stylesheet" href="{route}css/style.css" />
-                <link rel="stylesheet" href="{route}css/style-generals.css" />
-                <link rel="stylesheet" href="{route}css/navbar.css" />
+                <link rel="stylesheet" href="{index/route}css/style.css" />
+                <link rel="stylesheet" href="{index/route}css/style-generals.css" />
+                <link rel="stylesheet" href="{index/route}css/navbar.css" />
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -222,9 +222,9 @@
                         crossorigin="anonymous"></script>
                 
                 <!-- Custom JavaScript -->
-                <script src="{route}js/navbar.js"></script>
+                <script src="{index/route}js/navbar.js"></script>
                 
-                <script src="{route}js/year.js"></script>
+                <script src="{index/route}js/year.js"></script>
                 
             </body>
             
