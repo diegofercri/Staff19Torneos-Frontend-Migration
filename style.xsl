@@ -217,62 +217,36 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="contact" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/contact/@id}" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4">Contacto</h1>
+                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h1>
                             </div>
                             <div class="d-flex h-100 align-items-end">
                                 <ul class="list-unstyled">
-                                    <li class="mb-4">
-                                        <ul class="list-unstyled">
-                                            <a class="fs-5 text-decoration-none text-color-7 title-3">Whatsapp:</a>
-                                            <ul class="list-unstyled mt-2">
-                                                <li>
-                                                    <a href="https://wa.link/p33vqo"
-                                                       class="text-decoration-none text-color-6 link"><i class="fa fa-whatsapp"
-                                                                                                          aria-hidden="true"></i> Adrián</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://wa.link/wxalti"
-                                                       class="text-decoration-none text-color-6 link"><i class="fa fa-whatsapp"
-                                                                                                          aria-hidden="true"></i> Diego</a>
-                                                </li>
-                                            </ul>
-                                        </ul>
-                                    </li>
-                                    <li class="mb-4">
-                                        <ul class="list-unstyled">
-                                            <a class="fs-5 text-decoration-none text-color-7 title-3">Instagram:</a>
-                                            <ul class="list-unstyled mt-2">
-                                                <li>
-                                                    <a href="https://www.instagram.com/staff19torneos/"
-                                                       class="text-decoration-none text-color-6 link"><i class="fa fa-instagram"
-                                                                                                          aria-hidden="true"></i> staff19torneos</a>
-                                                </li>
-                                            </ul>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <ul class="list-unstyled">
-                                            <a class="fs-5 text-decoration-none text-color-7 title-3">e-Mail:</a>
-                                            <ul class="list-unstyled mt-2">
-                                                <li>
-                                                    <a href="mailto:staff19torneos@gmail.com"
-                                                       class="text-decoration-none text-color-6 link"><i class="fa fa-envelope-o"
-                                                                                                          aria-hidden="true"></i> staff19torneos@gmail.com</a>
-                                                </li>
-                                            </ul>
-                                        </ul>
-                                    </li>
+                                    <xsl:for-each select="index/contact/network">
+                                        <li class="mb-4">
+                                            <a class="fs-5 text-decoration-none text-color-7 title-3"><xsl:value-of select="name"/>:</a>
+                                            <br/>
+                                            <a href="{@url}" class="d-flex align-items-center gap-2 text-decoration-none link mt-2">
+                                                <div class="d-flex align-items-center justify-content-center" style="width: 20px;">
+                                                    <i class="fa {@icon}" aria-hidden="true"></i>
+                                                </div>
+                                                <xsl:value-of select="text"/>
+                                            </a>
+                                        </li>
+                                    </xsl:for-each>
                                 </ul>
                             </div>
                         </section>
                         <footer class="col-xxl-12 d-flex flex-column align-items-center justify-content-center bg-color-5">
                             <div>
-                                <a>&copy; <a id="year"></a> Staff19 Torneos. Todos los derechos reservados.</a>
+                                <a class="text-center">
+                                    <a id="year" class="text-decoration-none text-color-1 pe-2"/>
+                                    <a><xsl:value-of select="index/footer/a"/></a>
+                                </a>
                             </div>
                             <div>
-                                <a>Designed and developed by @diego_fercri</a>
+                                <a><xsl:value-of select="index/footer/a1"/><a class="text-decoration-none text-color-1 link ps-2" href="{index/footer/link/@url}"><xsl:value-of select="index/footer/link"/></a></a>
                             </div>
                         </footer>
                     </div>
