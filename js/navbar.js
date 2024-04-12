@@ -8,10 +8,10 @@ toggleMenuOpen.addEventListener('click', e => {
 
 const elements = document.querySelectorAll('.toggle-menu__close');
 elements.forEach(element => {
-  element.addEventListener('click', () => {
-    navbarStaff.classList.toggle('navbarStaff--show');
-    mainMenu.classList.toggle('main-menu--show');
-  });
+    element.addEventListener('click', () => {
+        navbarStaff.classList.toggle('navbarStaff--show');
+        mainMenu.classList.toggle('main-menu--show');
+    });
 });
 
 
@@ -55,7 +55,7 @@ function imgCloseChecker() {
 }
 
 
-window.addEventListener('resize',() => {
+window.addEventListener('resize', () => {
     if (navbarStaff.classList.contains('navbarStaff--show')) {
         navbarStaff.classList.remove('navbarStaff--show');
         mainMenu.classList.remove('main-menu--show');

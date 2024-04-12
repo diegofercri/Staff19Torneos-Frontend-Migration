@@ -48,76 +48,36 @@
                     </div>
                     <img src="./assets/logo.svg" alt="Staff 19 torneos logo" id="navbarStaff-logo" class="navbarStaff-logo" />
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
-                        <li class="d-flex">
-                            <a href="./index.html#start" class="color-ed nav-link toggle-menu__close">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa fa-home" aria-hidden="true"></i>
-                                    Inicio
+                        <xsl:for-each select="index/nav/item">
+                            <li class="d-flex">
+                                <a href="{@url}" class="color-ed nav-link toggle-menu__close">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa {@icon}" aria-hidden="true"></i>
+                                        <xsl:value-of select="."/>
+                                    </div>
+                                </a>
+                            </li>
+                        </xsl:for-each>
+                        <xsl:for-each select="index/nav/dropdown">
+                            <li class="dropdownStaff nav-link">
+                                <a id="dropdownStaff-toggle{@id}" class="dropdownStaff-toggle d-flex nav-link">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa {@icon}" aria-hidden="true"></i>
+                                        <xsl:value-of select="@name"/>
+                                    </div>
+                                    <i class="fa fa-angle-down dropdownStaff-arrow" aria-hidden="true"></i>
+                                </a>
+                                <div id="dropdownStaff-list{@id}" class="dropdownStaff-list">
+                                    <ul class="list-unstyled">
+                                    <xsl:for-each select="item">
+                                        <li class="d-flex text-end">
+                                            <a href="{@url}" class="color-ed dropdownStaff__link nav-link"><xsl:value-of select="."/></a>
+                                        </li>
+                                    </xsl:for-each>
+                                    </ul>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="d-flex">
-                            <a href="#contact" class="color-ed nav-link toggle-menu__close">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa fa-address-book" aria-hidden="true"></i>
-                                    Contacto
-                                </div>
-                            </a>
-                        </li>
-                        <li class="d-flex">
-                            <a id="toggle-menu__close-3" href="./pages/tickets/tickets.html" class="color-ed nav-link">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa fa-ticket" aria-hidden="true"></i>
-                                    Entradas
-                                </div>
-                            </a>
-                        </li>
-                        <li class="dropdownStaff nav-link">
-                            <a id="dropdownStaff-toggle0" class="dropdownStaff-toggle d-flex nav-link">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa fa-trophy" aria-hidden="true"></i>
-                                    Eventos
-                                </div>
-                                <i class="fa fa-angle-down dropdownStaff-arrow" aria-hidden="true"></i>
-                            </a>
-                            <div id="dropdownStaff-list0" class="dropdownStaff-list">
-                                <ul class="list-unstyled">
-                                    <li class="d-flex text-end">
-                                        <a href="./pages/events/planned/planned-events.html"
-                                           class="color-ed dropdownStaff__link nav-link">Planificados</a>
-                                    </li>
-                                    <li class="d-flex text-end">
-                                        <a href="./pages/events/in-progress/in-progress-events.html"
-                                           class="color-ed dropdownStaff__link nav-link">En Progreso</a>
-                                    </li>
-                                    <li class="d-flex text-end">
-                                        <a href="./pages/events/ended/ended-events.html"
-                                           class="color-ed dropdownStaff__link nav-link">Terminados</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="dropdownStaff nav-link">
-                            <a id="dropdownStaff-toggle1" class="dropdownStaff-toggle d-flex nav-link">
-                                <div class="d-flex align-items-center">
-                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                                    Inscripciones
-                                </div>
-                                <i class="fa fa-angle-down dropdownStaff-arrow" aria-hidden="true"></i>
-                            </a>
-                            <div id="dropdownStaff-list1" class="dropdownStaff-list">
-                                <ul class="list-unstyled">
-                                    <li class="dropdownStaff__item d-flex text-end">
-                                        <a href="./pages/registrations/players.html"
-                                           class="color-ed dropdownStaff__link nav-link">Jugadores</a>
-                                    </li>
-                                    <li class="dropdownStaff__item d-flex text-end">
-                                        <a href="./pages/registrations/teams.html"
-                                           class="color-ed dropdownStaff__link nav-link">Equipos</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
+                            </li>
+                        </xsl:for-each>
                     </ul>
                 </nav>
                 
