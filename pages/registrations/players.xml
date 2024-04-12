@@ -16,7 +16,7 @@
             <item url="../../pages/events/planned/ended-events.xml">Terminados</item>
         </dropdown>
         <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
-            <item url="../../pages/registrations/players.xml">Jugadores</item>
+            <item url="#start">Jugadores</item>
             <item url="../../pages/registrations/teams.xml">Equipos</item>
         </dropdown>
     </nav>

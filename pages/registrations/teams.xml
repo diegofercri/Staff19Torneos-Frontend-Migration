@@ -17,7 +17,7 @@
         </dropdown>
         <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
             <item url="../../pages/registrations/players.xml">Jugadores</item>
-            <item url="../../pages/registrations/teams.xml">Equipos</item>
+            <item url="#start">Equipos</item>
         </dropdown>
     </nav>
     <start id="start">
