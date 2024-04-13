@@ -38,8 +38,15 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
                 
                 <!-- Favicon -->
-                <link rel="icon" type="image/svg+xml" href="{index/route}/assets/images/favicon.svg"/>
-                <link rel="icon" type="image/png" href="{index/route}/assets/images/favicon.png"/>
+                
+                <!-- Favicon para tema light -->
+                <link rel="icon" type="image/svg+xml" media="(prefers-color-scheme: light)" href="{index/route}/assets/images/favicon.svg" />
+                
+                <!-- Favicon para tema dark -->
+                <link rel="icon" type="image/svg+xml" media="(prefers-color-scheme: dark)" href="{index/route}/assets/images/logo.svg" />
+                
+                <!-- Favicon predeterminado -->
+                <link rel="icon" type="image/svg+xml" href="{index/route}/assets/images/logo.svg" />
                 
                 <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
                 <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
