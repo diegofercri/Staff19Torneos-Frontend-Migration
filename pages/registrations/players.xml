@@ -13,8 +13,8 @@
         <item url="../../pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
         <dropdown name="Eventos" id="0" icon="fa-trophy">
             <item url="../../pages/events/planned/planned-events.xml">Planificados</item>
-            <item url="../../pages/events/planned/in-progress-events.xml">En Progreso</item>
-            <item url="../../pages/events/planned/ended-events.xml">Terminados</item>
+            <item url="../../pages/events/in-progress/in-progress-events.xml">En Progreso</item>
+            <item url="../../pages/events/ended/ended-events.xml">Terminados</item>
         </dropdown>
         <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
             <item url="#start">Jugadores</item>
@@ -68,11 +68,11 @@
         </event>
     </closed>
     <contact id="contact" title="Contacto">
-        <network icon="fa-whatsapp" url="https://chat.whatsapp.com/IiSA9BxcaiE763EBqxsvyQ">
+        <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
             <name>WhatsApp</name>
-            <text>Comunidad</text>
+            <text>Adrián</text>
         </network>
-        <network name="" icon="fa-instagram" url="https://www.instagram.com/staff19torneos/">
+        <network icon="fa-instagram" url="https://www.instagram.com/staff19torneos/">
             <name>Instagram</name>
             <text>@staff19torneos</text>
         </network>

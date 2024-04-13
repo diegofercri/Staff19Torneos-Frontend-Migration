@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index [
+    <!ENTITY copy "entity-value">
+]>
+<?xml-stylesheet href="../xmlStyles/style.xsl" type="text/xsl"?>
+<index>
+    <title></title>
+    <route>../../../../</route>
+    <logo url="../../../../assets/logo.svg">Staff 19 torneos logo</logo>
+    <nav>
+        <item url="../../../../index.xml#start" icon="fa-home">Inicio</item>
+        <item url="#contact" icon="fa-address-book">Contacto</item>
+        <item url="../../../../pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
+        <dropdown name="Eventos" id="0" icon="fa-trophy">
+            <item url="../../../../pages/events/planned/planned-events.xml">Planificados</item>
+            <item url="../../../../pages/events/in-progress/in-progress-events.xml">En Progreso</item>
+            <item url="../../../../pages/events/ended/ended-events.xml">Terminados</item>
+        </dropdown>
+        <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
+            <item url="../../../../pages/registrations/players.xml">Jugadores</item>
+            <item url="../../../../pages/registrations/teams.xml">Equipos</item>
+        </dropdown>
+    </nav>
+    <start id="start">
+        <event>
+            <name></name>
+            <location></location>
+            <date></date>
+        </event>
+    </start>
+    <poster id="poster">
+        <img url="images/poster/poster.webp"></img>
+    </poster>
+    <description id="description" title="Descripción">
+        <p></p>
+        <p></p>
+        <p></p>
+    </description>
+    <information id="information" title="Información">
+        <row>
+            <title>Deporte:</title>
+            <content></content>
+        </row>
+        <row>
+            <title>Categoría:</title>
+            <content></content>
+        </row>
+        <row>
+            <title>Formato:</title>
+            <content></content>
+        </row>
+        <row>
+            <title>Equipos:</title>
+            <content></content>
+        </row>
+        <row>
+            <title>Jugadores:</title>
+            <content></content>
+        </row>
+    </information>
+    <results id="results" title="Resultados">
+        <row>
+            <award>1er Premio:</award>
+            <winner></winner>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>2do Premio:</award>
+            <winner></winner>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>3er Premio:</award>
+            <winner></winner>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Jugador MVP:</award>
+            <winner></winner>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Portero MVP:</award>
+            <winner></winner>
+            <reward>Trofeo</reward>
+        </row>
+    </results>
+    <images id="images" title="Fotografías"></images>
+    <links id="links" title="Enlaces">
+        <link url=""></link>
+    </links>
+    <contact id="contact" title="Contacto">
+        <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
+            <name>WhatsApp</name>
+            <text>Adrián</text>
+        </network>
+        <network icon="fa-instagram" url="https://www.instagram.com/staff19torneos/">
+            <name>Instagram</name>
+            <text>@staff19torneos</text>
+        </network>
+        <network icon="fa-envelope-o" url="mailto:info@staff19torneos.com">
+            <name>e-Mail</name>
+            <text>info@staff19torneos.com</text>
+        </network>
+    </contact>
+    <partners id="partners" title="Patrocinadores">
+        <partner></partner>
+    </partners>
+    <footer>
+        <a>Staff19 Torneos. Todos los derechos reservados.</a>
+        <a1>Diseñado y Desarrollado por</a1>
+        <link url="https://diegofercri.com">@diego_fercri</link>
+    </footer>
+</index>

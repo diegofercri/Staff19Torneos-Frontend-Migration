@@ -1,3 +1,4 @@
 1. Para las imagenes de los poster el tamaño debe ser de 500px de ancho y 650px de alto.
-2. Para las imagenes del slider deben de ser mas grandes que su contenedor y en formato 1:1
+2. Para las imagenes del slider deben de ser mas grandes que su contenedor (valdría con 800px) y en formato 1:1
    para que no den problemas de visualizacion, principalmente en tamaños XXL.
+3. Para las imagenes de los patrocinadores el tamaño debe de ser de 300px de alto por 400px de ancho.
