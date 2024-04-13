@@ -86,7 +86,7 @@
             <name>WhatsApp</name>
             <text>Adrián</text>
         </network>
-        <network name="" icon="fa-instagram" url="https://www.instagram.com/staff19torneos/">
+        <network icon="fa-instagram" url="https://www.instagram.com/staff19torneos/">
             <name>Instagram</name>
             <text>@staff19torneos</text>
         </network>

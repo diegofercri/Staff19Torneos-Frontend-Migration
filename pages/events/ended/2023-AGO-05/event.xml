@@ -25,16 +25,16 @@
         <event>
             <name>Maratón IVEI-Clínica Vascular Marbella</name>
             <location>Cabañas de la Sagra, Toledo</location>
-            <date>17 / JUN / 23</date>
+            <date>05 / AGO / 23</date>
         </event>
     </start>
     <poster id="poster">
         <img url="images/poster/poster.webp"></img>
     </poster>
     <description id="description" title="Descripción">
-        <p>Nuestro torneo por excelencia, el primero de la temporada 2023, celebrado el 17 de Junio de 2023 en colaboración con IVEI-Clínica Vascular Marbella y LUKS!SHOP.</p>
+        <p>Nuestro torneo por excelencia, celebrado el 5 de Agosto de 2023 en colaboración con IVEI-Clínica Vascular Marbella y LUKS!SHOP.</p>
         <p>En este evento seguimos apostando por nuestro formato clásico, un maratón de fútbol sala para categorías Infantil, Cadete y Juvenil que consta de una fase de grupos y otra fase eliminatoria a partido directo.</p>
-        <p>En esta edición repartimos más de 300€ en premios, además, para esta temporada incluimos premios al equipo más votado por la comunidad, al mejor jugador y al mejor portero.</p>
+        <p>En esta edición repartimos más de 500€ en premios, además de entregar nuestros trofeos personalizados gracias a LUKS!SHOP.</p>
     </description>
     <information id="information" title="Información">
         <row>
@@ -55,40 +55,40 @@
         </row>
         <row>
             <title>Jugadores:</title>
-            <content>Total de 107 jugadores inscritos</content>
+            <content>Total de 91 jugadores inscritos</content>
         </row>
     </information>
     <results id="results" title="Resultados">
         <row>
             <award>1er Premio:</award>
-            <winner>Aston Birras</winner>
-            <reward>Trofeo + 200€</reward>
+            <winner>Yayo Vallecano</winner>
+            <reward>Trofeo + 300€ + Jamón</reward>
         </row>
         <row>
             <award>2do Premio:</award>
-            <winner>Celta de Vino</winner>
-            <reward>Trofeo + 100€</reward>
+            <winner>Villadeudas</winner>
+            <reward>Trofeo + 100€ + Queso</reward>
         </row>
         <row>
             <award>3er Premio:</award>
-            <winner>Manchester Chaparro</winner>
-            <reward>Trofeo + Inscripción Gratuita</reward>
+            <winner>Los Chavales</winner>
+            <reward>Trofeo + Inscripción Gratuita + Lomo</reward>
         </row>
         <row>
             <award>Jugador MVP:</award>
-            <winner>Carlo Viso</winner>
+            <winner>Kevyn Monteiro</winner>
             <reward>Trofeo</reward>
         </row>
         <row>
             <award>Portero MVP:</award>
-            <winner>Adrián Javier</winner>
+            <winner>Pablo Rodríguez</winner>
             <reward>Trofeo</reward>
         </row>
     </results>
     <images id="images" title="Fotografías"></images>
     <links id="links" title="Enlaces">
-        <link url="https://drive.google.com/drive/folders/1sqNCJ5U0k9Srs7wBeKObqE9nZSlxDEgI?usp=drive_link">Todas las fotografías (Google Drive)</link>
-        <link url="https://www.youtube.com/watch?v=wNqiyhJPstA&amp;list=PL0LXgNGf_6-FreqtWmRc84809bGzI7S6m">Emisiones en diferido y clips destacados (YouTube)</link>
+        <link url="https://drive.google.com/drive/folders/1SZ2e4V5ZNP6Pd5P68nubyT_7DZabkY6m?usp=drive_link">Todas las fotografías (Google Drive)</link>
+        <link url="https://www.youtube.com/watch?v=PpSW9pRrg6c&amp;list=PL0LXgNGf_6-GNUxkCPCFfz-UWdl59LDwd">Emisiones en diferido y clips destacados (YouTube)</link>
     </links>
     <contact id="contact" title="Contacto">
         <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
@@ -106,19 +106,24 @@
     </contact>
     <partners id="partners" title="Patrocinadores">
         <partner url="../../../../images/partners/IVEI-ClinicaVascularMarbella.webp">IVEI-Clinica Vascular Marbella</partner>
-        <partner url="../../../../images/partners/ElCafetin.webp">El Cafetin</partner>
-        <partner url="../../../../images/partners/TropicalBar.webp">Tropical Bar</partner>
-        <partner url="../../../../images/partners/CarniceriaYAlimentacionRodriguez.webp">Carniceria Y Alimentacion Rodriguez</partner>
-        <partner url="../../../../images/partners/Motor76.webp">Motor 76</partner>
-        <partner url="../../../../images/partners/TalleresLeon.webp">Talleres Leon</partner>
-        <partner url="../../../../images/partners/FerreteriaJavierDelCerro.webp">Ferreteria Javier Del Cerro</partner>
-        <partner url="../../../../images/partners/PeluqueriaMasculinaMosinBarber.webp">Peluqueria Masculina Mosin Barber</partner>
-        <partner url="../../../../images/partners/FrutasSerrano.webp">Frutas Serrano</partner>
+        <partner url="../../../../images/partners/TecnoMarket.webp">Tecno Market</partner>
+        <partner url="../../../../images/partners/CarnicasBermejo.webp">Carnicas Bermejo</partner>
+        <partner url="../../../../images/partners/Luks!Shop.webp">Luks!Shop</partner>
         <partner url="../../../../images/partners/BahiaVillaluenga.webp">Bahia Villaluenga</partner>
-        <partner url="../../../../images/partners/VillaMoleroMesonDeCabanas.webp">Villa Molero Meson De Cabanas</partner>
-        <partner url="../../../../images/partners/UnideCabanasDeLaSagra.webp">Unide Cabanas De La Sagra</partner>
-        <partner url="../../../../images/partners/BarSquem.webp">Bar Squem</partner>
-        <partner url="../../../../images/partners/MesonElMolino.webp">Meson El Molino</partner>
+        <partner url="../../../../images/partners/GrupoGarrido.webp">Grupo Garrido</partner>
+        <partner url="../../../../images/partners/BarLosAmigos.webp">Bar Los Amigos</partner>
+        <partner url="../../../../images/partners/BarDavid.webp">Bar David</partner>
+        <partner url="../../../../images/partners/CarnesYEmbutidosJesusRedondoRodriguez.webp">Carnes Y Embutidos Jesus Redondo Rodriguez</partner>
+        <partner url="../../../../images/partners/JFHumanesPerez.webp">J F Humanes Perez</partner>
+        <partner url="../../../../images/partners/BarDondeIsaac.webp">Bar Donde Isaac</partner>
+        <partner url="../../../../images/partners/PapeleriaMarivi.webp">Papeleria Marivi</partner>
+        <partner url="../../../../images/partners/BarPuntoDeEncuentro.webp">Bar Punto De Encuentro</partner>
+        <partner url="../../../../images/partners/AnkaraKebap.webp">Ankara Kebap</partner>
+        <partner url="../../../../images/partners/TalleresLeon.webp">Talleres Leon</partner>
+        <partner url="../../../../images/partners/FrutasSerrano.webp">Frutas Serrano</partner>
+        <partner url="../../../../images/partners/TalleresSobrino.webp">Talleres Sobrino</partner>
+        <partner url="../../../../images/partners/FerreteriaJavierDelCerro.webp">Ferreteria Javier Del Cerro</partner>
+        <partner url="../../../../images/partners/CarniceriaYAlimentacionRodriguez.webp">Carniceria Y Alimentacion Rodriguez</partner>
     </partners>
     <footer>
         <a>Staff19 Torneos. Todos los derechos reservados.</a>
