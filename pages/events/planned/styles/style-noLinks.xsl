@@ -143,70 +143,61 @@
                                 </dl>
                             </div>
                         </section>
-                        <section id="{index/results/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/awards/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/results/@title"/></h1>
+                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/awards/@title"/></h1>
                             </div>
                             <div>
                                 <dl class="row">
-                                    <xsl:for-each select="index/results/row">
+                                    <xsl:for-each select="index/awards/row">
                                         <xsl:choose>
                                             <xsl:when test="position() mod 2 = 0">
                                                 <dt class="col-sm-3 m-0 mb-4 fw-normal text-color-6"><xsl:value-of select="award"/></dt>
-                                                <dd class="col-sm-4 m-0 mb-4 text-color-6"><xsl:value-of select="winner"/></dd>
-                                                <dd class="col-sm-5 m-0 mb-4 text-color-6"><xsl:value-of select="reward"/></dd>
+                                                <dd class="col-sm-9 m-0 mb-4 text-color-6"><xsl:value-of select="winner"/></dd>
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <dt class="col-sm-3 m-0 mb-4 fw-normal"><xsl:value-of select="award"/></dt>
-                                                <dd class="col-sm-4 m-0 mb-4"><xsl:value-of select="winner"/></dd>
-                                                <dd class="col-sm-5 m-0 mb-4"><xsl:value-of select="reward"/></dd>
+                                                <dd class="col-sm-9 m-0 mb-4"><xsl:value-of select="winner"/></dd>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:for-each>
                                 </dl>
                             </div>
                         </section>
-                        <section id="{index/images/@id}" class="bg-color-2 bg-color-2-lg col d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/location/@id}" class="bg-color-2 bg-color-2-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/images/@title"/></h1>
+                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/location/@title"/></h1>
                             </div>
-                            <div class="d-flex h-100 align-items-center justify-content-center p-3">
-                                <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2100"
-                                     data-ride="carousel">
-                                    <ol class="carousel-indicators list-unstyled">
-                                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></li>
-                                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 1"></li>
-                                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 2"></li>
-                                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 3"></li>
-                                        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Slide 4"></li>
-                                    </ol>
-                                    <div class="carousel-inner rounded-2" role="listbox">
-                                        <div class="carousel-item active">
-                                            <img src="images/slider/0.webp" class="w-100 d-block" alt="Slide 0" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="images/slider/1.webp" class="w-100 d-block" alt="Slide 1" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="images/slider/2.webp" class="w-100 d-block" alt="Slide 2" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="images/slider/3.webp" class="w-100 d-block" alt="Slide 3" />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="images/slider/4.webp" class="w-100 d-block" alt="Slide 4" />
-                                        </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
-                                            data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
-                                            data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
+                            <div>
+                                <div class="title-3 text-color-1 d-flex gap-2">
+                                    <i id="map-marker" class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <h2 class="title-3 text-color-1"><xsl:value-of select="index/location/name"/></h2>
+                                </div>
+                                <div>
+                                    <p><xsl:value-of select="index/location/description"/></p>
+                                </div>
+                                <div class="d-flex flex-wrap mt-5 gap-2">
+                                    <xsl:for-each select="index/location/map-links/link">
+                                        <xsl:choose>
+                                            <xsl:when test="@type='no-icon'">
+                                                <a id="waze" class="btn d-flex justify-content-center align-items-center border-2 buttonStaff"
+                                                   href="{@url}" target="_blank" role="button">
+                                                    <div class="d-flex gap-3 p-2 fs-5">
+                                                        <img id="waze-img" src="{@icon}" alt="Waze img" style="width: 17px;" />
+                                                        <xsl:value-of select="."/>
+                                                    </div>
+                                                </a>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <a id="googleMaps" class="btn d-flex justify-content-center align-items-center border-2 buttonStaff" href="{@url}" target="_blank" role="button">
+                                                    <div class="d-flex align-items-center gap-3 p-2 fs-5">
+                                                        <i class="fa {@icon} map-iconStaff" aria-hidden="true"></i>
+                                                        <xsl:value-of select="."/>
+                                                    </div>
+                                                </a>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:for-each>
                                 </div>
                             </div>
                         </section>
@@ -267,8 +258,6 @@
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
                         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
                         crossorigin="anonymous"></script>
-                
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
                 
                 <!-- Custom JavaScript -->
                 <script src="{index/route}js/navbar.js"></script>

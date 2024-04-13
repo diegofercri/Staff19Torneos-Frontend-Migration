@@ -36,12 +36,19 @@
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-
+                
                 <!-- Favicon -->
-                <link rel="icon" href="images/favicon.png" type="image/png" />
+                <link rel="icon" type="image/svg+xml" href="{index/route}/assets/favicon.svg" />
 
                 <!-- Apple Touch Icon -->
-                <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+                <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
+
+                <!-- Safari Pinned Tab Icon -->
+                <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#252525" />
+
+                <!-- MS Tiles -->
+                <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
+                <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
             </head>
             
             <body class="bg-color-2">
