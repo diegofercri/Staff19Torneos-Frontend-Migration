@@ -38,7 +38,7 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
                 <!-- Favicon -->
-                <link rel="icon" href="http://www.staff19torneos.com/favicon.ico" type="image/x-icon" />
+                <link rel="icon" href="images/favicon.png" type="image/png" />
             </head>
             
             <body class="bg-color-2">
