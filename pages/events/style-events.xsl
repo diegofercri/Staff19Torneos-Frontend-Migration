@@ -63,7 +63,7 @@
                         </xsl:for-each>
                         <xsl:for-each select="index/nav/dropdown">
                             <li class="dropdownStaff nav-link">
-                                <a id="dropdownStaff-toggle{@id}" class="dropdownStaff-toggle d-flex nav-link">
+                                <a id="dropdownStaff-toggle{@id}" class="text-color-1 dropdownStaff-toggle d-flex nav-link">
                                     <div class="d-flex align-items-center">
                                         <i class="fa {@icon}" aria-hidden="true"></i>
                                         <xsl:value-of select="@name"/>
