@@ -161,29 +161,41 @@
                                 <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/images/@title"/></h1>
                             </div>
                             <div class="d-flex h-100 align-items-center justify-content-center p-3">
-                                <div id="carouselId" class="carousel slide" data-bs-ride="carousel"
-                                     data-bs-interval="2100" data-ride="carousel">
+                                <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2100"
+                                     data-ride="carousel">
                                     <ol class="carousel-indicators list-unstyled">
-                                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
-                                        <xsl:for-each select="index/images/img">
-                                            <li data-bs-target="#carouselId" data-bs-slide-to="{position()}" aria-label="Slide {position()+1}"></li>
-                                        </xsl:for-each>
+                                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></li>
+                                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 1"></li>
+                                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 2"></li>
+                                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 3"></li>
+                                        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Slide 4"></li>
                                     </ol>
                                     <div class="carousel-inner rounded-2" role="listbox">
                                         <div class="carousel-item active">
-                                            <img src="images/slider/0.webp" class="w-100 d-block" alt="Slide 1" />
+                                            <img src="images/slider/0.webp" class="w-100 d-block" alt="Slide 0" />
                                         </div>
-                                        <xsl:for-each select="index/images/img">
-                                            <img src="images/slider/{position()}.webp" class="w-100 d-block" alt="Slide {position()+1}" />
-                                        </xsl:for-each>
+                                        <div class="carousel-item">
+                                            <img src="images/slider/1.webp" class="w-100 d-block" alt="Slide 1" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/slider/2.webp" class="w-100 d-block" alt="Slide 2" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/slider/3.webp" class="w-100 d-block" alt="Slide 3" />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/slider/4.webp" class="w-100 d-block" alt="Slide 4" />
+                                        </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
+                                            data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
+                                        <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
+                                            data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
+                                        <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>

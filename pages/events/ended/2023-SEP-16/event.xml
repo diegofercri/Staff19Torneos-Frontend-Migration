@@ -2,9 +2,9 @@
 <!DOCTYPE index [
     <!ENTITY copy "entity-value">
 ]>
-<?xml-stylesheet href="../ended-event-style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../xmlStyles/style-noPartners.xsl" type="text/xsl"?>
 <index>
-    <title></title>
+    <title>Torneo Fut-7 en honor a la Virgen del Rosario</title>
     <route>../../../../</route>
     <logo url="../../../../assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
@@ -23,41 +23,63 @@
     </nav>
     <start id="start">
         <event>
-            <name></name>
-            <location></location>
-            <date></date>
+            <name>Torneo Fut-7 en honor a la Virgen del Rosario</name>
+            <location>Cabañas de la Sagra, Toledo</location>
+            <date>16 / SEP / 23</date>
         </event>
     </start>
     <poster id="poster">
         <img url="images/poster/poster.webp"></img>
     </poster>
     <description id="description" title="Descripción">
-        <p></p>
-        <p></p>
-        <p></p>
+        <p>Torneo realizado en colaboración con la Hermandad de la Virgen Rosario por las fiestas locales de Cabañas de la Sagra.</p>
+        <p>Este ha sido nuestro primer torneo en el formato 'Fútbol 7', teniendo una gran acogida en nuestra comunidad.</p>
+        <p>Repartimos premios con un valor cercano a los 400€, que se entregaron en una ceremonia en la plaza del pueblo, como viene siendo tradición en nuestra localidad.</p>
+        <p>Nos gustaría destacar y agradecer, la gran asistencia de público, equipos y jugadores.</p>
     </description>
     <information id="information" title="Información">
         <row>
-            <title></title>
-            <content></content>
+            <title>Deporte:</title>
+            <content>Fútbol 7</content>
+        </row>
+        <row>
+            <title>Categoría:</title>
+            <content>Absoluta</content>
+        </row>
+        <row>
+            <title>Formato:</title>
+            <content>Liguilla y Final</content>
+        </row>
+        <row>
+            <title>Equipos:</title>
+            <content>Total de 5 equipos participantes</content>
+        </row>
+        <row>
+            <title>Jugadores:</title>
+            <content>Total de 57 jugadores inscritos</content>
         </row>
     </information>
     <results id="results" title="Resultados">
         <row>
-            <award></award>
-            <winner></winner>
-            <reward></reward>
+            <award>Ganador:</award>
+            <winner>Babelmi</winner>
+            <reward>Trofeo + Jamón</reward>
+        </row>
+        <row>
+            <award>2do Premio:</award>
+            <winner>Jindama</winner>
+            <reward>Trofeo + Queso</reward>
+        </row>
+        <row>
+            <award>3er Premio:</award>
+            <winner>Fiera Team</winner>
+            <reward>Trofeo + Lomo</reward>
         </row>
     </results>
-    <images id="images" title="Imágenes">
-        <img>0</img>
-        <img>1</img>
-        <img>2</img>
-        <img>3</img>
-        <img>4</img>
-    </images>
+    <images id="images" title="Fotografías"></images>
     <links id="links" title="Enlaces">
-        <link url=""></link>
+        <link url="https://winner-9bee4.firebaseapp.com/?action=follow_tournament&amp;id=gVjB93uuLeZ60uh5vK2w">Todos los resultados (Winner App)</link>
+        <link url="https://drive.google.com/drive/folders/11HA3gEPlH9GLhgb0T6Wy0AKNKfryEg9Z?usp=sharing">Todas las fotografías (Google Drive)</link>
     </links>
     <contact id="contact" title="Contacto">
         <network icon="fa-whatsapp" url="https://chat.whatsapp.com/IiSA9BxcaiE763EBqxsvyQ">
@@ -73,9 +95,6 @@
             <text>info@staff19torneos.com</text>
         </network>
     </contact>
-    <partners id="partners" title="Resultados">
-        <partner></partner>
-    </partners>
     <footer>
         <a>Staff19 Torneos. Todos los derechos reservados.</a>
         <a1>Diseñado y Desarrollado por</a1>

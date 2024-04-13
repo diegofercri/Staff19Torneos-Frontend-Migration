@@ -200,21 +200,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="{index/links/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
-                            <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/links/@title"/></h1>
-                            </div>
-                            <div>
-                                <div class="list-group gap-2">
-                                    <xsl:for-each select="index/links/link">
-                                        <a href="{@url}" class="list-group-item border-2 rounded-2 buttonStaff-2" target="_blank">
-                                            <xsl:value-of select="."/>
-                                        </a>
-                                    </xsl:for-each>
-                                </div>
-                            </div>
-                        </section>
-                        <section id="{index/contact/@id}" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/contact/@id}" class="col-lg-12 col-xxl-12 bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h1>
                             </div>
