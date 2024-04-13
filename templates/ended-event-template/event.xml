@@ -38,31 +38,61 @@
     </description>
     <information id="information" title="Información">
         <row>
-            <title></title>
+            <title>Deporte:</title>
+            <content></content>
+        </row>
+        <row>
+            <title>Categoría:</title>
+            <content></content>
+        </row>
+        <row>
+            <title>Formato:</title>
+            <content></content>
+        </row>
+        <row>
+            <title>Equipos:</title>
+            <content></content>
+        </row>
+        <row>
+            <title>Jugadores:</title>
             <content></content>
         </row>
     </information>
     <results id="results" title="Resultados">
         <row>
-            <award></award>
+            <award>1er Premio:</award>
             <winner></winner>
-            <reward></reward>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>2do Premio:</award>
+            <winner></winner>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>3er Premio:</award>
+            <winner></winner>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Jugador MVP:</award>
+            <winner></winner>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Portero MVP:</award>
+            <winner></winner>
+            <reward>Trofeo</reward>
         </row>
     </results>
-    <images id="images" title="Fotografías">
-        <img>0</img>
-        <img>1</img>
-        <img>2</img>
-        <img>3</img>
-        <img>4</img>
-    </images>
+    <images id="images" title="Fotografías"></images>
     <links id="links" title="Enlaces">
         <link url=""></link>
     </links>
     <contact id="contact" title="Contacto">
-        <network icon="fa-whatsapp" url="https://chat.whatsapp.com/IiSA9BxcaiE763EBqxsvyQ">
+        <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
             <name>WhatsApp</name>
-            <text>Comunidad</text>
+            <text>Adrián</text>
         </network>
         <network name="" icon="fa-instagram" url="https://www.instagram.com/staff19torneos/">
             <name>Instagram</name>
@@ -73,7 +103,7 @@
             <text>info@staff19torneos.com</text>
         </network>
     </contact>
-    <partners id="partners" title="Resultados">
+    <partners id="partners" title="Patrocinadores">
         <partner></partner>
     </partners>
     <footer>

@@ -2,9 +2,9 @@
 <!DOCTYPE index [
     <!ENTITY copy "entity-value">
 ]>
-<?xml-stylesheet href="../xmlStyles/style-noLinks.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../xmlStyles/style.xsl" type="text/xsl"?>
 <index>
-    <title>Liga Express IVEI-Clinica Vascular Marbella</title>
+    <title>Maratón IVEI-Clínica Vascular Marbella</title>
     <route>../../../../</route>
     <logo url="../../../../assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
@@ -23,18 +23,18 @@
     </nav>
     <start id="start">
         <event>
-            <name>Liga Express IVEI-Clinica Vascular Marbella</name>
+            <name>Maratón IVEI-Clínica Vascular Marbella</name>
             <location>Cabañas de la Sagra, Toledo</location>
-            <date>JUN / 23</date>
+            <date>17 / JUN / 23</date>
         </event>
     </start>
     <poster id="poster">
         <img url="images/poster/poster.webp"></img>
     </poster>
     <description id="description" title="Descripción">
-        <p>Nuestro primer torneo con formato liga, celebrado el durante todo el mes de Junio de 2023 en colaboración con IVEI-Clínica Vascular Marbella y el Excmo. Ayuntamiento de Cabañas de la Sagra.</p>
-        <p>En este evento decidimos apostar por un nuevo formato, una liga express de fútbol sala para categorías para la categoría absoluta.</p>
-        <p>En esta liga repartimos cerca de 500€ en premios, además de entregar premios al mejor jugador y al mejor portero.</p>
+        <p>Nuestro torneo por excelencia, el primero de la temporada 2023, celebrado el 17 de Junio de 2023 en colaboración con IVEI-Clínica Vascular Marbella y LUKS!SHOP.</p>
+        <p>En este evento seguimos apostando por nuestro formato clásico, un maratón de fútbol sala para categorías Infantil, Cadete y Juvenil que consta de una fase de grupos y otra fase eliminatoria a partido directo.</p>
+        <p>En esta edición repartimos más de 300€ en premios, además, para esta temporada incluimos premios al equipo más votado por la comunidad, al mejor jugador y al mejor portero.</p>
     </description>
     <information id="information" title="Información">
         <row>
@@ -43,49 +43,53 @@
         </row>
         <row>
             <title>Categoría:</title>
-            <content>Absoluta</content>
+            <content>Infantil - Cadete - Juvenil</content>
         </row>
         <row>
             <title>Formato:</title>
-            <content>Liga</content>
+            <content>Fase de Grupos y Eliminatoria</content>
         </row>
         <row>
             <title>Equipos:</title>
-            <content>Total de 5 equipos participantes</content>
+            <content>Total de 12 equipos participantes</content>
         </row>
         <row>
             <title>Jugadores:</title>
-            <content>Total de 53 jugadores inscritos</content>
+            <content>Total de 107 jugadores inscritos</content>
         </row>
     </information>
     <results id="results" title="Resultados">
         <row>
-            <award>Ganador:</award>
-            <winner>Jindama</winner>
-            <reward>Trofeo + Jamón + Queso + Vino</reward>
+            <award>1er Premio:</award>
+            <winner>Aston Birras</winner>
+            <reward>Trofeo + 200€</reward>
         </row>
         <row>
             <award>2do Premio:</award>
-            <winner>Betoteam</winner>
-            <reward>Trofeo + Paletilla + Vino</reward>
+            <winner>Celta de Vino</winner>
+            <reward>Trofeo + 100€</reward>
         </row>
         <row>
             <award>3er Premio:</award>
-            <winner>José y 4 más</winner>
-            <reward>Trofeo + Queso + Vino</reward>
+            <winner>Manchester Chaparro</winner>
+            <reward>Trofeo + Inscripción Gratuita</reward>
         </row>
         <row>
             <award>Jugador MVP:</award>
-            <winner>Angelo</winner>
+            <winner>Carlo Viso</winner>
             <reward>Trofeo</reward>
         </row>
         <row>
             <award>Portero MVP:</award>
-            <winner>Alex Paniagua</winner>
+            <winner>Adrián Javier</winner>
             <reward>Trofeo</reward>
         </row>
     </results>
     <images id="images" title="Fotografías"></images>
+    <links id="links" title="Enlaces">
+        <link url="https://drive.google.com/drive/folders/1sqNCJ5U0k9Srs7wBeKObqE9nZSlxDEgI?usp=drive_link">Todas las fotografías (Google Drive)</link>
+        <link url="https://www.youtube.com/watch?v=wNqiyhJPstA&amp;list=PL0LXgNGf_6-FreqtWmRc84809bGzI7S6m">Emisiones en diferido y clips destacados (YouTube)</link>
+    </links>
     <contact id="contact" title="Contacto">
         <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
             <name>WhatsApp</name>
@@ -102,13 +106,19 @@
     </contact>
     <partners id="partners" title="Patrocinadores">
         <partner url="../../../../images/partners/IVEI-ClinicaVascularMarbella.webp">IVEI-Clinica Vascular Marbella</partner>
-        <partner url="../../../../images/partners/BarSquem.webp">Bar Squem</partner>
+        <partner url="../../../../images/partners/ElCafetin.webp">El Cafetin</partner>
+        <partner url="../../../../images/partners/TropicalBar.webp">Tropical Bar</partner>
+        <partner url="../../../../images/partners/CarniceriaYAlimentacionRodriguez.webp">Carniceria Y Alimentacion Rodriguez</partner>
         <partner url="../../../../images/partners/Motor76.webp">Motor 76</partner>
-        <partner url="../../../../images/partners/VillaMoleroMesonDeCabanas.webp">Villa Molero Mesón De Cabañas</partner>
-        <partner url="../../../../images/partners/ElCafetin.webp">El Cafetín</partner>
-        <partner url="../../../../images/partners/ExcmoAytmDeCabanasDeLaSagra.webp">Excmo. Aytm. De Cabañas De La Sagra</partner>
-        <partner url="../../../../images/partners/FerreteriaJavierDelCerro.webp">Ferretería Javier Del Cerro</partner>
-        <partner url="../../../../images/partners/BahiaVillaluenga.webp">Bahía Villaluenga</partner>
+        <partner url="../../../../images/partners/TalleresLeon.webp">Talleres Leon</partner>
+        <partner url="../../../../images/partners/FerreteriaJavierDelCerro.webp">Ferreteria Javier Del Cerro</partner>
+        <partner url="../../../../images/partners/PeluqueriaMasculinaMosinBarber.webp">Peluqueria Masculina Mosin Barber</partner>
+        <partner url="../../../../images/partners/FrutasSerrano.webp">Frutas Serrano</partner>
+        <partner url="../../../../images/partners/BahiaVillaluenga.webp">Bahia Villaluenga</partner>
+        <partner url="../../../../images/partners/VillaMoleroMesonDeCabanas.webp">Villa Molero Meson De Cabanas</partner>
+        <partner url="../../../../images/partners/UnideCabanasDeLaSagra.webp">Unide Cabanas De La Sagra</partner>
+        <partner url="../../../../images/partners/BarSquem.webp">Bar Squem</partner>
+        <partner url="../../../../images/partners/MesonElMolino.webp">Meson El Molino</partner>
     </partners>
     <footer>
         <a>Staff19 Torneos. Todos los derechos reservados.</a>
