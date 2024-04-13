@@ -38,8 +38,9 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
                 
                 <!-- Favicon -->
-                <link rel="icon" type="image/png" sizes="16x16" href="{index/route}/images/icons/favicon-16x16.png" />
-                <link rel="icon" type="image/png" sizes="32x32" href="{index/route}/images/icons/favicon-32x32.png" />
+                <link rel="icon" type="image/svg+xml" href="{index/route}/assets/images/favicon.svg"/>
+                <link rel="icon" type="image/png" href="{index/route}/assets/images/favicon.png"/>
+                
                 <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
                 <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
