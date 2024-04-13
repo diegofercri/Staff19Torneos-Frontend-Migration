@@ -37,32 +37,16 @@
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
                 
-                <!-- Apple Touch Icons -->
-                <link rel="apple-touch-icon" sizes="57x57" href="{index/route}images/icons/apple-icon-57x57.png" />
-                <link rel="apple-touch-icon" sizes="60x60" href="{index/route}images/icons/apple-icon-60x60.png" />
-                <link rel="apple-touch-icon" sizes="72x72" href="{index/route}images/icons/apple-icon-72x72.png" />
-                <link rel="apple-touch-icon" sizes="76x76" href="{index/route}images/icons/apple-icon-76x76.png" />
-                <link rel="apple-touch-icon" sizes="114x114" href="{index/route}images/icons/apple-icon-114x114.png" />
-                <link rel="apple-touch-icon" sizes="120x120" href="{index/route}images/icons/apple-icon-120x120.png" />
-                <link rel="apple-touch-icon" sizes="144x144" href="{index/route}images/icons/apple-icon-144x144.png" />
-                <link rel="apple-touch-icon" sizes="152x152" href="{index/route}images/icons/apple-icon-152x152.png" />
-                <link rel="apple-touch-icon" sizes="180x180" href="{index/route}images/icons/apple-icon-180x180.png" />
-
-                <!-- Android Touch Icon -->
-                <link rel="icon" type="image/png" sizes="192x192"  href="{index/route}images/icons/android-icon-192x192.png" />
-
-                <!-- Windows Touch Icons -->
-                <link rel="icon" type="image/png" sizes="32x32" href="{index/route}images/icons/favicon-32x32.png" />
-                <link rel="icon" type="image/png" sizes="96x96" href="{index/route}images/icons/favicon-96x96.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="{index/route}images/icons/favicon-16x16.png" />
-
-                <!-- Microsoft Touch Icons -->
+                <!-- Favicon -->
+                <link rel="apple-touch-icon" sizes="180x180" href="{index/route}/images/icons/apple-touch-icon.png" />
+                <link rel="icon" type="image/png" sizes="32x32" href="{index/route}/images/icons/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="{index/route}/images/icons/favicon-16x16.png" />
+                <link rel="manifest" href="{index/route}/images/icons/site.webmanifest" />
+                <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#151512" />
+                <link rel="shortcut icon" href="{index/route}/images/icons/favicon.ico" />
                 <meta name="msapplication-TileColor" content="#151515" />
-                <meta name="msapplication-TileImage" content="{index/route}images/icons/ms-icon-144x144.png" />
-
-                <!-- Color Theme -->
+                <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
                 <meta name="theme-color" content="#151515" />
-                
             </head>
             
             <body class="bg-color-2">
