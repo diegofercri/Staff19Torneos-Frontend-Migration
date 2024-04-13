@@ -13,8 +13,8 @@
         <item url="../../pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
         <dropdown name="Eventos" id="0" icon="fa-trophy">
             <item url="../../pages/events/planned/planned-events.xml">Planificados</item>
-            <item url="../../pages/events/planned/in-progress-events.xml">En Progreso</item>
-            <item url="../../pages/events/planned/ended-events.xml">Terminados</item>
+            <item url="../../pages/events/in-progress/in-progress-events.xml">En Progreso</item>
+            <item url="../../pages/events/ended/ended-events.xml">Terminados</item>
         </dropdown>
         <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
             <item url="../../pages/registrations/players.xml">Jugadores</item>
