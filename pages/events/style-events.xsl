@@ -53,7 +53,7 @@
                     <ul id="main-menu" class="main-menu d-flex flex-column list-unstyled m-0">
                         <xsl:for-each select="index/nav/item">
                             <li class="d-flex">
-                                <a href="{@url}" class="color-ed nav-link toggle-menu__close">
+                                <a href="{@url}" class="text-color-1 nav-link toggle-menu__close">
                                     <div class="d-flex align-items-center">
                                         <i class="fa {@icon}" aria-hidden="true"></i>
                                         <xsl:value-of select="."/>
@@ -74,7 +74,7 @@
                                     <ul class="list-unstyled">
                                         <xsl:for-each select="item">
                                             <li class="d-flex text-end">
-                                                <a href="{@url}" class="color-ed dropdownStaff__link nav-link"><xsl:value-of select="."/></a>
+                                                <a href="{@url}" class="text-color-1 dropdownStaff__link nav-link"><xsl:value-of select="."/></a>
                                             </li>
                                         </xsl:for-each>
                                     </ul>
