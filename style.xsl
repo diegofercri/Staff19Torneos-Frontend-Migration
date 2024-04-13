@@ -36,12 +36,33 @@
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+                
+                <!-- Apple Touch Icons -->
+                <link rel="apple-touch-icon" sizes="57x57" href="{index/route}images/icons/apple-icon-57x57.png" />
+                <link rel="apple-touch-icon" sizes="60x60" href="{index/route}images/icons/apple-icon-60x60.png" />
+                <link rel="apple-touch-icon" sizes="72x72" href="{index/route}images/icons/apple-icon-72x72.png" />
+                <link rel="apple-touch-icon" sizes="76x76" href="{index/route}images/icons/apple-icon-76x76.png" />
+                <link rel="apple-touch-icon" sizes="114x114" href="{index/route}images/icons/apple-icon-114x114.png" />
+                <link rel="apple-touch-icon" sizes="120x120" href="{index/route}images/icons/apple-icon-120x120.png" />
+                <link rel="apple-touch-icon" sizes="144x144" href="{index/route}images/icons/apple-icon-144x144.png" />
+                <link rel="apple-touch-icon" sizes="152x152" href="{index/route}images/icons/apple-icon-152x152.png" />
+                <link rel="apple-touch-icon" sizes="180x180" href="{index/route}images/icons/apple-icon-180x180.png" />
 
-                <!-- Favicon -->
-                <link rel="icon" href="images/favicon.png" type="image/png" />
+                <!-- Android Touch Icon -->
+                <link rel="icon" type="image/png" sizes="192x192"  href="{index/route}images/icons/android-icon-192x192.png" />
 
-                <!-- Apple Touch Icon -->
-                <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+                <!-- Windows Touch Icons -->
+                <link rel="icon" type="image/png" sizes="32x32" href="{index/route}images/icons/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="96x96" href="{index/route}images/icons/favicon-96x96.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="{index/route}images/icons/favicon-16x16.png" />
+
+                <!-- Microsoft Touch Icons -->
+                <meta name="msapplication-TileColor" content="#151515" />
+                <meta name="msapplication-TileImage" content="{index/route}images/icons/ms-icon-144x144.png" />
+
+                <!-- Color Theme -->
+                <meta name="theme-color" content="#151515" />
+                
             </head>
             
             <body class="bg-color-2">
@@ -75,11 +96,11 @@
                                 </a>
                                 <div id="dropdownStaff-list{@id}" class="dropdownStaff-list">
                                     <ul class="list-unstyled">
-                                    <xsl:for-each select="item">
-                                        <li class="d-flex text-end">
-                                            <a href="{@url}" class="text-color-1 dropdownStaff__link nav-link"><xsl:value-of select="."/></a>
-                                        </li>
-                                    </xsl:for-each>
+                                        <xsl:for-each select="item">
+                                            <li class="d-flex text-end">
+                                                <a href="{@url}" class="text-color-1 dropdownStaff__link nav-link"><xsl:value-of select="."/></a>
+                                            </li>
+                                        </xsl:for-each>
                                     </ul>
                                 </div>
                             </li>
