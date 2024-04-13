@@ -39,6 +39,9 @@
                 
                 <!-- Favicon -->
                 <link rel="icon" href="images/favicon.png" type="image/png" />
+
+                <!-- Apple Touch Icon -->
+                <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
             </head>
             
             <body class="bg-color-2">

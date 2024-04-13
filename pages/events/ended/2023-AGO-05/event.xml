@@ -2,7 +2,7 @@
 <!DOCTYPE index [
     <!ENTITY copy "entity-value">
 ]>
-<?xml-stylesheet href="../xmlStyles/style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../styles/style.xsl" type="text/xsl"?>
 <index>
     <title>Maratón IVEI-Clínica Vascular Marbella</title>
     <route>../../../../</route>

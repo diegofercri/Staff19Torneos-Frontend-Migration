@@ -2,7 +2,7 @@
 <!DOCTYPE index [
     <!ENTITY copy "entity-value">
 ]>
-<?xml-stylesheet href="../xmlStyles/style-noLinks.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../styles/style-noLinks.xsl" type="text/xsl"?>
 <index>
     <title>Liga Express IVEI-Clinica Vascular Marbella</title>
     <route>../../../../</route>
