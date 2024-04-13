@@ -38,15 +38,11 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
                 
                 <!-- Favicon -->
-                <link rel="apple-touch-icon" sizes="180x180" href="{index/route}/images/icons/apple-touch-icon.png" />
-                <link rel="icon" type="image/png" sizes="32x32" href="{index/route}/images/icons/favicon-32x32.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="{index/route}/images/icons/favicon-16x16.png" />
-                <link rel="manifest" href="{index/route}/images/icons/site.webmanifest" />
-                <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#151512" />
-                <link rel="shortcut icon" href="{index/route}/images/icons/favicon.ico" />
-                <meta name="msapplication-TileColor" content="#151515" />
-                <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
-                <meta name="theme-color" content="#151515" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+                <link rel="manifest" href="/manifest.webmanifest" />
+                <meta name="msapplication-config" content="browserconfig.xml" />
             </head>
             
             <body class="bg-color-2">
