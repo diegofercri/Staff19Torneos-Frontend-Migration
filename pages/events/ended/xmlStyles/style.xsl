@@ -98,7 +98,7 @@
                         <section id="{index/poster/@id}" class="bg-color-2 col d-flex flex-column px-4 px-md-5 py-5">
                             <div class="d-flex flex-column h-100 align-items-center justify-content-center">
                                 <div class="w-75 h-75 d-flex align-items-center justify-content-center">
-                                    <img src="{img/@url}" alt="Cartel" class="w-auto h-100 rounded-2" />
+                                    <img src="{index/poster/img/@url}" alt="Cartel" class="w-auto h-100 rounded-2" />
                                 </div>
                             </div>
                         </section>
@@ -118,9 +118,17 @@
                             </div>
                             <div>
                                 <dl class="row">
-                                    <xsl:for-each select="row">
-                                        <dt class="col-sm-3 m-0 mb-3 fw-normal"><xsl:value-of select="title"/></dt>
-                                        <dd class="col-sm-9 m-0 mb-3"><xsl:value-of select="content"/></dd>
+                                    <xsl:for-each select="index/information/row">
+                                        <xsl:choose>
+                                            <xsl:when test="position() mod 2 = 0">
+                                                <dt class="col-sm-3 m-0 mb-4 fw-normal text-color-6"><xsl:value-of select="title"/></dt>
+                                                <dd class="col-sm-9 m-0 mb-4 text-color-6"><xsl:value-of select="content"/></dd>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <dt class="col-sm-3 m-0 mb-4 fw-normal"><xsl:value-of select="title"/></dt>
+                                                <dd class="col-sm-9 m-0 mb-4"><xsl:value-of select="content"/></dd>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </xsl:for-each>
                                 </dl>
                             </div>
@@ -131,10 +139,19 @@
                             </div>
                             <div>
                                 <dl class="row">
-                                    <xsl:for-each select="row">
-                                        <dt class="col-sm-3 m-0 mb-3 fw-normal"><xsl:value-of select="award"/></dt>
-                                        <dd class="col-sm-9 m-0 mb-3"><xsl:value-of select="winner"/></dd>
-                                        <dd class="col-sm-5 m-0 mb-3"><xsl:value-of select="reward"/></dd>
+                                    <xsl:for-each select="index/results/row">
+                                        <xsl:choose>
+                                            <xsl:when test="position() mod 2 = 0">
+                                                <dt class="col-sm-3 m-0 mb-4 fw-normal text-color-6"><xsl:value-of select="award"/></dt>
+                                                <dd class="col-sm-4 m-0 mb-4 text-color-6"><xsl:value-of select="winner"/></dd>
+                                                <dd class="col-sm-5 m-0 mb-4 text-color-6"><xsl:value-of select="reward"/></dd>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <dt class="col-sm-3 m-0 mb-4 fw-normal"><xsl:value-of select="award"/></dt>
+                                                <dd class="col-sm-4 m-0 mb-4"><xsl:value-of select="winner"/></dd>
+                                                <dd class="col-sm-5 m-0 mb-4"><xsl:value-of select="reward"/></dd>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </xsl:for-each>
                                 </dl>
                             </div>
