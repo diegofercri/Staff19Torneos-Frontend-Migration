@@ -15,51 +15,10 @@
     <xsl:output method="html" encoding="utf-8"
                 doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
+    
     <xsl:template match="/">
         
         <html lang="es">
-            
-            <head>
-                <!-- Open Graph -->
-                <meta property="og:title" content="{index/meta-title}" />
-                <meta property="og:description" content="{index/meta-description}" />
-                <meta property="og:image" content="https://staff19torneos.com/images/logo-bg.png" />
-                <meta property="og:url" content="https://staff19torneos.com" />
-                <meta property="og:type" content="website" />
-                <title><xsl:value-of select="index/title"/></title>
-                <!-- Required meta tags -->
-                <meta charset="utf-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                
-                <!-- Bootstrap CSS v5.2.1 -->
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-                      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-                
-                <!-- Custom CSS -->
-                <link rel="stylesheet" href="{index/route}css/style.css" />
-                <link rel="stylesheet" href="{index/route}css/style-generals.css" />
-                <link rel="stylesheet" href="{index/route}css/navbar.css" />
-                
-                <!-- Font Awesome -->
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-                
-                <!-- Favicon -->
-                <link rel="icon" type="image/svg+xml" href="{index/route}/assets/favicon.svg" />
-                
-                <!-- Apple Touch Icon -->
-                <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
-                
-                <!-- Safari Pinned Tab Icon -->
-                <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#252525" />
-                
-                <!-- MS Tiles -->
-                <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
-                <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
-                
-                <!-- Canonical URL -->
-                <link rel="canonical" href="https://staff19torneos.com" />
-            </head>
-            
             <body class="bg-color-2">
                 <nav id="navbarStaff" class="navbarStaff">
                     <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
@@ -254,4 +213,48 @@
         </html>
         
     </xsl:template>
+    
+    <xsl:template match="/html/head">
+        <head>
+            <xsl:copy-of select="node()"/>
+            <meta property="og:title" content="{index/meta-title}"/>
+            <meta property="og:description" content="{index/meta-description}"/>
+            <meta property="og:image" content="https://staff19torneos.com/images/logo-bg.png"/>
+            <meta property="og:url" content="https://staff19torneos.com" />
+            <meta property="og:type" content="website" />
+            <title><xsl:value-of select="index/title"/></title>
+            <!-- Required meta tags -->
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+            
+            <!-- Bootstrap CSS v5.2.1 -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+            
+            <!-- Custom CSS -->
+            <link rel="stylesheet" href="{index/route}css/style.css" />
+            <link rel="stylesheet" href="{index/route}css/style-generals.css" />
+            <link rel="stylesheet" href="{index/route}css/navbar.css" />
+            
+            <!-- Font Awesome -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+            
+            <!-- Favicon -->
+            <link rel="icon" type="image/svg+xml" href="{index/route}/assets/favicon.svg" />
+            
+            <!-- Apple Touch Icon -->
+            <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
+            
+            <!-- Safari Pinned Tab Icon -->
+            <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#252525" />
+            
+            <!-- MS Tiles -->
+            <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
+            <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
+            
+            <!-- Canonical URL -->
+            <link rel="canonical" href="https://staff19torneos.com" />
+        </head>
+    </xsl:template>
+    
 </xsl:stylesheet>
