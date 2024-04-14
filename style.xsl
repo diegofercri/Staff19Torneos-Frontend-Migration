@@ -20,6 +20,12 @@
         <html lang="es">
             
             <head>
+                <!-- Open Graph -->
+                <meta property="og:title" content="{index/meta-title}" />
+                <meta property="og:description" content="{index/meta-description}" />
+                <meta property="og:image" content="https://staff19torneos.com/images/logo-bg.png" />
+                <meta property="og:url" content="https://staff19torneos.com" />
+                <meta property="og:type" content="website" />
                 <title><xsl:value-of select="index/title"/></title>
                 <!-- Required meta tags -->
                 <meta charset="utf-8" />
@@ -52,13 +58,6 @@
                 
                 <!-- Canonical URL -->
                 <link rel="canonical" href="https://staff19torneos.com" />
-                
-                <!-- Open Graph -->
-                <meta property="og:title" content="{index/meta-title}" />
-                <meta property="og:description" content="{index/meta-description}" />
-                <meta property="og:image" content="https://staff19torneos.com/images/logo-bg.png" />
-                <meta property="og:url" content="https://staff19torneos.com" />
-                <meta property="og:type" content="website" />
             </head>
             
             <body class="bg-color-2">
