@@ -237,8 +237,6 @@
                 <script src="{index/route}js/navbar.js"></script>
                 
                 <script src="{index/route}js/year.js"></script>
-
-                 <script src="{index/route}js/height.js"></script>
                 
             </body>
             
