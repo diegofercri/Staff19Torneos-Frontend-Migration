@@ -103,7 +103,7 @@
                                     <h1 class="title-1 text-center mt-4"><xsl:value-of select="index/start/title"/></h1>
                                     <h2 class="title-2 text-center mt-3"><xsl:value-of select="index/start/subtitle"/></h2>
                                 </div>
-                                <div class="d-flex justify-content-evenly w-100">
+                                <div class="d-flex gap-2 gap-md-5 justify-content-center w-100">
                                     <xsl:for-each select="index/start/rrss/network">
                                         <a href="{@url}" target="_blank" class="text-decoration-none text-color-1">
                                             <div class="rrss-item d-flex align-items-center justify-content-center">
