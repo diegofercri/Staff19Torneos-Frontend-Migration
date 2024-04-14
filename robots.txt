@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /documentation/
+Disallow: /documents/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+Disallow: /templates/
+Disallow: /css/
