@@ -5,6 +5,8 @@
 <?xml-stylesheet href="style.xsl" type="text/xsl"?>
 <index>
     <title>Inicio - Staff 19 Torneos</title>
+    <meta-title>Staff 19 Torneos</meta-title>
+    <meta-description>Inicio</meta-description>
     <route>./</route>
     <logo url="./assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>

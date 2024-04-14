@@ -54,8 +54,8 @@
                 <link rel="canonical" href="https://staff19torneos.com" />
                 
                 <!-- Open Graph -->
-                <meta property="og:title" content="{index/title}" />
-                <meta property="og:description" content="Descripción de tu página" />
+                <meta property="og:title" content="{index/meta-title}" />
+                <meta property="og:description" content="{index/meta-description}" />
                 <meta property="og:image" content="https://staff19torneos.com/images/logo-bg.png" />
                 <meta property="og:url" content="https://staff19torneos.com" />
                 <meta property="og:type" content="website" />
