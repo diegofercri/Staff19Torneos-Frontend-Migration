@@ -39,13 +39,13 @@
                 
                 <!-- Favicon -->
                 <link rel="icon" type="image/svg+xml" href="{index/route}/assets/favicon.svg" />
-
+                
                 <!-- Apple Touch Icon -->
                 <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
-
+                
                 <!-- Safari Pinned Tab Icon -->
                 <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#252525" />
-
+                
                 <!-- MS Tiles -->
                 <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
@@ -105,10 +105,10 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="{index/poster/@id}" class="bg-color-2 col d-flex flex-column px-4 px-md-5 py-5">
-                            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
-                                <div class="w-75 h-75 d-flex align-items-center justify-content-center">
-                                    <img src="{index/poster/img/@url}" alt="Cartel" class="w-auto h-100 rounded-2" />
+                        <section id="{index/poster/@id}" class="bg-color-2 col d-flex px-4 px-md-5 py-5">
+                            <div>
+                                <div>
+                                    <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3" />
                                 </div>
                             </div>
                         </section>
@@ -288,7 +288,7 @@
                 <script src="{index/route}js/navbar.js"></script>
                 
                 <script src="{index/route}js/year.js"></script>
-
+                
                 <script src="{index/route}js/height.js"></script>
                 
             </body>

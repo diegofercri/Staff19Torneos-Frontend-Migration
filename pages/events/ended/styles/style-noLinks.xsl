@@ -105,10 +105,10 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="{index/poster/@id}" class="bg-color-2 col d-flex flex-column px-4 px-md-5 py-5">
-                            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
-                                <div class="w-75 h-75 d-flex align-items-center justify-content-center">
-                                    <img src="{index/poster/img/@url}" alt="Cartel" class="w-auto h-100 rounded-2" />
+                        <section id="{index/poster/@id}" class="bg-color-2 col d-flex px-4 px-md-5 py-5">
+                            <div>
+                                <div>
+                                    <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3" />
                                 </div>
                             </div>
                         </section>
