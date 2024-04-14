@@ -249,16 +249,5 @@
         </html>
         
     </xsl:template>
-    
-    <xsl:template match="/html/head">
-        <head>
-            <xsl:copy-of select="node()"/>
-            <meta property="og:title" content="{index/meta-title}"/>
-            <meta property="og:description" content="{index/meta-description}"/>
-            <meta property="og:image" content="https://staff19torneos.com/images/logo-bg.png"/>
-            <meta property="og:url" content="https://staff19torneos.com" />
-            <meta property="og:type" content="website" />
-        </head>
-    </xsl:template>
 
 </xsl:stylesheet>
