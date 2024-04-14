@@ -243,8 +243,6 @@
                 <script src="{index/route}js/year.js"></script>
 
                 <script src="{index/route}js/height.js"></script>
-
-                <script src="{index/route}js/opengraph.js"></script>
                 
             </body>
             
