@@ -21,14 +21,13 @@
         <html lang="es">
             
             <head>
-                <title><xsl:value-of select="index/title"/></title>
                 <!-- Required meta tags -->
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 
                 <!-- HTML Meta Tags -->
-                <title></title>
-                <meta name="description" content="" />
+                <title><xsl:value-of select="index/title"/></title>
+                <meta name="description" content="Inicio" />
                 
                 <!-- Open Graph Meta Tags -->
                 <meta property="og:url" content="https://staff19torneos.com" />
