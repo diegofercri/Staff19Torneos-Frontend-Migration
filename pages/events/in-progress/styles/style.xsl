@@ -49,6 +49,9 @@
                 <!-- MS Tiles -->
                 <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
+
+                <!-- Canonical URL -->
+                <link rel="canonical" href="https://staff19torneos.com/pages/events/in-progress/{index/@folder}/event.xml" />
             </head>
             
             <body class="bg-color-2">

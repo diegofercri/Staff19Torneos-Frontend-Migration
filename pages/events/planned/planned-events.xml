@@ -3,7 +3,7 @@
     <!ENTITY copy "entity-value">
 ]>
 <?xml-stylesheet href="../style-pages.xsl" type="text/xsl"?>
-<index>
+<index canonical="planned-events" folder="planned">
     <title>Eventos Planificados - Staff 19 Torneos</title>
     <route>../../../</route>
     <logo url="../../../assets/logo.svg">Staff 19 torneos logo</logo>

@@ -3,7 +3,7 @@
     <!ENTITY copy "entity-value">
 ]>
 <?xml-stylesheet href="../styles/style.xsl" type="text/xsl"?>
-<index>
+<index folder="2023-AGO-05">
     <title>Maratón IVEI-Clínica Vascular Marbella</title>
     <route>../../../../</route>
     <logo url="../../../../assets/logo.svg">Staff 19 torneos logo</logo>

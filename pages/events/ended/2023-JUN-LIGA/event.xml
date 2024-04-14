@@ -3,7 +3,7 @@
     <!ENTITY copy "entity-value">
 ]>
 <?xml-stylesheet href="../styles/style-noLinks.xsl" type="text/xsl"?>
-<index>
+<index folder="2023-JUN-LIGA">
     <title>Liga Express IVEI-Clinica Vascular Marbella</title>
     <route>../../../../</route>
     <logo url="../../../../assets/logo.svg">Staff 19 torneos logo</logo>
