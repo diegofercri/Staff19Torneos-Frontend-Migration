@@ -19,6 +19,9 @@
     <xsl:template match="/">
         
         <html lang="es">
+            <head>
+            </head>
+            
             <body class="bg-color-2">
                 <nav id="navbarStaff" class="navbarStaff">
                     <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
