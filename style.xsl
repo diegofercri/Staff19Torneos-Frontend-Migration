@@ -26,6 +26,27 @@
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 
+                <!-- HTML Meta Tags -->
+                <title></title>
+                <meta name="description" content="" />
+                
+                <!-- Open Graph Meta Tags -->
+                <meta property="og:url" content="https://staff19torneos.com" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Staff 19 Torneos" />
+                <meta property="og:description" content="Inicio" />
+                <meta property="og:image" content="https://staff19torneos.com/logo-bg.png" />
+                
+                <!-- Twitter Meta Tags -->
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta property="twitter:domain" content="staff19torneos.com" />
+                <meta property="twitter:url" content="https://staff19torneos.com" />
+                <meta name="twitter:title" content="Staff 19 Torneos" />
+                <meta name="twitter:description" content="Inicio" />
+                <meta name="twitter:image" content="https://staff19torneos.com/logo-bg.png" />
+                
+                <!-- Meta Tags Generated via https://opengraph.dev -->
+                
                 <!-- Bootstrap CSS v5.2.1 -->
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
                       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -249,5 +270,5 @@
         </html>
         
     </xsl:template>
-
+    
 </xsl:stylesheet>
