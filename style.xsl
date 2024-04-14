@@ -116,7 +116,7 @@
                         </section>
                         <section id="{index/events/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/events/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/events/@title"/></h3>
                             </div>
                             <xsl:choose>
                                 <xsl:when test="index/events/no-event/@boolean='true'">
@@ -154,7 +154,7 @@
                         </section>
                         <section id="{index/aboutus/@id}" class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/aboutus/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/aboutus/@title"/></h3>
                             </div>
                             <div>
                                 <xsl:for-each select="index/aboutus/p">
@@ -164,7 +164,7 @@
                         </section>
                         <section id="{index/sports/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/sports/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/sports/@title"/></h3>
                             </div>
                             <div>
                                 <div class="row d-flex align-items-center justify-content-center">
@@ -183,7 +183,7 @@
                                     </div>
                                     <div class="col-12 col-sm-5 mt-4">
                                         <div class="p-4 bg-color-5 rounded-2 d-flex justify-content-center">
-                                            <h3 class="card-title title-3 text-center">Otros Deportes</h3>
+                                            <h4 class="card-title title-3 text-center">Otros Deportes</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@
                         </section>
                         <section id="{index/contact/@id}" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h3>
                             </div>
                             <div class="d-flex h-100 align-items-end">
                                 <ul class="list-unstyled">

@@ -114,7 +114,7 @@
                         </section>
                         <section id="{index/description/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/description/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/description/@title"/></h3>
                             </div>
                             <div>
                                 <xsl:for-each select="index/description/p">
@@ -124,7 +124,7 @@
                         </section>
                         <section id="{index/information/@id}" class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/information/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/information/@title"/></h3>
                             </div>
                             <div>
                                 <dl class="row">
@@ -145,7 +145,7 @@
                         </section>
                         <section id="{index/results/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/results/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/results/@title"/></h3>
                             </div>
                             <div>
                                 <dl class="row">
@@ -168,7 +168,7 @@
                         </section>
                         <section id="{index/images/@id}" class="bg-color-2 bg-color-2-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/images/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/images/@title"/></h3>
                             </div>
                             <div class="d-flex h-100 align-items-center justify-content-center p-3">
                                 <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2100"
@@ -212,7 +212,7 @@
                         </section>
                         <section id="{index/links/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/links/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/links/@title"/></h3>
                             </div>
                             <div>
                                 <div class="list-group gap-2">
@@ -226,7 +226,7 @@
                         </section>
                         <section id="{index/contact/@id}" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h3>
                             </div>
                             <div class="d-flex h-100 align-items-end">
                                 <ul class="list-unstyled">

@@ -39,13 +39,13 @@
                 
                 <!-- Favicon -->
                 <link rel="icon" type="image/svg+xml" href="{index/route}/assets/favicon.svg" />
-
+                
                 <!-- Apple Touch Icon -->
                 <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
-
+                
                 <!-- Safari Pinned Tab Icon -->
                 <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#252525" />
-
+                
                 <!-- MS Tiles -->
                 <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
@@ -114,7 +114,7 @@
                         </section>
                         <section id="{index/description/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/description/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/description/@title"/></h3>
                             </div>
                             <div>
                                 <xsl:for-each select="index/description/p">
@@ -124,7 +124,7 @@
                         </section>
                         <section id="{index/information/@id}" class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/information/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/information/@title"/></h3>
                             </div>
                             <div>
                                 <dl class="row">
@@ -145,7 +145,7 @@
                         </section>
                         <section id="{index/awards/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/awards/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/awards/@title"/></h3>
                             </div>
                             <div>
                                 <dl class="row">
@@ -166,7 +166,7 @@
                         </section>
                         <section id="{index/location/@id}" class="bg-color-2 bg-color-2-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/location/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/location/@title"/></h3>
                             </div>
                             <div>
                                 <div class="title-3 text-color-1 d-flex gap-2">
@@ -203,7 +203,7 @@
                         </section>
                         <section id="{index/contact/@id}" class="col-lg-12 col-xxl-12 bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h3>
                             </div>
                             <div class="d-flex h-100 align-items-end">
                                 <ul class="list-unstyled">
@@ -224,7 +224,7 @@
                         </section>
                         <section id="{index/partners/@id}" class="col-lg-12 col-xxl-12 bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/partners/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/partners/@title"/></h3>
                             </div>
                             <div class="d-flex h-100 justify-content-center align-items-center">
                                 <div class="row g-3 d-flex justify-content-center align-items-center">
@@ -263,7 +263,7 @@
                 <script src="{index/route}js/navbar.js"></script>
                 
                 <script src="{index/route}js/year.js"></script>
-
+                
                 <script src="{index/route}js/height.js"></script>
                 
             </body>
