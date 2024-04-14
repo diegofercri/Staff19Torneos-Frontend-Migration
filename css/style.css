@@ -1,11 +1,10 @@
 section {
-  min-height: 100vh;
-  max-height: fit-content;
+  height: fit-content;
 }
 
 @media screen and (min-width: 769px) {
   section {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
@@ -13,11 +12,17 @@ section {
   height: calc(100vh * 0.25);
 }
 
-.cartel {
-  max-height: calc(100vh * 0.7);
-  width: 100%;
-  max-width: 500px;
-  border-radius: 10px;
+#poster > div {
+  min-height: 100vh;
+}
+
+#poster > div > div{
+  min-width: 100%;
+  height: auto;
+}
+
+#poster > div > div > img{
+  max-width: 100%;
 }
 
 .rrss-item {

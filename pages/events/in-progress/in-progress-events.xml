@@ -2,8 +2,8 @@
 <!DOCTYPE index [
     <!ENTITY copy "entity-value">
 ]>
-<?xml-stylesheet href="../style-events.xsl" type="text/xsl"?>
-<index>
+<?xml-stylesheet href="../style-pages.xsl" type="text/xsl"?>
+<index canonical="in-progress-events" folder="in-progress">
     <title>Eventos En Progreso - Staff 19 Torneos</title>
     <route>../../../</route>
     <logo url="../../../assets/logo.svg">Staff 19 torneos logo</logo>

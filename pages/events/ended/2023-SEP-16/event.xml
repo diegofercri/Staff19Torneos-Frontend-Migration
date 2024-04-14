@@ -3,7 +3,7 @@
     <!ENTITY copy "entity-value">
 ]>
 <?xml-stylesheet href="../styles/style-noPartners.xsl" type="text/xsl"?>
-<index>
+<index folder="2023-SEP-16">
     <title>Torneo Fut-7 en honor a la Virgen del Rosario</title>
     <route>../../../../</route>
     <logo url="../../../../assets/logo.svg">Staff 19 torneos logo</logo>

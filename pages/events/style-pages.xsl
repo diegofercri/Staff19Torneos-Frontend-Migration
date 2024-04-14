@@ -49,6 +49,9 @@
                 <!-- MS Tiles -->
                 <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
+
+                <!-- Canonical URL -->
+                <link rel="canonical" href="https://staff19torneos.com/pages/events/{index/@folder}/{index/@canonical}.xml" />
             </head>
             
             <body class="bg-color-2">
@@ -107,7 +110,7 @@
                         </section>
                         <section id="{index/now/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 id="year" class="title-1 text-color-1 mb-4"></h1>
+                                <h3 id="year" class="title-1 text-color-1 mb-4"></h3>
                             </div>
                             <xsl:choose>
                                 <xsl:when test="index/now/no-event/@boolean='true'">
@@ -145,7 +148,7 @@
                         </section>
                         <section id="{index/contact/@id}" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h1 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h1>
+                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h3>
                             </div>
                             <div class="d-flex h-100 align-items-end">
                                 <ul class="list-unstyled">
@@ -191,6 +194,8 @@
                 <script src="{index/route}js/navbar.js"></script>
                 
                 <script src="{index/route}js/year.js"></script>
+
+                <script src="{index/route}js/height.js"></script>
                 
             </body>
             
