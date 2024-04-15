@@ -126,10 +126,10 @@
                             </div>
                             <xsl:choose>
                                 <xsl:when test="index/events/no-event/@boolean='true'">
-                                    <div><p class="text-color-6"><xsl:value-of select="index/events/no-event/text"/></p></div>
+                                    <div><p class="text-color-6 mb-md-0 mb-5"><xsl:value-of select="index/events/no-event/text"/></p></div>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <div class="list-group rounded-0 gap-3 w-100">
+                                    <div class="list-group rounded-0 gap-3 w-100 mb-md-0 mb-5">
                                         <xsl:for-each select="index/events/event">
                                             <a href="{@url}" class="list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-5 p-3" aria-current="true">
                                                 <div class="d-flex w-100 align-items-start justify-content-between gap-3">
@@ -162,7 +162,7 @@
                             <div>
                                 <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/aboutus/@title"/></h3>
                             </div>
-                            <div>
+                            <div class="mb-md-0 mb-5">
                                 <xsl:for-each select="index/aboutus/p">
                                     <p><xsl:value-of select="."/></p>
                                 </xsl:for-each>
@@ -172,7 +172,7 @@
                             <div>
                                 <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/sports/@title"/></h3>
                             </div>
-                            <div>
+                            <div class="mb-md-0 mb-5">
                                 <div class="row d-flex align-items-center justify-content-center">
                                     <xsl:for-each select="index/sports/sport">
                                         <div class="col-12 col-sm-6 mt-4">
@@ -202,7 +202,7 @@
                             <div class="d-flex h-100 align-items-end">
                                 <ul class="list-unstyled">
                                     <xsl:for-each select="index/contact/network">
-                                        <li class="mb-4">
+                                        <li class="mt-4">
                                             <a class="fs-5 text-decoration-none text-color-7 title-3"><xsl:value-of select="name"/>:</a>
                                             <br/>
                                             <a href="{@url}" class="d-flex align-items-center gap-2 text-decoration-none link mt-2" target="_blank">
