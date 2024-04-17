@@ -30,28 +30,28 @@
                       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
                 
                 <!-- Custom CSS -->
-                <link rel="stylesheet" href="{index/route}css/style.css" />
-                <link rel="stylesheet" href="{index/route}css/style-generals.css" />
-                <link rel="stylesheet" href="{index/route}css/navbar.css" />
+                <link rel="stylesheet" href="{index/route}css/1.0.0/style.css" />
+                <link rel="stylesheet" href="{index/route}css/1.0.0/style-generals.css" />
+                <link rel="stylesheet" href="{index/route}css/1.0.0/navbar.css" />
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
                 
                 <!-- Favicon -->
                 <link rel="icon" type="image/svg+xml" href="{index/route}/assets/favicon.svg" />
-
+                
                 <!-- Apple Touch Icon -->
                 <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
-
+                
                 <!-- Safari Pinned Tab Icon -->
                 <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#252525" />
-
+                
                 <!-- MS Tiles -->
                 <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
-
+                
                 <!-- Canonical URL -->
-                <link rel="canonical" href="https://staff19torneos.com/pages/tickets/tickets.xml" />
+                <link rel="canonical" href="https://staff19torneos.com/pages/events/{index/@folder}/{index/@canonical}.xml" />
             </head>
             
             <body class="bg-color-2">
@@ -109,9 +109,18 @@
                             </div>
                         </section>
                         <section id="{index/now/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
-                            <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/now/@title"/></h3>
-                            </div>
+                            <xsl:choose>
+                                <xsl:when test="index/@ended='true'">
+                                    <div>
+                                        <h3 class="title-1 text-color-1 mb-4">2023</h3>
+                                    </div>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <div>
+                                        <h3 id="year" class="title-1 text-color-1 mb-4"></h3>
+                                    </div>
+                                </xsl:otherwise>
+                            </xsl:choose>
                             <xsl:choose>
                                 <xsl:when test="index/now/no-event/@boolean='true'">
                                     <div><p class="text-color-6"><xsl:value-of select="index/now/no-event/text"/></p></div>
@@ -146,83 +155,7 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </section>
-                        <section id="{index/soon/@id}" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
-                            <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/soon/@title"/></h3>
-                            </div>
-                            <xsl:choose>
-                                <xsl:when test="index/soon/no-event/@boolean='true'">
-                                    <div><p class="text-color-6"><xsl:value-of select="index/soon/no-event/text"/></p></div>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <div class="list-group rounded-0 gap-3 w-100">
-                                        <xsl:for-each select="index/soon/event">
-                                            <a class="disabled list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-4 p-3">
-                                                <div class="d-flex w-100 align-items-start justify-content-between gap-3">
-                                                    <h5 class="mb-3 title-3 text-color-7"><xsl:value-of select="title"/></h5>
-                                                    <div class="d-flex gap-1 flex-wrap justify-content-end">
-                                                        <xsl:for-each select="tags/tag">
-                                                            <xsl:choose>
-                                                                <xsl:when test=".='new'">
-                                                                    <span class="badge fw-bold font-monospace rounded-3 px-2 text-uppercase bg-color-1 "><xsl:value-of select="."/></span>
-                                                                </xsl:when>
-                                                                <xsl:when test=".='futsal'">
-                                                                    <span class="badge fw-bold font-monospace rounded-3 px-2 text-uppercase bg-primary "><xsl:value-of select="."/></span>
-                                                                </xsl:when>
-                                                                <xsl:otherwise>
-                                                                    <span class="badge fw-bold font-monospace rounded-3 px-2 text-uppercase bg-success"><xsl:value-of select="."/></span>
-                                                                </xsl:otherwise>
-                                                            </xsl:choose>
-                                                        </xsl:for-each>
-                                                    </div>
-                                                </div>
-                                                <p class="mb-1 text-color-6"><xsl:value-of select="location"/></p>
-                                                <small class="text-color-6"><xsl:value-of select="date"/></small>
-                                            </a>
-                                        </xsl:for-each>
-                                    </div>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </section>
-                        <section id="{index/closed/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
-                            <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/closed/@title"/></h3>
-                            </div>
-                            <xsl:choose>
-                                <xsl:when test="index/closed/no-event/@boolean='true'">
-                                    <div><p class="text-color-6"><xsl:value-of select="index/closed/no-event/text"/></p></div>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <div class="list-group rounded-0 gap-3 w-100">
-                                        <xsl:for-each select="index/closed/event">
-                                            <a class="disabled list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-4 p-3">
-                                                <div class="d-flex w-100 align-items-start justify-content-between gap-3">
-                                                    <h5 class="mb-3 title-3 text-color-7"><xsl:value-of select="title"/></h5>
-                                                    <div class="d-flex gap-1 flex-wrap justify-content-end">
-                                                        <xsl:for-each select="tags/tag">
-                                                            <xsl:choose>
-                                                                <xsl:when test=".='new'">
-                                                                    <span class="badge fw-bold font-monospace rounded-3 px-2 text-uppercase bg-color-1 "><xsl:value-of select="."/></span>
-                                                                </xsl:when>
-                                                                <xsl:when test=".='futsal'">
-                                                                    <span class="badge fw-bold font-monospace rounded-3 px-2 text-uppercase bg-primary "><xsl:value-of select="."/></span>
-                                                                </xsl:when>
-                                                                <xsl:otherwise>
-                                                                    <span class="badge fw-bold font-monospace rounded-3 px-2 text-uppercase bg-success"><xsl:value-of select="."/></span>
-                                                                </xsl:otherwise>
-                                                            </xsl:choose>
-                                                        </xsl:for-each>
-                                                    </div>
-                                                </div>
-                                                <p class="mb-1 text-color-6"><xsl:value-of select="location"/></p>
-                                                <small class="text-color-6"><xsl:value-of select="date"/></small>
-                                            </a>
-                                        </xsl:for-each>
-                                    </div>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </section>
-                        <section id="{index/contact/@id}" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/contact/@id}" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h3>
                             </div>
@@ -267,11 +200,11 @@
                         crossorigin="anonymous"></script>
                 
                 <!-- Custom JavaScript -->
-                <script src="{index/route}js/navbar.js"></script>
+                <script src="{index/route}js/1.0.0/navbar.js"></script>
                 
-                <script src="{index/route}js/year.js"></script>
-
-                <script src="{index/route}js/height.js"></script>
+                <script src="{index/route}js/1.0.0/year.js"></script>
+                
+                <script src="{index/route}js/1.0.0/height.js"></script>
                 
             </body>
             

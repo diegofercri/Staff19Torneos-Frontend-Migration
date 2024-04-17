@@ -30,9 +30,9 @@
                       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
                 
                 <!-- Custom CSS -->
-                <link rel="stylesheet" href="{index/route}css/style.css" />
-                <link rel="stylesheet" href="{index/route}css/style-generals.css" />
-                <link rel="stylesheet" href="{index/route}css/navbar.css" />
+                <link rel="stylesheet" href="{index/route}css/1.0.0/style.css" />
+                <link rel="stylesheet" href="{index/route}css/1.0.0/style-generals.css" />
+                <link rel="stylesheet" href="{index/route}css/1.0.0/navbar.css" />
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -277,11 +277,11 @@
                         crossorigin="anonymous"></script>
                 
                 <!-- Custom JavaScript -->
-                <script src="{index/route}js/navbar.js"></script>
+                <script src="{index/route}js/1.0.0/navbar.js"></script>
                 
-                <script src="{index/route}js/year.js"></script>
+                <script src="{index/route}js/1.0.0/year.js"></script>
 
-                <script src="{index/route}js/height.js"></script>
+                <script src="{index/route}js/1.0.0/height.js"></script>
                 
             </body>
             
