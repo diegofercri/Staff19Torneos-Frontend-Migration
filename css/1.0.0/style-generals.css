@@ -11,12 +11,12 @@
 
 @font-face {
   font-family: roboto;
-  src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+  src: url(../../fonts/RobotoMono-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: rubik;
-  src: url(../fonts/Rubik-VariableFont_wght.ttf);
+  src: url(../../fonts/Rubik-VariableFont_wght.ttf);
 }
 
 * {
