@@ -22,7 +22,7 @@
         </dropdown>
     </nav>
     <start id="start">
-        <title>Staff19 Torneos</title>
+        <title>Staff 19 Torneos</title>
         <subtitle>Organización de Eventos Deportivos</subtitle>
         <rrss>
             <network icon="fa-instagram" url="https://www.instagram.com/staff19torneos/"></network>
@@ -83,7 +83,7 @@
         </network>
     </contact>
     <footer>
-        <a>Staff19 Torneos. Todos los derechos reservados.</a>
+        <a>Staff 19 Torneos. Todos los derechos reservados.</a>
         <a1>Diseñado y Desarrollado por</a1>
         <link url="https://diegofercri.com">@diego_fercri</link>
     </footer>
