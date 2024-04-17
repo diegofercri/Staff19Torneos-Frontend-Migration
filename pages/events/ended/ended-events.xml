@@ -3,7 +3,7 @@
     <!ENTITY copy "entity-value">
 ]>
 <?xml-stylesheet href="../style-events_v1.0.0.xsl" type="text/xsl"?>
-<index canonical="ended-events" folder="ended">
+<index canonical="ended-events" folder="ended" ended="true">
     <title>Eventos Terminados - Staff 19 Torneos</title>
     <route>../../../</route>
     <logo url="../../../assets/logo.svg">Staff 19 torneos logo</logo>
