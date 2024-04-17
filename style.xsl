@@ -202,7 +202,7 @@
                             <div class="d-flex h-100 align-items-end">
                                 <ul class="list-unstyled">
                                     <xsl:for-each select="index/contact/network">
-                                        <li class="mb-4">
+                                        <li class="mt-4">
                                             <a class="fs-5 text-decoration-none text-color-7 title-3"><xsl:value-of select="name"/>:</a>
                                             <br/>
                                             <a href="{@url}" class="d-flex align-items-center gap-2 text-decoration-none link mt-2" target="_blank">
