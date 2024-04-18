@@ -192,7 +192,7 @@
                                                 </a>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <a id="googleMaps" class="btn d-flex justify-content-center align-items-center border-2 buttonStaff" href="{@url}" target="_blank" role="button">
+                                                <a class="btn d-flex justify-content-center align-items-center border-2 buttonStaff" href="{@url}" target="_blank" role="button">
                                                     <div class="d-flex align-items-center gap-3 p-2 fs-5">
                                                         <i class="fa {@icon} map-iconStaff" aria-hidden="true"></i>
                                                         <xsl:value-of select="."/>

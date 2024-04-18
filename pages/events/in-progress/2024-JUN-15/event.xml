@@ -21,6 +21,7 @@
             <item url="../../../../pages/registrations/teams.xml">Equipos</item>
         </dropdown>
     </nav>
+    <results icon="fa-trophy" url=""></results>
     <start id="start">
         <event>
             <name></name>
