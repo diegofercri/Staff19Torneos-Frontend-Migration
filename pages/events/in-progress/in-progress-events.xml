@@ -2,7 +2,7 @@
 <!DOCTYPE index [
     <!ENTITY copy "entity-value">
 ]>
-<?xml-stylesheet href="../style-events_v1.0.0.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../style-events_v1.0.1.xsl" type="text/xsl"?>
 <index canonical="in-progress-events" folder="in-progress">
     <title>Eventos En Progreso - Staff 19 Torneos</title>
     <route>../../../</route>
