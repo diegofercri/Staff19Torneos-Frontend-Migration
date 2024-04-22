@@ -21,6 +21,7 @@
             <item url="../../../../pages/registrations/teams.xml">Equipos</item>
         </dropdown>
     </nav>
+    <results icon="fa-trophy" url=""></results>
     <start id="start">
         <event>
             <name></name>
@@ -103,9 +104,9 @@
         </map-links>
     </location>
     <links id="links" title="Enlaces">
-        <link url="">Todas las entradas</link>
-        <link url="">Inscripciones de equipos</link>
-        <link url="">Inscripciones de jugadores</link>
+        <link url="">En directo</link>
+        <link url="">Resultados y emparejamientos</link>
+        <link url="">Reserva de entradas</link>
         <link url=""></link>
     </links>
     <contact id="contact" title="Contacto">

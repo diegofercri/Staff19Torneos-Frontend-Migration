@@ -39,17 +39,17 @@
                 
                 <!-- Favicon -->
                 <link rel="icon" type="image/svg+xml" href="{index/route}/assets/favicon.svg" />
-
+                
                 <!-- Apple Touch Icon -->
                 <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
-
+                
                 <!-- Safari Pinned Tab Icon -->
                 <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#252525" />
-
+                
                 <!-- MS Tiles -->
                 <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
-
+                
                 <!-- Canonical URL -->
                 <link rel="canonical" href="https://staff19torneos.com/pages/events/in-progress/{index/@folder}/event.xml" />
             </head>
@@ -98,6 +98,14 @@
                 </nav>
                 
                 <main>
+                    <div class="position-fixed bottom-0 end-0 m-3 z-2 buttonFixed">
+                        <a class="btn d-flex justify-content-center align-items-center border-2 buttonStaff" href="{results/@url}" target="_blank" role="button">
+                            <div class="d-flex align-items-center gap-3 p-2 fs-5">
+                                <i class="fa {index/results/@icon} map-iconStaff" aria-hidden="true"></i>
+                                Resultados y emparejamientos
+                            </div>
+                        </a>
+                    </div>
                     <div class="d-flex row row-cols-1 row-cols-xxl-2 w-100 m-0">
                         <section id="{index/start/@id}" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
                             <div class="d-flex flex-column h-100 align-items-center justify-content-evenly">
@@ -192,7 +200,7 @@
                                                 </a>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <a id="googleMaps" class="btn d-flex justify-content-center align-items-center border-2 buttonStaff" href="{@url}" target="_blank" role="button">
+                                                <a class="btn d-flex justify-content-center align-items-center border-2 buttonStaff" href="{@url}" target="_blank" role="button">
                                                     <div class="d-flex align-items-center gap-3 p-2 fs-5">
                                                         <i class="fa {@icon} map-iconStaff" aria-hidden="true"></i>
                                                         <xsl:value-of select="."/>
@@ -280,7 +288,7 @@
                 <script src="{index/route}js/1.0.0/navbar.js"></script>
                 
                 <script src="{index/route}js/1.0.0/year.js"></script>
-
+                
                 <script src="{index/route}js/1.0.0/height.js"></script>
                 
             </body>

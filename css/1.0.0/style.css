@@ -122,3 +122,16 @@ div.carousel-inner img {
     height: 74vh;
   }
 }
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.buttonFixed {
+  animation: .5s ease-out 0s 1 slideInFromRight;
+}
