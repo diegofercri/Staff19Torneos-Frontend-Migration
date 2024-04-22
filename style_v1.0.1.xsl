@@ -33,9 +33,9 @@
                       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
                 
                 <!-- Custom CSS -->
-                <link rel="stylesheet" href="{index/route}css/1.0.0/style.css" />
-                <link rel="stylesheet" href="{index/route}css/1.0.0/style-generals.css" />
-                <link rel="stylesheet" href="{index/route}css/1.0.0/navbar.css" />
+                <link rel="stylesheet" href="{index/route}css/1.0.1/style.css" />
+                <link rel="stylesheet" href="{index/route}css/1.0.1/style-generals.css" />
+                <link rel="stylesheet" href="{index/route}css/1.0.1/navbar.css" />
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
