@@ -99,7 +99,7 @@
                         </xsl:for-each>
                     </ul>
                     <div class="position-absolute w-100 d-flex justify-content-center bottom-0 mb-5 mb-sm-3">
-                        <button type="button" class="btn px-1 py-0 buttonStaff-3" style="font-size: 0.8rem" data-bs-toggle="modal" data-bs-target="#privacy_policy">
+                        <button type="button" class="btn px-1 py-0 buttonStaff-3 mb-5 mb-sm-0" style="font-size: 0.8rem" data-bs-toggle="modal" data-bs-target="#privacy_policy">
                             Política de Privacidad
                         </button>
                     </div>
