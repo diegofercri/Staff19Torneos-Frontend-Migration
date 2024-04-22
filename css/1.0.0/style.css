@@ -83,6 +83,18 @@ section {
   border-color: var(--color-1);
 }
 
+.buttonStaff-3 {
+  background-color: var(--color-4);
+  color: var(--color-1);
+  border-color: var(--color-4);
+}
+
+.buttonStaff-3:hover {
+  background-color: var(--color-1);
+  color: var(--color-2);
+  border-color: var(--color-1);
+}
+
 #map-marker {
   display: none;
 }
