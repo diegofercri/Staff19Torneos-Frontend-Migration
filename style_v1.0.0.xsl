@@ -23,7 +23,7 @@
             <head>
                 <title><xsl:value-of select="index/title"/></title>
                 <meta name="description" content="Inicio" />
-
+                
                 <!-- Required meta tags -->
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -42,17 +42,17 @@
                 
                 <!-- Favicon -->
                 <link rel="icon" type="image/svg+xml" href="{index/route}/assets/favicon.svg" />
-
+                
                 <!-- Apple Touch Icon -->
                 <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
-
+                
                 <!-- Safari Pinned Tab Icon -->
                 <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#252525" />
-
+                
                 <!-- MS Tiles -->
                 <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
-
+                
                 <!-- Canonical URL -->
                 <link rel="canonical" href="https://staff19torneos.com" />
             </head>
@@ -98,6 +98,11 @@
                             </li>
                         </xsl:for-each>
                     </ul>
+                    <div class="position-absolute w-100 d-flex justify-content-center bottom-0 my-3">
+                        <button type="button" class="btn px-1 py-0 buttonStaff-3" style="font-size: 0.8rem" data-bs-toggle="modal" data-bs-target="#privacy_policy">
+                            Política de Privacidad
+                        </button>
+                    </div>
                 </nav>
                 
                 <main>
@@ -243,7 +248,7 @@
                 <script src="{index/route}js/1.0.0/navbar.js"></script>
                 
                 <script src="{index/route}js/1.0.0/year.js"></script>
-
+                
                 <script src="{index/route}js/1.0.0/height.js"></script>
                 
             </body>
