@@ -98,6 +98,14 @@
                 </nav>
                 
                 <main>
+                    <div class="position-fixed bottom-0 end-0 m-3 z-2 buttonFixed">
+                        <a class="btn d-flex justify-content-center align-items-center border-2 buttonStaff" href="{results/@url}" target="_blank" role="button">
+                            <div class="d-flex align-items-center gap-3 p-2 fs-5">
+                                <i class="fa {index/results/@icon} map-iconStaff" aria-hidden="true"></i>
+                                Resultados y emparejamientos
+                            </div>
+                        </a>
+                    </div>
                     <div class="d-flex row row-cols-1 row-cols-xxl-2 w-100 m-0">
                         <section id="{index/start/@id}" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
                             <div class="d-flex flex-column h-100 align-items-center justify-content-evenly">
