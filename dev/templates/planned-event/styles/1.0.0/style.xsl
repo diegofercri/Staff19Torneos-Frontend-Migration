@@ -30,9 +30,9 @@
                       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
                 
                 <!-- Custom CSS -->
-                <link rel="stylesheet" href="/css/1.0.1/style.css" />
-                <link rel="stylesheet" href="/css/1.0.1/style-generals.css" />
-                <link rel="stylesheet" href="/css/1.0.1/navbar.css" />
+                <link rel="stylesheet" href="/css/1.0.2/style.css" />
+                <link rel="stylesheet" href="/css/1.0.2/style-generals.css" />
+                <link rel="stylesheet" href="/css/1.0.2/navbar.css" />
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -154,11 +154,11 @@
                                         <xsl:choose>
                                             <xsl:when test="position() mod 2 = 0">
                                                 <dt class="col-sm-3 m-0 mb-4 fw-normal text-color-6"><xsl:value-of select="award"/></dt>
-                                                <dd class="col-sm-9 m-0 mb-4 text-color-6"><xsl:value-of select="winner"/></dd>
+                                                <dd class="col-sm-9 m-0 mb-4 text-color-6"><xsl:value-of select="reward"/></dd>
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <dt class="col-sm-3 m-0 mb-4 fw-normal"><xsl:value-of select="award"/></dt>
-                                                <dd class="col-sm-9 m-0 mb-4"><xsl:value-of select="winner"/></dd>
+                                                <dd class="col-sm-9 m-0 mb-4"><xsl:value-of select="reward"/></dd>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:for-each>
