@@ -110,7 +110,7 @@
                         </section>
                         <section id="{index/poster/@id}" class="bg-color-2 col d-flex px-4 px-md-5 py-5 vh-100">
                             <div class="d-flex align-items-center justify-content-center w-100">
-                                <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3 max-w-90"/>
+                                <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3"/>
                             </div>
                         </section>
                         <section id="{index/description/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">

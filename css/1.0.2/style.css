@@ -16,7 +16,7 @@ section {
 }
 
 @media (max-width: 576px) {
-  .max-w-90 {
+  #poster img {
     max-width: 90% !important;
   }
 }
