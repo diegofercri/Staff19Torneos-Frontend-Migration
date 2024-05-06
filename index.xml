@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index [
+    <!ENTITY copy "entity-value">
+]>
+<?xml-stylesheet href="style_v1.0.0.xsl" type="text/xsl"?>
+<index>
+    <title>Inicio - Staff 19 Torneos</title>
+    <route>./</route>
+    <logo url="./assets/logo.svg">Staff 19 torneos logo</logo>
+    <nav>
+        <item url="#start" icon="fa-home">Inicio</item>
+        <item url="#contact" icon="fa-address-book">Contacto</item>
+        <item url="./pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
+        <dropdown name="Eventos" id="0" icon="fa-trophy">
+            <item url="./pages/events/planned/planned-events.xml">Planificados</item>
+            <item url="./pages/events/in-progress/in-progress-events.xml">En Progreso</item>
+            <item url="./pages/events/ended/ended-events.xml">Terminados</item>
+        </dropdown>
+        <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
+            <item url="./pages/registrations/players.xml">Jugadores</item>
+            <item url="./pages/registrations/teams.xml">Equipos</item>
+        </dropdown>
+    </nav>
+    <start id="start">
+        <title>Staff 19 Torneos</title>
+        <subtitle>Organización de Eventos Deportivos</subtitle>
+        <rrss>
+            <network icon="fa-instagram" url="https://www.instagram.com/staff19torneos/"></network>
+            <network icon="fa-youtube-play" url="https://www.youtube.com/@Staff19torneos/featured"></network>
+            <network icon="fa-twitch" url="https://www.twitch.tv/staff19torneos"></network>
+            <network icon="fa-facebook"
+                url="https://www.facebook.com/profile.php?id=100094576537651"></network>
+        </rrss>
+    </start>
+    <events id="nextEvents" title="Próximos Eventos">
+        <no-event boolean="true">
+            <text>No hay eventos próximos, tendreis que esperar para ver nuevos lanzamientos</text>
+        </no-event>
+        <event>
+            <title>Staff Cup</title>
+            <location>Cabañas de la Sagra</location>
+            <date>15 / JUN / 2024</date>
+            <tags>
+                <tag>new</tag>
+                <tag>futsal</tag>
+            </tags>
+        </event>
+    </events>
+    <aboutus id="aboutUs" title="Sobre Nosotros">
+        <p>Nuestra historia comienza en 2019, empezamos como un grupo de amigos decididos a
+            impulsar el deporte en nuestra localidad natal, Cabañas de la Sagra, a través de eventos
+            deportivos enfocados en el fútbol sala.
+        </p>
+        <p>En 2022 decidimos profesionalizar y promocionar nuestros eventos para llevarlos un paso
+            más allá. Lo que dió nacimiento a nuestra marca (Staff 19 Torneos) cuyo objetivo se
+            centra en fomentar el deporte y la innovación en este mismo enfocandose principalmente
+            en las edades más jóvenes.
+        </p>
+        <p>En la actualidad, en Staff 19 Torneos gestionamos y desarrollamos una diversa variedad
+            de eventos deportivos en modalidades como Fútbol 11, Fútbol 7 y Fútbol Sala. Siempre
+            buscando implementar nuevos deportes y formatos para seguir ofreciendo experiencias
+            únicas e innovadoras acordes con nuestros valores.
+        </p>
+    </aboutus>
+    <sports id="sports" title="Lo que hacemos">
+        <sport>Fútbol Sala</sport>
+        <sport>Fútbol 7</sport>
+        <sport>Fútbol 11</sport>
+        <sport>Baloncesto</sport>
+    </sports>
+    <contact id="contact" title="Contacto">
+        <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
+            <name>WhatsApp</name>
+            <text>Adrián</text>
+        </network>
+        <network icon="fa-instagram" url="https://www.instagram.com/staff19torneos/">
+            <name>Instagram</name>
+            <text>@staff19torneos</text>
+        </network>
+        <network icon="fa-envelope-o" url="mailto:info@staff19torneos.com">
+            <name>e-Mail</name>
+            <text>info@staff19torneos.com</text>
+        </network>
+    </contact>
+    <footer>
+        <a>Staff 19 Torneos. Todos los derechos reservados.</a>
+        <a1>Diseñado y Desarrollado por</a1>
+        <link url="https://diegofercri.com">@diego_fercri</link>
+    </footer>
+</index>
