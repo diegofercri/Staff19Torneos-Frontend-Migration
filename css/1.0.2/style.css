@@ -15,6 +15,12 @@ section {
   }
 }
 
+@media (max-width: 576px) {
+  .max-w-90 {
+    max-width: 90% !important;
+  }
+}
+
 .logo {
   height: calc(100vh * 0.25);
 }
