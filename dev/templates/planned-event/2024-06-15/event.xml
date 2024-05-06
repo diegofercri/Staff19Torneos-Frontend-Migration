@@ -102,7 +102,7 @@
         <map-links>
             <link url="https://www.waze.com/en/live-map/directions/es/cm/cabanas-de-la-sagra/pabellon-polideportivo-de-cabanas-de-la-sagra.?place=ChIJXddjyX7kQQ0RCoJtnvNnLwE" icon="/assets/waze-icon.svg" type="no-icon">Waze</link>
             <link url="https://maps.app.goo.gl/S8WxCXTZFyEYDa8R8" icon="fa-google">Google Maps</link>
-            <link url="https://maps.apple.com/?ll=40.000078,-3.951996&auid;q=Dropped%20Pin&auid;t=m" icon="fa-apple">Mapas</link>
+            <link url="https://maps.apple.com/?address=Calle%20de%20Miguel%20de%20Cervantes,%2020A,%2045592%20Caba%C3%B1as%20de%20la%20Sagra,%20Toledo,%20Spain&auid;ll=39.999672,-3.951685&auid;q=Calle%20de%20Miguel%20de%20Cervantes,%2020A&auid;t=m" icon="fa-apple">Mapas</link>
         </map-links>
     </location>
     <links id="links" title="Enlaces">
