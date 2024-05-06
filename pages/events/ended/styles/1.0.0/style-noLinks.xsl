@@ -30,25 +30,25 @@
                       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
                 
                 <!-- Custom CSS -->
-                <link rel="stylesheet" href="{index/route}css/1.0.1/style.css" />
-                <link rel="stylesheet" href="{index/route}css/1.0.1/style-generals.css" />
-                <link rel="stylesheet" href="{index/route}css/1.0.1/navbar.css" />
+                <link rel="stylesheet" href="/css/1.0.1/style.css" />
+                <link rel="stylesheet" href="/css/1.0.1/style-generals.css" />
+                <link rel="stylesheet" href="/css/1.0.1/navbar.css" />
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
                 
                 <!-- Favicon -->
-                <link rel="icon" type="image/svg+xml" href="{index/route}/assets/favicon.svg" />
+                <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
 
                 <!-- Apple Touch Icon -->
-                <link rel="apple-touch-icon" href="{index/route}/images/icons/apple-touch-icon.png" />
+                <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" />
 
                 <!-- Safari Pinned Tab Icon -->
-                <link rel="mask-icon" href="{index/route}/images/icons/safari-pinned-tab.svg" color="#252525" />
+                <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#252525" />
 
                 <!-- MS Tiles -->
-                <link rel="manifest" href="{index/route}/images/icons/manifest.webmanifest" />
-                <meta name="msapplication-config" content="{index/route}/images/icons/browserconfig.xml" />
+                <link rel="manifest" href="/images/icons/manifest.webmanifest" />
+                <meta name="msapplication-config" content="/images/icons/browserconfig.xml" />
 
                 <!-- Canonical URL -->
                 <link rel="canonical" href="https://staff19torneos.com/pages/events/ended/{index/@folder}/event.xml" />
@@ -274,11 +274,11 @@
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
                 
                 <!-- Custom JavaScript -->
-                <script src="{index/route}js/1.0.0/navbar.js"></script>
+                <script src="/js/1.0.0/navbar.js"></script>
                 
-                <script src="{index/route}js/1.0.0/year.js"></script>
+                <script src="/js/1.0.0/year.js"></script>
 
-                <script src="{index/route}js/1.0.0/height.js"></script>
+                <script src="/js/1.0.0/height.js"></script>
                 
             </body>
             

@@ -5,20 +5,19 @@
 <?xml-stylesheet href="../style-events_v1.0.0.xsl" type="text/xsl"?>
 <index canonical="in-progress-events" folder="in-progress">
     <title>Eventos En Progreso - Staff 19 Torneos</title>
-    <route>../../../</route>
-    <logo url="../../../assets/logo.svg">Staff 19 torneos logo</logo>
+    <logo url="/assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
-        <item url="../../../index.xml#start" icon="fa-home">Inicio</item>
+        <item url="/index.html#start" icon="fa-home">Inicio</item>
         <item url="#contact" icon="fa-address-book">Contacto</item>
-        <item url="../../../pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
+        <item url="/pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
         <dropdown name="Eventos" id="0" icon="fa-trophy">
-            <item url="../../../pages/events/planned/planned-events.xml">Planificados</item>
+            <item url="/pages/events/planned/planned-events.xml">Planificados</item>
             <item url="#start">En Progreso</item>
-            <item url="../../../pages/events/ended/ended-events.xml">Terminados</item>
+            <item url="/pages/events/ended/ended-events.xml">Terminados</item>
         </dropdown>
         <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
-            <item url="../../../pages/registrations/players.xml">Jugadores</item>
-            <item url="../../../pages/registrations/teams.xml">Equipos</item>
+            <item url="/pages/registrations/players.xml">Jugadores</item>
+            <item url="/pages/registrations/teams.xml">Equipos</item>
         </dropdown>
     </nav>
     <start id="start">

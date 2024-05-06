@@ -5,20 +5,19 @@
 <?xml-stylesheet href="../styles/1.0.0/style.xsl" type="text/xsl"?>
 <index folder="2023-AGO-05">
     <title>Maratón IVEI-Clínica Vascular Marbella</title>
-    <route>../../../../</route>
-    <logo url="../../../../assets/logo.svg">Staff 19 torneos logo</logo>
+    <logo url="/assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
-        <item url="../../../../index.xml#start" icon="fa-home">Inicio</item>
+        <item url="/index.html#start" icon="fa-home">Inicio</item>
         <item url="#contact" icon="fa-address-book">Contacto</item>
-        <item url="../../../../pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
+        <item url="/pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
         <dropdown name="Eventos" id="0" icon="fa-trophy">
-            <item url="../../../../pages/events/planned/planned-events.xml">Planificados</item>
-            <item url="../../../../pages/events/in-progress/in-progress-events.xml">En Progreso</item>
-            <item url="../../../../pages/events/ended/ended-events.xml">Terminados</item>
+            <item url="/pages/events/planned/planned-events.xml">Planificados</item>
+            <item url="/pages/events/in-progress/in-progress-events.xml">En Progreso</item>
+            <item url="/pages/events/ended/ended-events.xml">Terminados</item>
         </dropdown>
         <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
-            <item url="../../../../pages/registrations/players.xml">Jugadores</item>
-            <item url="../../../../pages/registrations/teams.xml">Equipos</item>
+            <item url="/pages/registrations/players.xml">Jugadores</item>
+            <item url="/pages/registrations/teams.xml">Equipos</item>
         </dropdown>
     </nav>
     <start id="start">
@@ -105,25 +104,25 @@
         </network>
     </contact>
     <partners id="partners" title="Patrocinadores">
-        <partner url="../../../../images/partners/IVEI-ClinicaVascularMarbella.webp">IVEI-Clinica Vascular Marbella</partner>
-        <partner url="../../../../images/partners/TecnoMarket.webp">Tecno Market</partner>
-        <partner url="../../../../images/partners/CarnicasBermejo.webp">Carnicas Bermejo</partner>
-        <partner url="../../../../images/partners/Luks!Shop.webp">Luks!Shop</partner>
-        <partner url="../../../../images/partners/BahiaVillaluenga.webp">Bahia Villaluenga</partner>
-        <partner url="../../../../images/partners/GrupoGarrido.webp">Grupo Garrido</partner>
-        <partner url="../../../../images/partners/BarLosAmigos.webp">Bar Los Amigos</partner>
-        <partner url="../../../../images/partners/BarDavid.webp">Bar David</partner>
-        <partner url="../../../../images/partners/CarnesYEmbutidosJesusRedondoRodriguez.webp">Carnes Y Embutidos Jesus Redondo Rodriguez</partner>
-        <partner url="../../../../images/partners/JFHumanesPerez.webp">J F Humanes Perez</partner>
-        <partner url="../../../../images/partners/BarDondeIsaac.webp">Bar Donde Isaac</partner>
-        <partner url="../../../../images/partners/PapeleriaMarivi.webp">Papeleria Marivi</partner>
-        <partner url="../../../../images/partners/BarPuntoDeEncuentro.webp">Bar Punto De Encuentro</partner>
-        <partner url="../../../../images/partners/AnkaraKebap.webp">Ankara Kebap</partner>
-        <partner url="../../../../images/partners/TalleresLeon.webp">Talleres Leon</partner>
-        <partner url="../../../../images/partners/FrutasSerrano.webp">Frutas Serrano</partner>
-        <partner url="../../../../images/partners/TalleresSobrino.webp">Talleres Sobrino</partner>
-        <partner url="../../../../images/partners/FerreteriaJavierDelCerro.webp">Ferreteria Javier Del Cerro</partner>
-        <partner url="../../../../images/partners/CarniceriaYAlimentacionRodriguez.webp">Carniceria Y Alimentacion Rodriguez</partner>
+        <partner url="/images/partners/IVEI-ClinicaVascularMarbella.webp">IVEI-Clinica Vascular Marbella</partner>
+        <partner url="/images/partners/TecnoMarket.webp">Tecno Market</partner>
+        <partner url="/images/partners/CarnicasBermejo.webp">Carnicas Bermejo</partner>
+        <partner url="/images/partners/Luks!Shop.webp">Luks!Shop</partner>
+        <partner url="/images/partners/BahiaVillaluenga.webp">Bahia Villaluenga</partner>
+        <partner url="/images/partners/GrupoGarrido.webp">Grupo Garrido</partner>
+        <partner url="/images/partners/BarLosAmigos.webp">Bar Los Amigos</partner>
+        <partner url="/images/partners/BarDavid.webp">Bar David</partner>
+        <partner url="/images/partners/CarnesYEmbutidosJesusRedondoRodriguez.webp">Carnes Y Embutidos Jesus Redondo Rodriguez</partner>
+        <partner url="/images/partners/JFHumanesPerez.webp">J F Humanes Perez</partner>
+        <partner url="/images/partners/BarDondeIsaac.webp">Bar Donde Isaac</partner>
+        <partner url="/images/partners/PapeleriaMarivi.webp">Papeleria Marivi</partner>
+        <partner url="/images/partners/BarPuntoDeEncuentro.webp">Bar Punto De Encuentro</partner>
+        <partner url="/images/partners/AnkaraKebap.webp">Ankara Kebap</partner>
+        <partner url="/images/partners/TalleresLeon.webp">Talleres Leon</partner>
+        <partner url="/images/partners/FrutasSerrano.webp">Frutas Serrano</partner>
+        <partner url="/images/partners/TalleresSobrino.webp">Talleres Sobrino</partner>
+        <partner url="/images/partners/FerreteriaJavierDelCerro.webp">Ferreteria Javier Del Cerro</partner>
+        <partner url="/images/partners/CarniceriaYAlimentacionRodriguez.webp">Carniceria Y Alimentacion Rodriguez</partner>
     </partners>
     <footer>
         <a>Staff 19 Torneos. Todos los derechos reservados.</a>
