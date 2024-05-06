@@ -19,19 +19,6 @@ section {
   height: calc(100vh * 0.25);
 }
 
-#poster>div {
-  min-height: 100vh;
-}
-
-#poster>div>div {
-  min-width: 100%;
-  height: auto;
-}
-
-#poster>div>div>img {
-  max-width: 100%;
-}
-
 .rrss-item {
   height: 3.8rem;
   width: 3.8rem;

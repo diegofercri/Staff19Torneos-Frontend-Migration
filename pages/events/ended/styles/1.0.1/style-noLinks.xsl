@@ -39,13 +39,13 @@
                 
                 <!-- Favicon -->
                 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
-                
+
                 <!-- Apple Touch Icon -->
                 <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" />
-                
+
                 <!-- Safari Pinned Tab Icon -->
                 <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#252525" />
-                
+
                 <!-- MS Tiles -->
                 <link rel="manifest" href="/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="/images/icons/browserconfig.xml" />
@@ -108,11 +108,9 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="{index/poster/@id}" class="bg-color-2 col d-flex px-4 px-md-5 py-5">
-                            <div>
-                                <div>
-                                    <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3" />
-                                </div>
+                        <section id="{index/poster/@id}" class="bg-color-2 col d-flex px-4 px-md-5 py-5 vh-100">
+                            <div class="d-flex align-items-center justify-content-center w-100">
+                                <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3" />
                             </div>
                         </section>
                         <section id="{index/description/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
@@ -213,21 +211,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="{index/links/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
-                            <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/links/@title"/></h3>
-                            </div>
-                            <div>
-                                <div class="list-group gap-2">
-                                    <xsl:for-each select="index/links/link">
-                                        <a href="{@url}" class="list-group-item border-2 rounded-2 buttonStaff-2" target="_blank">
-                                            <xsl:value-of select="."/>
-                                        </a>
-                                    </xsl:for-each>
-                                </div>
-                            </div>
-                        </section>
-                        <section id="{index/contact/@id}" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/contact/@id}" class="col-lg-12 col-xxl-12 bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h3>
                             </div>
@@ -291,7 +275,7 @@
                 <script src="/js/1.0.0/navbar.js"></script>
                 
                 <script src="/js/1.0.0/year.js"></script>
-                
+
                 <script src="/js/1.0.0/height.js"></script>
                 
             </body>

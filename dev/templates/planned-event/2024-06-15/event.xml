@@ -3,7 +3,7 @@
     <!ENTITY copy "entity-value">
 ]>
 <?xml-stylesheet href="../styles/1.0.0/style.xsl" type="text/xsl"?>
-<index folder="">
+<index folder="2024-06-15">
     <title></title>
     <logo url="/assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
@@ -22,9 +22,9 @@
     </nav>
     <start id="start">
         <event>
-            <name></name>
-            <location></location>
-            <date></date>
+            <name>Staff Cup</name>
+            <location>Cabañas de la Sagra</location>
+            <date>15 / JUN / 24</date>
         </event>
     </start>
     <poster id="poster">
@@ -37,12 +37,16 @@
     </description>
     <information id="information" title="Información">
         <row>
+            <title>Deporte:</title>
+            <content>Fútbol Sale</content>
+        </row>
+        <row>
             <title>Fecha y hora:</title>
             <content>[D MES YYYY - hh:mm]</content>
         </row>
         <row>
             <title>Categoría:</title>
-            <content>[Categoría]</content>
+            <content>Infantil + Cadete | Juvenil</content>
         </row>
         <row>
             <title>Max. equipos:</title>
@@ -50,7 +54,7 @@
         </row>
         <row>
             <title>Max. jugadores:</title>
-            <content>[x] Jugadores (por equipo)</content>
+            <content>12 Jugadores (por equipo)</content>
         </row>
         <row>
             <title>Normativa:</title>
