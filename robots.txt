@@ -1,6 +1,6 @@
 User-agent: *
 Disallow: /assets/
-Disallow: /docs/
+Disallow: /dev/
 Disallow: /fonts/
 Disallow: /images/
 Disallow: /js/

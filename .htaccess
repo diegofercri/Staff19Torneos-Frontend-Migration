@@ -1,4 +1,3 @@
-DirectoryIndex index.xml
 <IfModule mod_expires.c>
     ExpiresActive On
     ExpiresByType image/png "access plus 1 week"
