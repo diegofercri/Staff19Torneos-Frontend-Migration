@@ -5,7 +5,7 @@
 ]>
 <?xml-stylesheet href="../styles/1.0.0/style.xsl" type="text/xsl"?>
 <index folder="2024-06-15">
-    <title></title>
+    <title>Staff Cup by Fisioterapia Laura Sánchez</title>
     <logo url="/assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
         <item url="/index.html#start" icon="fa-home">Inicio</item>
@@ -23,7 +23,7 @@
     </nav>
     <start id="start">
         <event>
-            <name>Staff Cup</name>
+            <name>Staff Cup Fisioterapia Laura Sánchez</name>
             <location>Cabañas de la Sagra</location>
             <date>15 / JUN / 24</date>
         </event>
