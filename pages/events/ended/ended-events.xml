@@ -25,7 +25,7 @@
         <subtitle>Terminados</subtitle>
     </start>
     <now id="now" title="2023">
-        <event url="2023-SEP-16/event.xml">
+        <event url="2023-09-16/event.xml">
             <title>Torneo Fut-7 en honor a la Virgen del Rosario</title>
             <location>Cabañas de la Sagra</location>
             <date>16 / SEP</date>
@@ -33,7 +33,7 @@
                 <tag>fut-7</tag>
             </tags>
         </event>
-        <event url="2023-AGO-05/event.xml">
+        <event url="2023-08-05/event.xml">
             <title>Maratón IVEI-Clínica Vascular Marbella</title>
             <location>Cabañas de la Sagra</location>
             <date>05 / AGO</date>
@@ -41,7 +41,7 @@
                 <tag>futsal</tag>
             </tags>
         </event>
-        <event url="2023-JUN-17/event.xml">
+        <event url="2023-06-17/event.xml">
             <title>Maratón IVEI-Clínica Vascular Marbella</title>
             <location>Cabañas de la Sagra</location>
             <date>17 / JUN</date>
@@ -49,7 +49,7 @@
                 <tag>futsal</tag>
             </tags>
         </event>
-        <event url="2023-JUN-LIGA/event.xml">
+        <event url="2023-06/event.xml">
             <title>Liga Express IVEI-Clínica Vascular Marbella</title>
             <location>Cabañas de la Sagra</location>
             <date>JUN 2023</date>
