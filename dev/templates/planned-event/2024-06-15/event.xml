@@ -32,9 +32,11 @@
         <img url="images/poster/poster.webp"></img>
     </poster>
     <description id="description" title="Descripción">
-        <p></p>
-        <p></p>
-        <p></p>
+        <p>Este año introducimos los torneos por categorías, algo muy solicitado por los jugadores que nos pedían mayor igualdad entre los equipos, es por eso que hemos optado por esta solución.</p>
+        <p>Como habreís podido pensar eso supondría excluir a ciertos equipos o jugadores, ya que no podrán participar en todos los torneos debido a su edad, es aquí donde entra nuestro nuevo formato de evento para no dejar a nadie atrás.</p>
+        <p>Este nuevo formato consistirá en 2 torneos independientes llevados a cabo en el mismo día, el 15 de Junio de 2024. El primer torneo incluirá las categorías Infantil y Cadete (juntas) y el segundo torneo será exclusivo para la categoría Juvenil.</p>
+        <p>Destacar que cada torneo tendrá sus propios premios y repartiremos más de 1000€ en total entre ambos torneos además de los sorteos en directo con el público.</p>
+        <p>Esperamos que os guste este nuevo formato que hemos pensado por y para vosotros jugadores.</p>
     </description>
     <information id="information" title="Información">
         <row>
@@ -51,7 +53,7 @@
         </row>
         <row>
             <title>Max. equipos:</title>
-            <content>8 Equipos (por categoría)</content>
+            <content>8 Equipos (por torneo)</content>
         </row>
         <row>
             <title>Max. jugadores:</title>
@@ -72,27 +74,47 @@
     </information>
     <awards id="awards" title="Premios">
         <row>
-            <award>1er Premio:</award>
+            <award>1er Premio (JUV):</award>
             <reward>500€ + Trofeo + Jamón</reward>
         </row>
         <row>
-            <award>2do Premio:</award>
+            <award>1er Premio (INF y CAD):</award>
+            <reward>300€ + Trofeo + Jamón</reward>
+        </row>
+        <row>
+            <award>2do Premio (JUV):</award>
             <reward>100€ + Trofeo + Queso</reward>
         </row>
         <row>
-            <award>3er Premio:</award>
+            <award>2do Premio (INF y CAD):</award>
+            <reward>100€ + Trofeo + Queso</reward>
+        </row>
+        <row>
+            <award>3er Premio (JUV):</award>
             <reward>Inscripcion (para próximos eventos) + Trofeo + Lomo</reward>
         </row>
         <row>
-            <award>Jugador MVP:</award>
+            <award>3er Premio (INF y CAD):</award>
+            <reward>Inscripcion (para próximos eventos) + Trofeo + Lomo</reward>
+        </row>
+        <row>
+            <award>Jugador MVP (JUV):</award>
             <reward>Trofeo</reward>
         </row>
         <row>
-            <award>Portero MVP:</award>
+            <award>Jugador MVP (INF y CAD):</award>
             <reward>Trofeo</reward>
         </row>
         <row>
-            <award>Team más votado:</award>
+            <award>Portero MVP (JUV):</award>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Portero MVP (INF y CAD):</award>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Equipo más votado (TODOS):</award>
             <reward>Trofeo</reward>
         </row>
     </awards>
@@ -126,7 +148,42 @@
         </network>
     </contact>
     <partners id="partners" title="Patrocinadores">
-        <partner></partner>
+        <partner url="AdolfoFloristas">Adolfo Floristas</partner>
+        <partner url="AutoservicioLaPilarica">Autoservicio La Pilarica</partner>
+        <partner url="AviarioCanoMartin">Aviario Cano Martin</partner>
+        <partner url="AviarioRubio">Aviario Rubio</partner>
+        <partner url="BarAlex">Bar Alex</partner>
+        <partner url="BarDavid">Bar David</partner>
+        <partner url="BarDondeIsaac">Bar Donde Isaac</partner>
+        <partner url="BarElLago">Bar El Lago</partner>
+        <partner url="BarSquem">Bar Squem</partner>
+        <partner url="CafeteriaRestauranteTiffanys">Cafeteria Restaurante Tiffanys</partner>
+        <partner url="CarniceriaLaAbuelaPuri">Carniceria La Abuela Puri</partner>
+        <partner url="CarniceriaYAlimentacionRodriguez">Carniceria Y Alimentacion Rodriguez</partner>
+        <partner url="CarniceriaYSalchicheriaFleming4">Carniceria Y Salchicheria Fleming 4</partner>
+        <partner url="CasaLinda2">Casa Linda 2</partner>
+        <partner url="ClinicasAlbastetic">Clinicas Albastetic</partner>
+        <partner url="DulcesitoTiendaDeChuches">Dulcesito Tienda De Chuches</partner>
+        <partner url="Fama">Fama</partner>
+        <partner url="FarmaciaLaSagra">Farmacia La Sagra</partner>
+        <partner url="FrutasSerrano">Frutas Serrano</partner>
+        <partner url="FrutasYVerdurasMapache">Frutas Y Verduras Mapache</partner>
+        <partner url="iDentalitas">iDentalitas</partner>
+        <partner url="JackDawsonBarberosEstilistas">Jack Dawson Barberos Estilistas</partner>
+        <partner url="LaPapeleriaMercedesMartinMadrid">La Papeleria Mercedes Martin Madrid</partner>
+        <partner url="MalakaAlimentacion">Malaka Alimentacion</partner>
+        <partner url="MesonElLabrador">Meson El Labrador</partner>
+        <partner url="Motor76">Motor 76</partner>
+        <partner url="NeumaticosHmasMaximiano">Neumaticos Hmas Maximiano</partner>
+        <partner url="ObradorPasteleriaLara">Obrador Pasteleria Lara</partner>
+        <partner url="PeluqueriaJG">Peluqueria JG</partner>
+        <partner url="PeluqueriaUnisexAna">Peluqueria Unisex Ana</partner>
+        <partner url="PinturasYuncos">Pinturas Yuncos</partner>
+        <partner url="TalleresSobrino">Talleres Sobrino</partner>
+        <partner url="ThairEstilistaMoises">Thair Estilista Moises</partner>
+        <partner url="Udaco">Udaco</partner>
+        <partner url="Unide">Unide</partner>
+        <partner url="YedraNails">Yedra Nails</partner>
     </partners>
     <footer>
         <a>Staff 19 Torneos. Todos los derechos reservados.</a>

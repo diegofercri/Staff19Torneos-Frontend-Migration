@@ -39,17 +39,17 @@
                 
                 <!-- Favicon -->
                 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
-
+                
                 <!-- Apple Touch Icon -->
                 <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" />
-
+                
                 <!-- Safari Pinned Tab Icon -->
                 <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#252525" />
-
+                
                 <!-- MS Tiles -->
                 <link rel="manifest" href="/images/icons/manifest.webmanifest" />
                 <meta name="msapplication-config" content="/images/icons/browserconfig.xml" />
-
+                
                 <!-- Canonical URL -->
                 <link rel="canonical" href="https://staff19torneos.com/pages/events/planned/{index/@folder}/event.xml" />
             </head>
@@ -153,12 +153,12 @@
                                     <xsl:for-each select="index/awards/row">
                                         <xsl:choose>
                                             <xsl:when test="position() mod 2 = 0">
-                                                <dt class="col-sm-3 m-0 mb-4 fw-normal text-color-6"><xsl:value-of select="award"/></dt>
-                                                <dd class="col-sm-9 m-0 mb-4 text-color-6"><xsl:value-of select="reward"/></dd>
+                                                <dt class="col-sm-5 m-0 mb-4 fw-normal text-color-6"><xsl:value-of select="award"/></dt>
+                                                <dd class="col-sm-7 m-0 mb-4 text-color-6"><xsl:value-of select="reward"/></dd>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <dt class="col-sm-3 m-0 mb-4 fw-normal"><xsl:value-of select="award"/></dt>
-                                                <dd class="col-sm-9 m-0 mb-4"><xsl:value-of select="reward"/></dd>
+                                                <dt class="col-sm-5 m-0 mb-4 fw-normal"><xsl:value-of select="award"/></dt>
+                                                <dd class="col-sm-7 m-0 mb-4"><xsl:value-of select="reward"/></dd>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:for-each>
@@ -245,7 +245,7 @@
                                 <div class="row g-3 d-flex justify-content-center align-items-center">
                                     <xsl:for-each select="index/partners/partner">
                                         <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
-                                            <img src="{@url}" alt="{.}" class="h-auto w-100 rounded-1" />
+                                            <img src="/images/partners/{@url}.webp" alt="{.}" class="h-auto w-100 rounded-1" />
                                         </div>
                                     </xsl:for-each>
                                 </div>
@@ -278,7 +278,7 @@
                 <script src="/js/1.0.0/navbar.js"></script>
                 
                 <script src="/js/1.0.0/year.js"></script>
-
+                
                 <script src="/js/1.0.0/height.js"></script>
                 
             </body>
