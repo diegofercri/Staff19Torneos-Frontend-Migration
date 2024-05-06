@@ -2,9 +2,9 @@
 <!DOCTYPE index [
     <!ENTITY copy "entity-value">
 ]>
-<?xml-stylesheet href="../styles/1.0.0/style-noPartners.xsl" type="text/xsl"?>
-<index folder="2023-09-16">
-    <title>Torneo Fut-7 en honor a la Virgen del Rosario</title>
+<?xml-stylesheet href="../styles/1.0.0/style.xsl" type="text/xsl"?>
+<index folder="">
+    <title></title>
     <logo url="/assets/logo.svg">Staff 19 torneos logo</logo>
     <nav>
         <item url="/index.html#start" icon="fa-home">Inicio</item>
@@ -22,63 +22,85 @@
     </nav>
     <start id="start">
         <event>
-            <name>Torneo Fut-7 en honor a la Virgen del Rosario</name>
-            <location>Cabañas de la Sagra, Toledo</location>
-            <date>16 / SEP / 23</date>
+            <name></name>
+            <location></location>
+            <date></date>
         </event>
     </start>
     <poster id="poster">
         <img url="images/poster/poster.webp"></img>
     </poster>
     <description id="description" title="Descripción">
-        <p>Torneo realizado en colaboración con la Hermandad de la Virgen Rosario por las fiestas locales de Cabañas de la Sagra.</p>
-        <p>Este ha sido nuestro primer torneo en el formato 'Fútbol 7', teniendo una gran acogida en nuestra comunidad.</p>
-        <p>Repartimos premios con un valor cercano a los 400€, que se entregaron en una ceremonia en la plaza del pueblo, como viene siendo tradición en nuestra localidad.</p>
-        <p>Nos gustaría destacar y agradecer, la gran asistencia de público, equipos y jugadores.</p>
+        <p></p>
+        <p></p>
+        <p></p>
     </description>
     <information id="information" title="Información">
         <row>
-            <title>Deporte:</title>
-            <content>Fútbol 7</content>
+            <title>Fecha y hora:</title>
+            <content>[D MES YYYY - hh:mm]</content>
         </row>
         <row>
             <title>Categoría:</title>
-            <content>Absoluta</content>
+            <content>[Categoría]</content>
         </row>
         <row>
-            <title>Formato:</title>
-            <content>Liguilla y Final</content>
+            <title>Max. equipos:</title>
+            <content>[x] Equipos</content>
         </row>
         <row>
-            <title>Equipos:</title>
-            <content>Total de 5 equipos participantes</content>
+            <title>Max. jugadores:</title>
+            <content>[x] Jugadores (por equipo)</content>
         </row>
         <row>
-            <title>Jugadores:</title>
-            <content>Total de 57 jugadores inscritos</content>
+            <title>Normativa:</title>
+            <content>Normativa oficial</content>
+        </row>
+        <row>
+            <title>Árbitros:</title>
+            <content>Árbitros profesionales</content>
+        </row>
+        <row>
+            <title>Inscripciones:</title>
+            <content>A través de nuestra web - [x]€ por equipo</content>
         </row>
     </information>
-    <results id="results" title="Resultados">
+    <awards id="awards" title="Premios">
         <row>
-            <award>Ganador:</award>
-            <winner>Babelmi</winner>
-            <reward>Trofeo + Jamón</reward>
+            <award>1er Premio:</award>
+            <reward>Trofeo</reward>
         </row>
         <row>
             <award>2do Premio:</award>
-            <winner>Jindama</winner>
-            <reward>Trofeo + Queso</reward>
+            <reward>Trofeo</reward>
         </row>
         <row>
             <award>3er Premio:</award>
-            <winner>Fiera Team</winner>
-            <reward>Trofeo + Lomo</reward>
+            <reward>Trofeo</reward>
         </row>
-    </results>
-    <images id="images" title="Fotografías"></images>
+        <row>
+            <award>Jugador MVP:</award>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Portero MVP:</award>
+            <reward>Trofeo</reward>
+        </row>
+    </awards>
+    <location>
+        <name></name>
+        <description></description>
+        <map-links>
+            <link url="" icon="/assets/waze-icon.svg" type="no-icon">Waze</link>
+            <link url="" icon="fa-google">Google Maps</link>
+            <link url="" icon="fa-apple">Mapas</link>
+        </map-links>
+    </location>
     <links id="links" title="Enlaces">
-        <link url="https://winner-9bee4.firebaseapp.com/?action=follow_tournament&amp;id=gVjB93uuLeZ60uh5vK2w">Todos los resultados (Winner App)</link>
-        <link url="https://drive.google.com/drive/folders/11HA3gEPlH9GLhgb0T6Wy0AKNKfryEg9Z?usp=sharing">Todas las fotografías (Google Drive)</link>
+        <link url="">Reserva de entradas</link>
+        <link url="">Inscripciones de equipos</link>
+        <link url="">Inscripciones de jugadores</link>
+        <link url=""></link>
     </links>
     <contact id="contact" title="Contacto">
         <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
@@ -94,6 +116,9 @@
             <text>info@staff19torneos.com</text>
         </network>
     </contact>
+    <partners id="partners" title="Patrocinadores">
+        <partner></partner>
+    </partners>
     <footer>
         <a>Staff 19 Torneos. Todos los derechos reservados.</a>
         <a1>Diseñado y Desarrollado por</a1>
