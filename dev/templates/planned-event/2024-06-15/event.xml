@@ -97,11 +97,11 @@
         </row>
         <row>
             <award>3er Premio (JUV):</award>
-            <reward>Inscripcion (para próximos eventos) + Trofeo + Lomo</reward>
+            <reward>Inscripción (próximos eventos) + Trofeo + Lomo</reward>
         </row>
         <row>
             <award>3er Premio (INF y CAD):</award>
-            <reward>Inscripcion (para próximos eventos) + Trofeo + Lomo</reward>
+            <reward>Inscripción (próximos eventos) + Trofeo + Lomo</reward>
         </row>
         <row>
             <award>Jugador MVP (JUV):</award>
@@ -195,6 +195,7 @@
         <partner url="Udaco">Udaco</partner>
         <partner url="Unide">Unide</partner>
         <partner url="YedraNails">Yedra Nails</partner>
+        <partner url="MadiVet">MadiVet</partner>
     </partners>
     <footer>
         <a>Staff 19 Torneos. Todos los derechos reservados.</a>
