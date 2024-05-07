@@ -159,6 +159,11 @@
         </network>
     </contact>
     <partners id="partners" title="Patrocinadores">
+        <partner url="PiensosLobby">Piensos Lobby</partner>
+        <partner url="CerrajeriaVarela">Cerrajeria Varela</partner>
+        <partner url="ElCafetin">El Cafetin</partner>
+        <partner url="CentroVeterinarioMirovet">Centro Veterinario Mirovet</partner>
+        <partner url="CafeteriaSigloXXI">Cafeteria Siglo XXI</partner>
         <partner url="AdolfoFloristas">Adolfo Floristas</partner>
         <partner url="AutoservicioLaPilarica">Autoservicio La Pilarica</partner>
         <partner url="AviarioCanoMartin">Aviario Cano Martin</partner>
