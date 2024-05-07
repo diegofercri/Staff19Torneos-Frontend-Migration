@@ -132,12 +132,12 @@
                                     <xsl:for-each select="index/information/row">
                                         <xsl:choose>
                                             <xsl:when test="position() mod 2 = 0">
-                                                <dt class="col-sm-3 m-0 mb-4 fw-normal text-color-6"><xsl:value-of select="title"/></dt>
-                                                <dd class="col-sm-9 m-0 mb-4 text-color-6"><xsl:value-of select="content"/></dd>
+                                                <dt class="col-sm-5 m-0 mb-4 fw-normal text-color-6"><xsl:value-of select="title"/></dt>
+                                                <dd class="col-sm-7 m-0 mb-4 text-color-6"><xsl:value-of select="content"/></dd>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <dt class="col-sm-3 m-0 mb-4 fw-normal"><xsl:value-of select="title"/></dt>
-                                                <dd class="col-sm-9 m-0 mb-4"><xsl:value-of select="content"/></dd>
+                                                <dt class="col-sm-5 m-0 mb-4 fw-normal"><xsl:value-of select="title"/></dt>
+                                                <dd class="col-sm-7 m-0 mb-4"><xsl:value-of select="content"/></dd>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:for-each>
