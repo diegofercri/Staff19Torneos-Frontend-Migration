@@ -32,11 +32,19 @@
         <img url="images/poster/poster.webp"></img>
     </poster>
     <description id="description" title="Descripción">
-        <p>Este año introducimos los torneos por categorías, algo muy solicitado por los jugadores que nos pedían mayor igualdad entre los equipos, es por eso que hemos optado por esta solución.</p>
-        <p>Como habreís podido pensar eso supondría excluir a ciertos equipos o jugadores, ya que no podrán participar en todos los torneos debido a su edad, es aquí donde entra nuestro nuevo formato de evento para no dejar a nadie atrás.</p>
-        <p>Este nuevo formato consistirá en 2 torneos independientes llevados a cabo en el mismo día, el 15 de Junio de 2024. El primer torneo incluirá las categorías Infantil y Cadete (juntas) y el segundo torneo será exclusivo para la categoría Juvenil.</p>
-        <p>Destacar que cada torneo tendrá sus propios premios y repartiremos más de 1000€ en total entre ambos torneos además de los sorteos en directo con el público.</p>
-        <p>Esperamos que os guste este nuevo formato que hemos pensado por y para vosotros jugadores.</p>
+        <p>Este año para aumentar la igualdad entre los distintos equipos introducimos los torneos
+            por categorías, algo muy solicitado por los jugadores.</p>
+        <p>Como habreís podido pensar eso supondría excluir a ciertos equipos o jugadores, ya que no
+            podrán participar en todos los torneos debido a su edad, es aquí donde entra nuestro
+            nuevo formato.</p>
+        <p>Para no dejar a nadie fuera, este nuevo formato consistirá en 2 torneos independientes
+            llevados a cabo el mismo día, el 15 de Junio de 2024. El primer torneo incluirá las
+            categorías Infantil y Cadete (juntas) y el segundo torneo será exclusivo para la
+            categoría Juvenil.</p>
+        <p>Destacar que cada torneo tendrá sus propios premios y repartiremos más de 1000€ en total
+            entre ambos torneos además de los sorteos en directo con el público.</p>
+        <p>Esperamos que os guste este nuevo formato que hemos pensado por y para vosotros
+            jugadores.</p>
     </description>
     <information id="information" title="Información">
         <row>
@@ -120,11 +128,16 @@
     </awards>
     <location id="location" title="Localización">
         <name>Pabellón Polideportivo de Cabañas de la Sagra</name>
-        <description>Os dejamos unos links con la ubicación exacta para las apps de navegación más utilizadas.</description>
+        <description>Os dejamos unos links con la ubicación exacta para las apps de navegación más
+            utilizadas.</description>
         <map-links>
-            <link url="https://www.waze.com/en/live-map/directions/es/cm/cabanas-de-la-sagra/pabellon-polideportivo-de-cabanas-de-la-sagra.?place=ChIJXddjyX7kQQ0RCoJtnvNnLwE" icon="/assets/waze-icon.svg" type="no-icon">Waze</link>
+            <link
+                url="https://www.waze.com/en/live-map/directions/es/cm/cabanas-de-la-sagra/pabellon-polideportivo-de-cabanas-de-la-sagra.?place=ChIJXddjyX7kQQ0RCoJtnvNnLwE"
+                icon="/assets/waze-icon.svg" type="no-icon">Waze</link>
             <link url="https://maps.app.goo.gl/S8WxCXTZFyEYDa8R8" icon="fa-google">Google Maps</link>
-            <link url="https://maps.apple.com/?address=Calle%20de%20Miguel%20de%20Cervantes,%2020A,%2045592%20Caba%C3%B1as%20de%20la%20Sagra,%20Toledo,%20Spain&auid;ll=39.999672,-3.951685&auid;q=Calle%20de%20Miguel%20de%20Cervantes,%2020A&auid;t=m" icon="fa-apple">Mapas</link>
+            <link
+                url="https://maps.apple.com/?address=Calle%20de%20Miguel%20de%20Cervantes,%2020A,%2045592%20Caba%C3%B1as%20de%20la%20Sagra,%20Toledo,%20Spain&auid;ll=39.999672,-3.951685&auid;q=Calle%20de%20Miguel%20de%20Cervantes,%2020A&auid;t=m"
+                icon="fa-apple">Mapas</link>
         </map-links>
     </location>
     <links id="links" title="Enlaces">
