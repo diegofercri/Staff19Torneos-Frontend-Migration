@@ -158,6 +158,14 @@
             <text>info@staff19torneos.com</text>
         </network>
     </contact>
+    <main_partners id="main_partners" title="Patrocinadores Principales">
+        <partner url="FisioTerapiaLauraSanchez">Fisio Terapia Laura Sanchez</partner>
+        <partner url="CarnicasBermejo">Carnicas Bermejo</partner>
+        <partner url="CHTextilYPublicidad">CH Textil Y Publicidad</partner>
+        <partner url="Intecmain">Intecmain</partner>
+        <partner url="LukalShop">LukalShop</partner>
+        <partner url="FerreteriaJavierDelCerro">Ferreteria Javier Del Cerro</partner>
+    </main_partners>
     <partners id="partners" title="Patrocinadores">
         <partner url="PiensosLobby">Piensos Lobby</partner>
         <partner url="CerrajeriaVarela">Cerrajeria Varela</partner>
