@@ -113,7 +113,7 @@
                                 <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3"/>
                             </div>
                         </section>
-                        <section id="{index/main_partners/@id}" class="col-lg-12 col-xxl-12 bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/main_partners/@id}" class="col-lg-12 col-xxl-12 bg-color-1 d-flex flex-column px-4 px-md-5 py-5">
                             <div class="d-flex h-100 justify-content-center align-items-center">
                                 <div class="d-flex gap-5">
                                     <xsl:for-each select="index/main_partners/partner">
