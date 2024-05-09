@@ -113,6 +113,15 @@
                                 <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3"/>
                             </div>
                         </section>
+                        <section id="{index/main_partners/@id}" class="col-lg-12 col-xxl-12 bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                            <div class="d-flex h-100 justify-content-center align-items-center">
+                                <div class="d-flex gap-5">
+                                    <xsl:for-each select="index/main_partners/partner">
+                                        <img src="/assets/partners/{@url}.svg" alt="{.}" class="w-auto h-50 rounded-1" />
+                                    </xsl:for-each>
+                                </div>
+                            </div>
+                        </section>
                         <section id="{index/description/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/description/@title"/></h3>
@@ -142,18 +151,6 @@
                                         </xsl:choose>
                                     </xsl:for-each>
                                 </dl>
-                            </div>
-                        </section>
-                        <section id="{index/main_partners/@id}" class="col-lg-12 col-xxl-12 bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
-                            <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/main_partners/@title"/></h3>
-                            </div>
-                            <div class="d-flex h-100 justify-content-center align-items-center">
-                                <div class="d-flex gap-5">
-                                    <xsl:for-each select="index/main_partners/partner">
-                                        <img src="/assets/partners/{@url}.svg" alt="{.}" class="w-auto h-50 rounded-1" />
-                                    </xsl:for-each>
-                                </div>
                             </div>
                         </section>
                         <section id="{index/awards/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
