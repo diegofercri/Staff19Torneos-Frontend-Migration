@@ -3,21 +3,6 @@ section {
   margin-bottom: 0;
 }
 
-#main_partners {
-  min-height: fit-content;
-}
-
-#main_partners div div{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  max-width: 100%;
-  overflow-x: scroll;
-}
-
-#main_partners img{
-  height: 200px !important;
-}
-
 @media screen and (min-width: 768px) {
   section {
     min-height: 100vh;

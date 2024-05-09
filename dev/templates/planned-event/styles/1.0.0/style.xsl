@@ -33,6 +33,7 @@
                 <link rel="stylesheet" href="/css/1.0.2/style.css" />
                 <link rel="stylesheet" href="/css/1.0.2/style-generals.css" />
                 <link rel="stylesheet" href="/css/1.0.2/navbar.css" />
+                <link rel="stylesheet" href="/css/1.0.2/slide.css" />
                 
                 <!-- Font Awesome -->
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -113,18 +114,9 @@
                                 <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3"/>
                             </div>
                         </section>
-                        <section id="{index/main_partners/@id}" class="col-lg-12 col-xxl-12 bg-color-1 d-flex flex-column px-4 px-md-5 py-5">
-                            <div class="d-flex h-100 justify-content-center align-items-center">
-                                <div class="d-flex gap-5">
-                                    <xsl:for-each select="index/main_partners/partner">
-                                        <img src="/assets/partners/{@url}.svg" alt="{.}" class="w-auto h-50 rounded-1" />
-                                    </xsl:for-each>
-                                </div>
-                            </div>
-                        </section>
                         <section id="{index/description/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/description/@title"/></h3>
+                                <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/description/@title"/></h3>
                             </div>
                             <div>
                                 <xsl:for-each select="index/description/p">
@@ -134,7 +126,7 @@
                         </section>
                         <section id="{index/information/@id}" class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/information/@title"/></h3>
+                                <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/information/@title"/></h3>
                             </div>
                             <div>
                                 <dl class="row">
@@ -155,7 +147,7 @@
                         </section>
                         <section id="{index/awards/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/awards/@title"/></h3>
+                                <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/awards/@title"/></h3>
                             </div>
                             <div>
                                 <dl class="row">
@@ -176,7 +168,7 @@
                         </section>
                         <section id="{index/location/@id}" class="bg-color-2 bg-color-2-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/location/@title"/></h3>
+                                <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/location/@title"/></h3>
                             </div>
                             <div>
                                 <div class="title-3 text-color-1 d-flex gap-2">
@@ -213,7 +205,7 @@
                         </section>
                         <section id="{index/links/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/links/@title"/></h3>
+                                <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/links/@title"/></h3>
                             </div>
                             <div>
                                 <div class="list-group gap-2">
@@ -227,7 +219,7 @@
                         </section>
                         <section id="{index/contact/@id}" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/contact/@title"/></h3>
+                                <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/contact/@title"/></h3>
                             </div>
                             <div class="d-flex h-100 align-items-end">
                                 <ul class="list-unstyled">
@@ -246,17 +238,72 @@
                                 </ul>
                             </div>
                         </section>
-                        <section id="{index/partners/@id}" class="col-lg-12 col-xxl-12 bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/main_partners/@id}" class="bg-color-2 col-lg-12 col-xxl-12 d-flex flex-column py-5">
                             <div>
-                                <h3 class="title-1 text-color-1 mb-4"><xsl:value-of select="index/partners/@title"/></h3>
+                                <h3 class="title-1 text-color-1 mb-5 px-4 px-md-5"><xsl:value-of select="index/main_partners/@title"/></h3>
                             </div>
-                            <div class="d-flex h-100 justify-content-center align-items-center">
-                                <div class="row g-3 d-flex justify-content-center align-items-center">
-                                    <xsl:for-each select="index/partners/partner">
-                                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xxl-2">
-                                            <img src="/images/partners/{@url}.webp" alt="{.}" class="h-auto w-100 rounded-1" />
-                                        </div>
+                            <div class="main_partners mb-4">
+                                <div class="main_partners-slide">
+                                    <xsl:for-each select="index/main_partners/partner">
+                                        <a href="{@url}" target="_blank">
+                                            <img src="/assets/main_partners/{@route}.svg" alt="{.}" class="w-auto h-50 rounded-1" />
+                                        </a>
                                     </xsl:for-each>
+                                </div>
+                                <div class="main_partners-slide">
+                                    <xsl:for-each select="index/main_partners/partner">
+                                        <a href="{@url}" target="_blank">
+                                            <img src="/assets/main_partners/{@route}.svg" alt="{.}" class="w-auto h-50 rounded-1" />
+                                        </a>
+                                    </xsl:for-each>
+                                </div>
+                                <div class="main_partners-slide">
+                                    <xsl:for-each select="index/main_partners/partner">
+                                        <a href="{@url}" target="_blank">
+                                            <img src="/assets/main_partners/{@route}.svg" alt="{.}" class="w-auto h-50 rounded-1" />
+                                        </a>
+                                    </xsl:for-each>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="{index/partners/@id}" class="bg-color-3 col-lg-12 col-xxl-12 d-flex flex-column py-5">
+                            <div>
+                                <h3 class="title-1 text-color-1 mb-4 px-4 px-md-5"><xsl:value-of select="index/partners/@title"/></h3>
+                            </div>
+                            <div class="partners">
+                                <div class="partners-slide">
+                                    <div>
+                                        <xsl:for-each select="index/partners/partner">
+                                            <img src="/images/partners/{@url}.webp" alt="{.}" class="w-auto h-50 rounded-1" />
+                                        </xsl:for-each>
+                                    </div>
+                                    <div>
+                                        <xsl:for-each select="index/partners/partner2">
+                                            <img src="/images/partners/{@url}.webp" alt="{.}" class="w-auto h-50 rounded-1" />
+                                        </xsl:for-each>
+                                    </div>
+                                    <div>
+                                        <xsl:for-each select="index/partners/partner3">
+                                            <img src="/images/partners/{@url}.webp" alt="{.}" class="w-auto h-50 rounded-1" />
+                                        </xsl:for-each>
+                                    </div>
+                                </div>
+                                <div class="partners-slide">
+                                    <div>
+                                        <xsl:for-each select="index/partners/partner">
+                                            <img src="/images/partners/{@url}.webp" alt="{.}" class="w-auto h-50 rounded-1" />
+                                        </xsl:for-each>
+                                    </div>
+                                    <div>
+                                        <xsl:for-each select="index/partners/partner2">
+                                            <img src="/images/partners/{@url}.webp" alt="{.}" class="w-auto h-50 rounded-1" />
+                                        </xsl:for-each>
+                                    </div>
+                                    <div>
+                                        <xsl:for-each select="index/partners/partner3">
+                                            <img src="/images/partners/{@url}.webp" alt="{.}" class="w-auto h-50 rounded-1" />
+                                        </xsl:for-each>
+                                    </div>
                                 </div>
                             </div>
                         </section>

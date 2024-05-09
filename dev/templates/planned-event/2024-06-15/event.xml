@@ -120,7 +120,11 @@
             <reward>Trofeo</reward>
         </row>
         <row>
-            <award>Equipo más votado (TODOS):</award>
+            <award>Equipo más votado (JUV):</award>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Equipo más votado (INF y CAD):</award>
             <reward>Trofeo</reward>
         </row>
     </awards>
@@ -139,10 +143,9 @@
         </map-links>
     </location>
     <links id="links" title="Enlaces">
-        <link url="">Reserva de entradas</link>
-        <link url="">Inscripciones de equipos</link>
-        <link url="">Inscripciones de jugadores</link>
-        <link url=""></link>
+        <link url="/pages/tickets/tickets.xml">Reserva de entradas</link>
+        <link url="/pages/registrations/players.xml">Inscripciones de equipos</link>
+        <link url="/pages/registrations/teams.xml">Inscripciones de jugadores</link>
     </links>
     <contact id="contact" title="Contacto">
         <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
@@ -158,15 +161,13 @@
             <text>info@staff19torneos.com</text>
         </network>
     </contact>
-    <main_partners id="main_partners" title="Colaboradores Principales">
-        <partner url="FisioTerapiaLauraSanchez">Fisio Terapia Laura Sanchez</partner>
-        <partner url="CarnicasBermejo">Carnicas Bermejo</partner>
-        <partner url="CHTextilYPublicidad">CH Textil Y Publicidad</partner>
-        <partner url="Intecmain">Intecmain</partner>
-        <partner url="Intecmain2">Intecmain</partner>
-        <partner url="Intecmain3">Intecmain</partner>
-        <partner url="LukalShop">LukalShop</partner>
-        <partner url="FerreteriaJavierDelCerro">Ferreteria Javier Del Cerro</partner>
+    <main_partners id="main_partners" title="Colaboradores">
+        <partner url="https://www.instagram.com/laurasg___/" route="FisioTerapiaLauraSanchez">Fisio Terapia Laura Sanchez</partner>
+        <partner url="https://www.facebook.com/CarnicasBermejo/" route="CarnicasBermejo">Carnicas Bermejo</partner>
+        <partner url="https://www.inoxidablesrada-toledo.es/" route="Intecmain">Intecmain</partner>
+        <partner url="https://www.facebook.com/ferreteriaJavierdelCerro/" route="FerreteriaJavierDelCerro">Ferreteria Javier Del Cerro</partner>
+        <partner url="https://chtextilypublicidad.com/" route="CHTextilYPublicidad">CH Textil Y Publicidad</partner>
+        <partner url="https://lukalshop.sumupstore.com/" route="LukalShop">LukalShop</partner>
     </main_partners>
     <partners id="partners" title="Patrocinadores">
         <partner url="PiensosLobby">Piensos Lobby</partner>
@@ -183,34 +184,34 @@
         <partner url="BarDondeIsaac">Bar Donde Isaac</partner>
         <partner url="BarElLago">Bar El Lago</partner>
         <partner url="BarSquem">Bar Squem</partner>
-        <partner url="CafeteriaRestauranteTiffanys">Cafeteria Restaurante Tiffanys</partner>
-        <partner url="CarniceriaLaAbuelaPuri">Carniceria La Abuela Puri</partner>
-        <partner url="CarniceriaYAlimentacionRodriguez">Carniceria Y Alimentacion Rodriguez</partner>
-        <partner url="CarniceriaYSalchicheriaFleming4">Carniceria Y Salchicheria Fleming 4</partner>
-        <partner url="CasaLinda2">Casa Linda 2</partner>
-        <partner url="ClinicasAlbastetic">Clinicas Albastetic</partner>
-        <partner url="DulcesitoTiendaDeChuches">Dulcesito Tienda De Chuches</partner>
-        <partner url="Fama">Fama</partner>
-        <partner url="FarmaciaLaSagra">Farmacia La Sagra</partner>
-        <partner url="FrutasSerrano">Frutas Serrano</partner>
-        <partner url="FrutasYVerdurasMapache">Frutas Y Verduras Mapache</partner>
-        <partner url="iDentalitas">iDentalitas</partner>
-        <partner url="JackDawsonBarberosEstilistas">Jack Dawson Barberos Estilistas</partner>
-        <partner url="LaPapeleriaMercedesMartinMadrid">La Papeleria Mercedes Martin Madrid</partner>
-        <partner url="MalakaAlimentacion">Malaka Alimentacion</partner>
-        <partner url="MesonElLabrador">Meson El Labrador</partner>
-        <partner url="Motor76">Motor 76</partner>
-        <partner url="NeumaticosHmasMaximiano">Neumaticos Hmas Maximiano</partner>
-        <partner url="ObradorPasteleriaLara">Obrador Pasteleria Lara</partner>
-        <partner url="PeluqueriaJG">Peluqueria JG</partner>
-        <partner url="PeluqueriaUnisexAna">Peluqueria Unisex Ana</partner>
-        <partner url="PinturasYuncos">Pinturas Yuncos</partner>
-        <partner url="TalleresSobrino">Talleres Sobrino</partner>
-        <partner url="ThairEstilistaMoises">Thair Estilista Moises</partner>
-        <partner url="Udaco">Udaco</partner>
-        <partner url="Unide">Unide</partner>
-        <partner url="YedraNails">Yedra Nails</partner>
-        <partner url="MadiVet">MadiVet</partner>
+        <partner2 url="CafeteriaRestauranteTiffanys">Cafeteria Restaurante Tiffanys</partner2>
+        <partner2 url="CarniceriaLaAbuelaPuri">Carniceria La Abuela Puri</partner2>
+        <partner2 url="CarniceriaYAlimentacionRodriguez">Carniceria Y Alimentacion Rodriguez</partner2>
+        <partner2 url="CarniceriaYSalchicheriaFleming4">Carniceria Y Salchicheria Fleming 4</partner2>
+        <partner2 url="CasaLinda2">Casa Linda 2</partner2>
+        <partner2 url="ClinicasAlbastetic">Clinicas Albastetic</partner2>
+        <partner2 url="DulcesitoTiendaDeChuches">Dulcesito Tienda De Chuches</partner2>
+        <partner2 url="Fama">Fama</partner2>
+        <partner2 url="FarmaciaLaSagra">Farmacia La Sagra</partner2>
+        <partner2 url="FrutasSerrano">Frutas Serrano</partner2>
+        <partner2 url="FrutasYVerdurasMapache">Frutas Y Verduras Mapache</partner2>
+        <partner2 url="iDentalitas">iDentalitas</partner2>
+        <partner2 url="JackDawsonBarberosEstilistas">Jack Dawson Barberos Estilistas</partner2>
+        <partner2 url="LaPapeleriaMercedesMartinMadrid">La Papeleria Mercedes Martin Madrid</partner2>
+        <partner3 url="MalakaAlimentacion">Malaka Alimentacion</partner3>
+        <partner3 url="MesonElLabrador">Meson El Labrador</partner3>
+        <partner3 url="Motor76">Motor 76</partner3>
+        <partner3 url="NeumaticosHmasMaximiano">Neumaticos Hmas Maximiano</partner3>
+        <partner3 url="ObradorPasteleriaLara">Obrador Pasteleria Lara</partner3>
+        <partner3 url="PeluqueriaJG">Peluqueria JG</partner3>
+        <partner3 url="PeluqueriaUnisexAna">Peluqueria Unisex Ana</partner3>
+        <partner3 url="PinturasYuncos">Pinturas Yuncos</partner3>
+        <partner3 url="TalleresSobrino">Talleres Sobrino</partner3>
+        <partner3 url="ThairEstilistaMoises">Thair Estilista Moises</partner3>
+        <partner3 url="Udaco">Udaco</partner3>
+        <partner3 url="UnideYuncler">Unide Yuncler</partner3>
+        <partner3 url="YedraNails">Yedra Nails</partner3>
+        <partner3 url="MadiVet">MadiVet</partner3>
     </partners>
     <footer>
         <a>Staff 19 Torneos. Todos los derechos reservados.</a>
