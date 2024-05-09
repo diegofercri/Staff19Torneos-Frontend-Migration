@@ -162,7 +162,7 @@
         </network>
     </contact>
     <main_partners id="main_partners" title="Colaboradores">
-        <partner url="https://www.instagram.com/laurasg___/" route="FisioTerapiaLauraSanchez">Fisio Terapia Laura Sanchez</partner>
+        <partner url="https://www.instagram.com/laurasg___/" route="FisioterapiaLauraSanchez">Fisioterapia Laura Sanchez</partner>
         <partner url="https://www.facebook.com/CarnicasBermejo/" route="CarnicasBermejo">Carnicas Bermejo</partner>
         <partner url="https://www.inoxidablesrada-toledo.es/" route="Intecmain">Intecmain</partner>
         <partner url="https://www.facebook.com/ferreteriaJavierdelCerro/" route="FerreteriaJavierDelCerro">Ferreteria Javier Del Cerro</partner>
