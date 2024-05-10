@@ -25,7 +25,7 @@
         <subtitle>Para Equipos</subtitle>
     </start>
     <now id="now" title="Abiertas">
-        <no-event boolean="false">
+        <no-event boolean="true">
             <text>No hay inscripciones abiertas.</text>
         </no-event>
         <event url="staffcup/teams.html">
