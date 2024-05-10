@@ -39,7 +39,7 @@
         </event>
     </now>
     <soon id="soon" title="Abren Pronto">
-        <no-event boolean="false">
+        <no-event boolean="true">
             <text>No hay inscripciones previstas.</text>
         </no-event>
         <event>
