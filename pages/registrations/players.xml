@@ -28,8 +28,8 @@
         <no-event boolean="true">
             <text>No hay inscripciones abiertas.</text>
         </no-event>
-        <event url="#">
-            <title>Staff Cup</title>
+        <event url="staffcup/players.html">
+            <title>STAFF CUP by Fisioterapia Laura Sánchez</title>
             <location>Cabañas de la Sagra</location>
             <date>15 / JUN / 2024</date>
             <tags>
@@ -43,7 +43,7 @@
             <text>No hay inscripciones previstas.</text>
         </no-event>
         <event>
-            <title>Staff Cup</title>
+            <title>STAFF CUP by Fisioterapia Laura Sánchez</title>
             <location>Cabañas de la Sagra</location>
             <date>15 / JUN / 2024</date>
             <tags>
