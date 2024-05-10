@@ -25,11 +25,11 @@
         <subtitle>Planificados</subtitle>
     </start>
     <now id="now">
-        <no-event boolean="true">
+        <no-event boolean="false">
             <text>Tenemos unos eventazos en mente, pero de momento tendreis que esperar.</text>
         </no-event>
-        <event url="#">
-            <title>Staff Cup</title>
+        <event url="2024-06-15/event.xml">
+            <title>STAFF CUP by Fisioterapia Laura Sánchez</title>
             <location>Cabañas de la Sagra</location>
             <date>15 / JUN / 2024</date>
             <tags>
