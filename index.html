@@ -4,7 +4,8 @@
 <head>
     <title>Staff 19 Torneos</title>
     <meta name="description" content="Organización de Eventos Deportivos">
-    <meta name="keywords" content="eventos deportivos, torneos, torneo, torneos deportivos, torneo deportivo, torneo de fútbol, torneo fútbol, torneo fútbol sala, torneo fútbol 7, torneo fútbol 11, torneo baloncesto">
+    <meta name="keywords"
+        content="eventos deportivos, torneos, torneo, torneos deportivos, torneo deportivo, torneo de fútbol, torneo fútbol, torneo fútbol sala, torneo fútbol 7, torneo fútbol 11, torneo baloncesto">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Staff 19 Torneos">
@@ -170,8 +171,24 @@
                     <h3 class="title-1 text-color-1 mb-4">Próximos Eventos</h3>
                 </div>
                 <div>
-                    <p class="text-color-6">No hay eventos próximos, tendreis que esperar para ver nuevos lanzamientos
-                    </p>
+                    <div class="list-group rounded-0 gap-3 w-100">
+                        <a href="/pages/events/planned/2024-06-15/event.xml"
+                            class="list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-5 p-3"
+                            aria-current="true">
+                            <div class="d-flex w-100 align-items-start justify-content-between gap-3">
+                                <h5 class="mb-3 title-3 text-color-7">STAFF CUP by Fisioterapia Laura Sánchez</h5>
+                                <div class="d-flex gap-1 flex-wrap justify-content-end">
+                                    <span
+                                        class="badge fw-bold font-monospace rounded-3 px-2 text-uppercase bg-color-1 ">new</span>
+                                    <span
+                                        class="badge fw-bold font-monospace rounded-3 px-2 text-uppercase bg-primary ">futsal</span>
+                                </div>
+                            </div>
+                            <p class="mb-1 text-color-6">Cabañas de la Sagra</p>
+                            <small class="text-color-6">15 / JUN / 2024</small>
+                        </a>
+                        </xsl:for-each>
+                    </div>
                 </div>
             </section>
             <section id="aboutUs" class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
