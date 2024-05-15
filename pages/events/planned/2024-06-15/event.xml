@@ -144,8 +144,8 @@
     </location>
     <links id="links" title="Enlaces">
         <link url="/pages/tickets/tickets.xml">Reserva de entradas</link>
-        <link url="/pages/registrations/players.xml">Inscripciones de equipos</link>
-        <link url="/pages/registrations/teams.xml">Inscripciones de jugadores</link>
+        <link url="/pages/registrations/teams.xml">Inscripciones de equipos</link>
+        <link url="/pages/registrations/players.xml">Inscripciones de jugadores</link>
     </links>
     <contact id="contact" title="Contacto">
         <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
