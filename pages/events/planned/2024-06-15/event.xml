@@ -51,7 +51,7 @@
         </row>
         <row>
             <title>Fecha y hora:</title>
-            <content>15 JUN 2024 - 10:00 a 23:00 (horas estimadas)</content>
+            <content>15 JUN 2024 - 9:00 a 23:00 (horas estimadas)</content>
         </row>
         <row>
             <title>Categoría:</title>
@@ -81,7 +81,7 @@
     <awards id="awards" title="Premios">
         <row>
             <award>1er Premio (JUV):</award>
-            <reward>500€ + Trofeo + Jamón</reward>
+            <reward>600€ + Trofeo + Jamón</reward>
         </row>
         <row>
             <award>1er Premio (INF y CAD):</award>
@@ -89,7 +89,7 @@
         </row>
         <row>
             <award>2do Premio (JUV):</award>
-            <reward>100€ + Trofeo + Queso</reward>
+            <reward>150€ + Trofeo + Queso</reward>
         </row>
         <row>
             <award>2do Premio (INF y CAD):</award>
