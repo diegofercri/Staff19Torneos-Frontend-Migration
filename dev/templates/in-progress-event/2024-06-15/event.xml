@@ -31,6 +31,7 @@
     <poster id="poster">
         <img url="images/poster/poster.webp"></img>
     </poster>
+    <results id="results" title="Resultados"></results>
     <description id="description" title="Descripción">
         <p>Este año para aumentar la igualdad entre los distintos equipos introducimos los torneos
             por categorías, algo muy solicitado por los jugadores.</p>

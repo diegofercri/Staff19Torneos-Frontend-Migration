@@ -111,6 +111,15 @@
                                 <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3"/>
                             </div>
                         </section>
+                        <section id="{index/results/@id}" class="bg-color-2 col-lg-12 col-xxl-12 d-flex flex-column px-4 px-md-5 py-5">
+                            <div>
+                                <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/results/@title"/></h3>
+                            </div>
+                            <div class="d-flex flex-column gap-3">
+                                <iframe src="https://challonge.com/es/StaffCup_Juvenil_15junio2024/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                                <iframe src="https://challonge.com/es/StaffCup_InfantilCadete_15junio2024/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                            </div>
+                        </section>
                         <section id="{index/description/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/description/@title"/></h3>
