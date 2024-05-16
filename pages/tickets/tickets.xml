@@ -39,11 +39,11 @@
         </event>
     </now>
     <soon id="soon" title="A la Venta Próximamente">
-        <no-event boolean="true">
+        <no-event boolean="false">
             <text>No hay ventas previstas.</text>
         </no-event>
         <event>
-            <title>Staff Cup</title>
+            <title>Staff Cup by Fisioterapia Laura Sánchez</title>
             <location>Cabañas de la Sagra</location>
             <date>15 / JUN / 2024</date>
             <tags>
