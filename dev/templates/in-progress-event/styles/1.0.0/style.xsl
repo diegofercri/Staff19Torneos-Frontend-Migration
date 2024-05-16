@@ -111,16 +111,17 @@
                                 <img src="{index/poster/img/@url}" alt="Cartel" class="rounded-3"/>
                             </div>
                         </section>
-                        <section id="{index/results/@id}" class="bg-color-2 col-lg-12 col-xxl-12 d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/results/@id}" class="bg-color-3 col-lg-12 col-xxl-12 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/results/@title"/></h3>
                             </div>
                             <div class="d-flex flex-column gap-3">
-                                <iframe src="https://challonge.com/es/StaffCup_Juvenil_15junio2024/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
-                                <iframe src="https://challonge.com/es/StaffCup_InfantilCadete_15junio2024/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                                <xsl:for-each select="index/results/iframe">
+                                    <iframe src="{@url}" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                                </xsl:for-each>
                             </div>
                         </section>
-                        <section id="{index/description/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/description/@id}" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/description/@title"/></h3>
                             </div>
@@ -130,7 +131,7 @@
                                 </xsl:for-each>
                             </div>
                         </section>
-                        <section id="{index/information/@id}" class="bg-color-2 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/information/@id}" class="bg-color-3 bg-color-2-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/information/@title"/></h3>
                             </div>
@@ -151,7 +152,7 @@
                                 </dl>
                             </div>
                         </section>
-                        <section id="{index/awards/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/awards/@id}" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/awards/@title"/></h3>
                             </div>
@@ -172,7 +173,7 @@
                                 </dl>
                             </div>
                         </section>
-                        <section id="{index/location/@id}" class="bg-color-2 bg-color-2-lg col d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/location/@id}" class="bg-color-3 bg-color-3-lg col d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/location/@title"/></h3>
                             </div>
@@ -209,21 +210,21 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="{index/links/@id}" class="col bg-color-3 d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/links/@id}" class="col bg-color-2 d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/links/@title"/></h3>
                             </div>
                             <div>
                                 <div class="list-group gap-2">
                                     <xsl:for-each select="index/links/link">
-                                        <a href="{@url}" class="list-group-item border-2 rounded-2 buttonStaff-2" target="_blank">
+                                        <a href="{@url}" class="list-group-item border-2 rounded-2 buttonStaff-3" target="_blank">
                                             <xsl:value-of select="."/>
                                         </a>
                                     </xsl:for-each>
                                 </div>
                             </div>
                         </section>
-                        <section id="{index/contact/@id}" class="col bg-color-2 bg-color-3-lg d-flex flex-column px-4 px-md-5 py-5">
+                        <section id="{index/contact/@id}" class="col bg-color-3 bg-color-2-lg d-flex flex-column px-4 px-md-5 py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-5"><xsl:value-of select="index/contact/@title"/></h3>
                             </div>
@@ -244,7 +245,7 @@
                                 </ul>
                             </div>
                         </section>
-                        <section id="{index/main_partners/@id}" class="bg-color-2 col-lg-12 col-xxl-12 d-flex flex-column py-5">
+                        <section id="{index/main_partners/@id}" class="bg-color-3 col-lg-12 col-xxl-12 d-flex flex-column py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-5 px-4 px-md-5"><xsl:value-of select="index/main_partners/@title"/></h3>
                             </div>
@@ -272,7 +273,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="{index/partners/@id}" class="bg-color-3 col-lg-12 col-xxl-12 d-flex flex-column py-5">
+                        <section id="{index/partners/@id}" class="bg-color-2 col-lg-12 col-xxl-12 d-flex flex-column py-5">
                             <div>
                                 <h3 class="title-1 text-color-1 mb-4 px-4 px-md-5"><xsl:value-of select="index/partners/@title"/></h3>
                             </div>
