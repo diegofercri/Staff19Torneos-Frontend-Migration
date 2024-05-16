@@ -17,6 +17,7 @@ section {
 
 #poster img {
   max-width: 500px;
+  max-height: 95%;
 }
 
 @media (max-width: 576px) {
