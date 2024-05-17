@@ -11,7 +11,6 @@
   flex-direction: column;
   transform: translateX(-300px);
   transition: all 0.5s;
-  /* Firefox Scrollbar */
   scrollbar-width: none;
 }
 
