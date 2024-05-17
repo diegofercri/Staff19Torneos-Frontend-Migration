@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index [
+    <!ENTITY copy "entity-value">
+    <!ENTITY auid "entity-value">
+]>
+<?xml-stylesheet href="../styles/1.0.0/style.xsl" type="text/xsl"?>
+<index folder="2024-06-15">
+    <title>Staff Cup by Fisioterapia Laura Sánchez</title>
+    <logo url="/assets/logo.svg">Staff 19 torneos logo</logo>
+    <nav>
+        <item url="/index.html#start" icon="fa-home">Inicio</item>
+        <item url="#contact" icon="fa-address-book">Contacto</item>
+        <item url="/pages/tickets/tickets.xml" icon="fa-ticket">Entradas</item>
+        <dropdown name="Eventos" id="0" icon="fa-trophy">
+            <item url="/pages/events/planned/planned-events.xml">Planificados</item>
+            <item url="/pages/events/in-progress/in-progress-events.xml">En Progreso</item>
+            <item url="/pages/events/ended/ended-events.xml">Terminados</item>
+        </dropdown>
+        <dropdown name="Inscripciones" id="1" icon="fa-pencil-square-o">
+            <item url="/pages/registrations/players.xml">Jugadores</item>
+            <item url="/pages/registrations/teams.xml">Equipos</item>
+        </dropdown>
+    </nav>
+    <start id="start">
+        <event>
+            <name>Staff Cup Fisioterapia Laura Sánchez</name>
+            <location>Cabañas de la Sagra</location>
+            <date>15 / JUN / 24</date>
+        </event>
+    </start>
+    <poster id="poster">
+        <img url="images/poster/poster.webp"></img>
+    </poster>
+    <results id="results" title="Resultados">
+        <iframe url="https://challonge.com/es/StaffCup_Juvenil_15junio2024/module"></iframe>
+        <iframe url="https://challonge.com/es/StaffCup_InfantilCadete_15junio2024/module"></iframe>
+    </results>
+    <description id="description" title="Descripción">
+        <p>Este año para aumentar la igualdad entre los distintos equipos introducimos los torneos
+            por categorías, algo muy solicitado por los jugadores.</p>
+        <p>Como habreís podido pensar eso supondría excluir a ciertos equipos o jugadores, ya que no
+            podrían participar debido a su edad, para evitarlo hemmos pensado en un nuevo formato
+            para no dejar a nadie fuera.</p>
+        <p>Este nuevo formato consistirá en 2 torneos independientes llevados a cabo el mismo día,
+            el 15 de Junio de 2024. El primer torneo incluirá las categorías Infantil y Cadete
+            (juntas) y el segundo torneo será exclusivo para la categoría Juvenil. Esperamos que os
+            guste este formato.</p>
+        <p>Además, gracias a nuestros colaboradores repartiremos más de 1000€ en premios entre ambos
+            torneos y los sorteos con los asistentes.</p>
+    </description>
+    <information id="information" title="Información">
+        <row>
+            <title>Deporte:</title>
+            <content>Fútbol Sala</content>
+        </row>
+        <row>
+            <title>Fecha y hora:</title>
+            <content>15 JUN 2024 - 10:00 a 23:00 (horas estimadas)</content>
+        </row>
+        <row>
+            <title>Categoría:</title>
+            <content>Infantil + Cadete | Juvenil</content>
+        </row>
+        <row>
+            <title>Max. equipos:</title>
+            <content>8 Equipos (por torneo)</content>
+        </row>
+        <row>
+            <title>Max. jugadores:</title>
+            <content>12 Jugadores (por equipo)</content>
+        </row>
+        <row>
+            <title>Normativa:</title>
+            <content>Normativa oficial</content>
+        </row>
+        <row>
+            <title>Árbitros:</title>
+            <content>Árbitros profesionales</content>
+        </row>
+        <row>
+            <title>Inscripcion:</title>
+            <content>70€ (INF y CAD, por equipo) y 90€ (JUV, por equipo)</content>
+        </row>
+    </information>
+    <awards id="awards" title="Premios">
+        <row>
+            <award>1er Premio (JUV):</award>
+            <reward>500€ + Trofeo + Jamón</reward>
+        </row>
+        <row>
+            <award>1er Premio (INF y CAD):</award>
+            <reward>300€ + Trofeo + Jamón</reward>
+        </row>
+        <row>
+            <award>2do Premio (JUV):</award>
+            <reward>100€ + Trofeo + Queso</reward>
+        </row>
+        <row>
+            <award>2do Premio (INF y CAD):</award>
+            <reward>100€ + Trofeo + Queso</reward>
+        </row>
+        <row>
+            <award>3er Premio (JUV):</award>
+            <reward>Inscripción (próximos eventos) + Trofeo + Lomo</reward>
+        </row>
+        <row>
+            <award>3er Premio (INF y CAD):</award>
+            <reward>Inscripción (próximos eventos) + Trofeo + Lomo</reward>
+        </row>
+        <row>
+            <award>Jugador MVP (JUV):</award>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Jugador MVP (INF y CAD):</award>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Portero MVP (JUV):</award>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Portero MVP (INF y CAD):</award>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Equipo más votado (JUV):</award>
+            <reward>Trofeo</reward>
+        </row>
+        <row>
+            <award>Equipo más votado (INF y CAD):</award>
+            <reward>Trofeo</reward>
+        </row>
+    </awards>
+    <location id="location" title="Localización">
+        <name>Pabellón Polideportivo de Cabañas de la Sagra</name>
+        <description>Os dejamos unos links con la ubicación exacta para las apps de navegación más
+            utilizadas.</description>
+        <map-links>
+            <link
+                url="https://www.waze.com/en/live-map/directions/es/cm/cabanas-de-la-sagra/pabellon-polideportivo-de-cabanas-de-la-sagra.?place=ChIJXddjyX7kQQ0RCoJtnvNnLwE"
+                icon="/assets/waze-icon.svg" type="no-icon">Waze</link>
+            <link url="https://maps.app.goo.gl/S8WxCXTZFyEYDa8R8" icon="fa-google">Google Maps</link>
+            <link
+                url="https://maps.apple.com/?address=Calle%20de%20Miguel%20de%20Cervantes,%2020A,%2045592%20Caba%C3%B1as%20de%20la%20Sagra,%20Toledo,%20Spain&auid;ll=39.999672,-3.951685&auid;q=Calle%20de%20Miguel%20de%20Cervantes,%2020A&auid;t=m"
+                icon="fa-apple">Mapas</link>
+        </map-links>
+    </location>
+    <links id="links" title="Enlaces">
+        <link url="/pages/tickets/tickets.xml">Reserva de entradas</link>
+        <link url="/pages/registrations/players.xml">Inscripciones de equipos</link>
+        <link url="/pages/registrations/teams.xml">Inscripciones de jugadores</link>
+    </links>
+    <contact id="contact" title="Contacto">
+        <network icon="fa-whatsapp" url="https://wa.link/p33vqo">
+            <name>WhatsApp</name>
+            <text>Adrián</text>
+        </network>
+        <network icon="fa-instagram" url="https://www.instagram.com/staff19torneos/">
+            <name>Instagram</name>
+            <text>@staff19torneos</text>
+        </network>
+        <network icon="fa-envelope-o" url="mailto:info@staff19torneos.com">
+            <name>e-Mail</name>
+            <text>info@staff19torneos.com</text>
+        </network>
+    </contact>
+    <main_partners id="main_partners" title="Colaboradores">
+        <partner url="https://www.instagram.com/laurasg___/" route="FisioterapiaLauraSanchez">Fisioterapia Laura Sanchez</partner>
+        <partner url="https://www.facebook.com/CarnicasBermejo/" route="CarnicasBermejo">Carnicas Bermejo</partner>
+        <partner url="https://www.inoxidablesrada-toledo.es/" route="Intecmain">Intecmain</partner>
+        <partner url="https://www.facebook.com/ferreteriaJavierdelCerro/" route="FerreteriaJavierDelCerro">Ferreteria Javier Del Cerro</partner>
+        <partner url="https://chtextilypublicidad.com/" route="CHTextilYPublicidad">CH Textil Y Publicidad</partner>
+        <partner url="https://lukalshop.sumupstore.com/" route="LukalShop">LukalShop</partner>
+    </main_partners>
+    <partners id="partners" title="Patrocinadores">
+        <partner url="PiensosLobby">Piensos Lobby</partner>
+        <partner url="CerrajeriaVarela">Cerrajeria Varela</partner>
+        <partner url="ElCafetin">El Cafetin</partner>
+        <partner url="CentroVeterinarioMirovet">Centro Veterinario Mirovet</partner>
+        <partner url="CafeteriaSigloXXI">Cafeteria Siglo XXI</partner>
+        <partner url="AdolfoFloristas">Adolfo Floristas</partner>
+        <partner url="AutoservicioLaPilarica">Autoservicio La Pilarica</partner>
+        <partner url="AviarioCanoMartin">Aviario Cano Martin</partner>
+        <partner url="AviarioRubio">Aviario Rubio</partner>
+        <partner url="BarAlex">Bar Alex</partner>
+        <partner url="BarDavid">Bar David</partner>
+        <partner url="BarDondeIsaac">Bar Donde Isaac</partner>
+        <partner url="BarElLago">Bar El Lago</partner>
+        <partner url="BarSquem">Bar Squem</partner>
+        <partner2 url="CafeteriaRestauranteTiffanys">Cafeteria Restaurante Tiffanys</partner2>
+        <partner2 url="CarniceriaLaAbuelaPuri">Carniceria La Abuela Puri</partner2>
+        <partner2 url="CarniceriaYAlimentacionRodriguez">Carniceria Y Alimentacion Rodriguez</partner2>
+        <partner2 url="CarniceriaYSalchicheriaFleming4">Carniceria Y Salchicheria Fleming 4</partner2>
+        <partner2 url="CasaLinda2">Casa Linda 2</partner2>
+        <partner2 url="ClinicasAlbastetic">Clinicas Albastetic</partner2>
+        <partner2 url="DulcesitoTiendaDeChuches">Dulcesito Tienda De Chuches</partner2>
+        <partner2 url="Fama">Fama</partner2>
+        <partner2 url="FarmaciaLaSagra">Farmacia La Sagra</partner2>
+        <partner2 url="FrutasSerrano">Frutas Serrano</partner2>
+        <partner2 url="FrutasYVerdurasMapache">Frutas Y Verduras Mapache</partner2>
+        <partner2 url="iDentalitas">iDentalitas</partner2>
+        <partner2 url="JackDawsonBarberosEstilistas">Jack Dawson Barberos Estilistas</partner2>
+        <partner2 url="LaPapeleriaMercedesMartinMadrid">La Papeleria Mercedes Martin Madrid</partner2>
+        <partner3 url="MalakaAlimentacion">Malaka Alimentacion</partner3>
+        <partner3 url="MesonElLabrador">Meson El Labrador</partner3>
+        <partner3 url="Motor76">Motor 76</partner3>
+        <partner3 url="NeumaticosHmasMaximiano">Neumaticos Hmas Maximiano</partner3>
+        <partner3 url="ObradorPasteleriaLara">Obrador Pasteleria Lara</partner3>
+        <partner3 url="PeluqueriaJG">Peluqueria JG</partner3>
+        <partner3 url="PeluqueriaUnisexAna">Peluqueria Unisex Ana</partner3>
+        <partner3 url="PinturasYuncos">Pinturas Yuncos</partner3>
+        <partner3 url="TalleresSobrino">Talleres Sobrino</partner3>
+        <partner3 url="ThairEstilistaMoises">Thair Estilista Moises</partner3>
+        <partner3 url="UdacoCabanas">Udaco Cabañas</partner3>
+        <partner3 url="UnideYuncler">Unide Yuncler</partner3>
+        <partner3 url="YedraNails">Yedra Nails</partner3>
+        <partner3 url="MadiVet">MadiVet</partner3>
+    </partners>
+    <footer>
+        <a>Staff 19 Torneos. Todos los derechos reservados.</a>
+        <a1>Diseñado y Desarrollado por</a1>
+        <link url="https://diegofercri.github.io/Portfolio/">@diego_fercri</link>
+    </footer>
+</index>

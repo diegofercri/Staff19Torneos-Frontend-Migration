@@ -116,7 +116,7 @@
                                 <xsl:otherwise>
                                     <div class="list-group rounded-0 gap-3 w-100">
                                         <xsl:for-each select="index/now/event">
-                                            <a href="{@url}" class="list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-5 p-3" >
+                                            <a href="{@url}" onclick="{@onclick}" class="list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-5 p-3" >
                                                 <div class="d-flex w-100 align-items-start justify-content-between gap-3">
                                                     <h5 class="mb-3 title-3 text-color-7"><xsl:value-of select="title"/></h5>
                                                     <div class="d-flex gap-1 flex-wrap justify-content-end">
@@ -154,7 +154,7 @@
                                 <xsl:otherwise>
                                     <div class="list-group rounded-0 gap-3 w-100">
                                         <xsl:for-each select="index/soon/event">
-                                            <a class="disabled list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-4 p-3">
+                                            <a href="{@url}" onclick="{@onclick}" class="list-group-item flex-column align-items-start rounded-2 bg-color-4 border-0 border-color-5 p-3" >
                                                 <div class="d-flex w-100 align-items-start justify-content-between gap-3">
                                                     <h5 class="mb-3 title-3 text-color-7"><xsl:value-of select="title"/></h5>
                                                     <div class="d-flex gap-1 flex-wrap justify-content-end">
