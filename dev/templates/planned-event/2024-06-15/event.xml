@@ -167,7 +167,6 @@
         <partner url="https://www.inoxidablesrada-toledo.es/" route="Intecmain">Intecmain</partner>
         <partner url="https://www.facebook.com/ferreteriaJavierdelCerro/" route="FerreteriaJavierDelCerro">Ferreteria Javier Del Cerro</partner>
         <partner url="https://chtextilypublicidad.com/" route="CHTextilYPublicidad">CH Textil Y Publicidad</partner>
-        <partner url="https://lukalshop.sumupstore.com/" route="LukalShop">LukalShop</partner>
     </main_partners>
     <partners id="partners" title="Patrocinadores">
         <partner url="PiensosLobby">Piensos Lobby</partner>
