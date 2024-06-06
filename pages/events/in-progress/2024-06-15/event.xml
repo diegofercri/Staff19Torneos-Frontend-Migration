@@ -32,8 +32,8 @@
         <img url="images/poster/poster.webp"></img>
     </poster>
     <results id="results" title="Emparejamientos, posiciones y resultados">
-        <iframe url="https://challonge.com/es/StaffCup_Juvenil_15junio2024/module"></iframe>
-        <iframe url="https://challonge.com/es/StaffCup_InfantilCadete_15junio2024/module"></iframe>
+        <iframe url="https://challonge.com/es/StaffCup_Juvenil_15junio2024/module?show_live_status=0"></iframe>
+        <iframe url="https://challonge.com/es/StaffCup_InfantilCadete_15junio2024/module?show_live_status=0"></iframe>
     </results>
     <description id="description" title="Descripción">
         <p>Este año para aumentar la igualdad entre los distintos equipos introducimos los torneos
