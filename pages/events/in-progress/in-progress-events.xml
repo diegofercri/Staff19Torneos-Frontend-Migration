@@ -25,11 +25,11 @@
         <subtitle>En Progreso</subtitle>
     </start>
     <now id="now">
-        <no-event boolean="true">
+        <no-event boolean="false">
             <text>No hay eventos en progreso, aunque tenemos unos eventazos en mente.</text>
         </no-event>
-        <event url="#">
-            <title>Staff Cup</title>
+        <event url="2024-06-15/event.xml">
+            <title>STAFF CUP by Fisioterapia Laura Sánchez</title>
             <location>Cabañas de la Sagra</location>
             <date>15 / JUN / 2024</date>
             <tags>
