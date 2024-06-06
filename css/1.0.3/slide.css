@@ -29,12 +29,12 @@
   
   .partners:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--color-3));
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--color-2));
   }
   
   .partners:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--color-3));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--color-2));
   }
   
   .partners-slide {
@@ -67,12 +67,12 @@
   
   .main_partners:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--color-2));
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--color-3));
   }
   
   .main_partners:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--color-2));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--color-3));
   }
   
   .main_partners:hover .main_partners-slide {
